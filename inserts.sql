@@ -35,13 +35,13 @@ insert into jugadores values(31, "Alaves", "Jesús", "Owono", 67, 183, 23, "Port
 
 insert into jugadores values(31, "Alaves", "Andoni", "Gorosabel", 70, 174, 27, "Lateral");
 insert into jugadores values(3, "Alaves", "Rubén", "Duarte", 75, 180, 28, "Lateral");
-insert into jugadores values(26, "Alaves", "Joseda", "Álvarez", , 183, 23, "Lateral");
-insert into jugadores values(27, "Alaves", "Javi", "López", , 184, 22, "Lateral");
+insert into jugadores values(26, "Alaves", "Joseda", "Álvarez", 75, 183, 23, "Lateral");
+insert into jugadores values(27, "Alaves", "Javi", "López", 78, 184, 22, "Lateral");
 insert into jugadores values(39, "Alaves", "Eneko", "Ortiz", 75, 180, 20, "Lateral");
 insert into jugadores values(39, "Alaves", "Victor", "Parada", 76, 187, 22, "Lateral");
 insert into jugadores values(4, "Alaves", "Aleksandar", "Sedlar", 79, 178, 32, "Defensa Central");
 insert into jugadores values(5, "Alaves", "Abdel", "Abqar", 80, 188, 25, "Defensa Central");
-insert into jugadores values(16, "Alaves", "Rafa", "Marín", , 190, 21, "Defensa Central");
+insert into jugadores values(16, "Alaves", "Rafa", "Marín", 86, 190, 21, "Defensa Central");
 
 -- CENTROCAMPISTAS
 
@@ -56,10 +56,10 @@ insert into jugadores values(23, "Alaves", "Carlos", "Benavídez", 76, 185, 26, 
 
 insert into jugadores values(11, "Alaves", "Luis", "Rioja", 68, 175, 30, "Extremo");
 insert into jugadores values(17, "Alaves", "Xeber", "Alkain", 69, 174, 26, "Extremo");
-insert into jugadores values(21, "Alaves", "Abde", "Rebbach", , 176, 25, "Extremo");
+insert into jugadores values(21, "Alaves", "Abde", "Rebbach", 70, 176, 25, "Extremo");
 insert into jugadores values(15, "Alaves", "Kike", "García", 79, 186, 34, "Delantero Centro");
 insert into jugadores values(20, "Alaves", "Giuliano", "Simeone", 75, 180, 21, "Delantero Centro");
-insert into jugadores values(32, "Alaves", "Samu", "Omorodion", , 193, 20, "Delantero Centro");
+insert into jugadores values(32, "Alaves", "Samu", "Omorodion", 90, 193, 20, "Delantero Centro");
 
 
 
@@ -435,6 +435,25 @@ insert into jugadores values(19, "Getafe", "Borja", "Mayoral", 74, 182, 27, "Del
 
 
 
+-- PORTEROS
+
+
+insert into jugadores values(13, "Girona", "Paulo", "Gazzaniga", 90, 196, 32, "Portero");
+insert into jugadores values(1, "Girona", "Juan Carlos", "Martin", 85, 186, 36, "Portero");
+
+
+
+-- DEFENSAS
+
+
+insert into jugadores values(3, "Girona", "Miguel", "Gutiérrez", 73, 180, 22, "Lateral");
+insert into jugadores values(4, "Girona", "Arnau", "Martínez", 72, 181, 21, "Defensa Central");
+insert into jugadores values(5, "Girona", "David", "López", 81, 183, 34, "Defensa Central");
+insert into jugadores values(11, "Girona", "Valery ", "Fernández", 75, 182, 24, "Lateral");
+insert into jugadores values(15, "Girona", "Juan pedro", "Ramírez", 80, 190, 33, "Defensa Central");
+insert into jugadores values(17, "Girona", "Daley", "Blind", 72, 180, 34, "Lateral");
+insert into jugadores values(20, "Girona", "Yan", "Couto", 60, 168, 21, "Lateral");
+insert into jugadores values(25, "Girona", "Eric", "García", 76, 182, 23, "Lateral");
 
 
 
@@ -729,3 +748,20 @@ insert into jugadores values(27, "Villarreal", "Ilias", "Akhomach", 60, 175, 20,
 
 
 
+-- Procedimientos
+
+
+
+-- Agregar jugador
+
+
+-- Eliminar jugador
+
+
+-- Insertar estadisticas a un jugador
+
+
+-- Insertar equipo
+
+
+-- Cambiar nombre jugador
