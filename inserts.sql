@@ -459,6 +459,25 @@ insert into jugadores values(25, "Girona", "Eric", "García", 76, 182, 23, "Late
 
 
 
+-- CENTROCAMPISTAS
+
+
+insert into jugadores values(5, "Getafe", "Luis", "Milla", 67, 175, 29, "Mediocentro");
+insert into jugadores values(8, "Getafe", "Mauro", "Arambarri", 74, 175, 28, "Mediocentro");
+insert into jugadores values(9, "Getafe", "Óscar", "Rodríguez", 67, 174, 25, "Mediapunta");
+insert into jugadores values(11, "Getafe", "Carles", "Aleña", 73, 180, 26, "Mediocentro");
+insert into jugadores values(20, "Getafe", "Nemanja", "Maksimovic", 69, 189, 29, "Mediocentro");
+insert into jugadores values(24, "Getafe", "Ilaix", "Moriba", 73, 185, 21, "Mediocentro");
+insert into jugadores values(25, "Getafe", "Yellu", "Moriba", 77, 192, 19, "Mediocentro");
+insert into jugadores values(32, "Getafe", "Jorge", "Martín", 62, 176, 23, "Extremo");
+
+
+
+
+
+
+
+
 insert into jugadores values(1, "Granada", "Raúl", "Fernández", 92, 195, 36, "Portero");
 insert into jugadores values(13, "Granada", "Marc", "Martínez", 72, 186, 34, "Portero");
 insert into jugadores values(25, "Granada", "Augusto", "Batalla", 87, 186, 28, "Portero");
@@ -765,3 +784,12 @@ insert into jugadores values(27, "Villarreal", "Ilias", "Akhomach", 60, 175, 20,
 
 
 -- Cambiar nombre jugador
+
+
+
+-- Cambiar dorsal
+
+
+-- Actualizar nombre de jugador
+
+
