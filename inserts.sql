@@ -434,3 +434,298 @@ insert into jugadores values(19, "Getafe", "Borja", "Mayoral", 74, 182, 27, "Del
 
 
 
+
+
+
+
+
+
+insert into jugadores values(1, "Granada", "Raúl", "Fernández", 92, 195, 36, "Portero");
+insert into jugadores values(13, "Granada", "Marc", "Martínez", 72, 186, 34, "Portero");
+insert into jugadores values(25, "Granada", "Augusto", "Batalla", 87, 186, 28, "Portero");
+insert into jugadores values(2, "Granada", "Bruno", "Méndez", 81, 180, 24, "Defensa Central");
+insert into jugadores values(3, "Granada", "Faitout", "Maouassa", 76, 170, 25, "Defensa Central");
+insert into jugadores values(4, "Granada", "Miguel", "Rubio", 86, 191, 26, "Defensa Central");
+insert into jugadores values(5, "Granada", "Jesús", "Vallejo", 79, 184, 27, "Defensa Central");
+insert into jugadores values(12, "Granada", "Ricard", "Sánchez", 67, 175, 24, "Lateral");
+insert into jugadores values(14, "Granada", "Ignasi", "Miquel", 82, 188, 31, "Defensa Central");
+insert into jugadores values(15, "Granada", "Carlos", "Neva", 64, 174, 27, "Lateral");
+insert into jugadores values(16, "Granada", "Victor", "Díaz", 71, 184, 35, "Lateral");
+insert into jugadores values(22, "Granada", "Kamil", "Piatkowski", 87, 191, 23, "Defensa Central");
+insert into jugadores values(28, "Granada", "Raúl", "Torrente", 79, 193, 23, "Defensa Central");
+insert into jugadores values(32, "Granada", "Miki", "Bosch", 78, 190, 22, "Defensa Central");
+insert into jugadores values(6, "Granada", "Martin", "Hongla", 77, 182, 26, "Mediocentro Defensivo");
+insert into jugadores values(10, "Granada", "Antonio", "Puertas", 77, 183, 32, "Mediapunta");
+insert into jugadores values(19, "Granada", "Facundo", "Pellistri", 69, 175, 22, "Mediapunta");
+insert into jugadores values(20, "Granada", "Sergio", "Ruiz", 70, 171, 29, "Mediocentro");
+insert into jugadores values(23, "Granada", "Gerard", "Gumbau", 77, 187, 29, "Mediocentro Defensivo");
+insert into jugadores values(21, "Granada", "Óscar", "Melendo", 63, 167, 26, "Extremo");
+insert into jugadores values(24, "Granada", "Gonzalo", "Villar", 73, 181, 26, "Mediocentro");
+insert into jugadores values(7, "Granada", "Lucas", "Boyé", 81, 179, 28, "Delantero Centro");
+insert into jugadores values(9, "Granada", "José", "Callejón", 73, 178, 37, "Extremo");
+insert into jugadores values(11, "Granada", "Myrto", "Uzuni", 72, 178, 28, "Extremo");
+insert into jugadores values(17, "Granada", "Theo", "Corbeanu", 83, 190, 21, "Extremo");
+insert into jugadores values(18, "Granada", "Kamil", "Józwiak", 70, 176, 26, "Extremo");
+
+
+
+insert into jugadores values(1, "Las Palmas", "Aarón", "Escandell", 71, 185, 28, "Portero");
+insert into jugadores values(13, "Las Palmas", "Álvaro", "Vallés", 78, 190, 26, "Portero");
+insert into jugadores values(2, "Las Palmas", "Marvin", "Park", 67, 177, 23, "Lateral");
+insert into jugadores values(3, "Las Palmas", "Sergi", "Cardona", 77, 185, 24, "Lateral");
+insert into jugadores values(4, "Las Palmas", "Álex", "Suárez", 72, 178, 31, "Defensa Central");
+insert into jugadores values(6, "Las Palmas", "Eric", "Curbelo", 69, 173, 30, "Defensa Central");
+insert into jugadores values(14, "Las Palmas", "Álvaro", "Lemos", 77, 175, 31, "Lateral");
+insert into jugadores values(15, "Las Palmas", "Mika", "Mármol", 70, 181, 22, "Defensa Central");
+insert into jugadores values(18, "Las Palmas", "Daley", "Sinkgraven", 67, 179, 28, "Lateral");
+insert into jugadores values(23, "Las Palmas", "Saúl", "Coco", 86, 187, 25, "Defensa Central");
+insert into jugadores values(28, "Las Palmas", "Julián", "Araujo", 71, 175, 22, "Lateral");
+insert into jugadores values(31, "Las Palmas", "Juan", "Herzog", 79, 186, 19, "Defensa Central");
+insert into jugadores values(5, "Las Palmas", "Javi", "Muñoz", 69, 175, 29, "Mediocentro");
+insert into jugadores values(8, "Las Palmas", "Máximo", "Perrone", 68, 177, 21, "Mediocentro Defensivo");
+insert into jugadores values(10, "Las Palmas", "Alberto", "Moleiro", 67, 172, 20, "Mediapunta");
+insert into jugadores values(11, "Las Palmas", "Benito", "Ramírez", 70, 180, 28, "Mediocentro");
+insert into jugadores values(12, "Las Palmas", "Enzo", "Loiodice", 60, 175, 23, "Mediocentro");
+insert into jugadores values(20, "Las Palmas", "Kirian", "Rodríguez", 75, 180, 28, "Mediapunta");
+insert into jugadores values(21, "Las Palmas", "José", "Campaña", 70, 179, 30, "Mediocentro");
+insert into jugadores values(22, "Las Palmas", "Omenuke", "Mfulu", 76, 182, 30, "Mediocentro Defensivo");
+insert into jugadores values(24, "Las Palmas", "Pejiño", "Gonzalez", 67, 177, 27, "Extremo");
+insert into jugadores values(7, "Las Palmas", "Cristian", "Herrera", 76, 181, 33, "Delantero Centro");
+insert into jugadores values(9, "Las Palmas", "Sandro", "Ramírez", 71, 175, 28, "Delantero Centro");
+insert into jugadores values(16, "Las Palmas", "Sory", "KAba", 80, 191, 28, "Delantero Centro");
+insert into jugadores values(17, "Las Palmas", "Munir", "El Haddadi", 69, 175, 28, "Delantero Centro");
+insert into jugadores values(19, "Las Palmas", "Marc", "Cardona", 70, 183, 28, "Delantero Centro");
+
+
+
+
+
+insert into jugadores values(1, "Mallorca", "Predrag", "Rajkovic", 86, 191, 28, "Portero");
+insert into jugadores values(13, "Mallorca", "Dominik", "Grief", 82, 197, 27, "Portero");
+insert into jugadores values(2, "Mallorca", "Matija", "Nastasic", 83, 188, 31, "Defensa Central");
+insert into jugadores values(3, "Mallorca", "Toni", "Lato", 64, 171, 26, "Lateral");
+insert into jugadores values(4, "Mallorca", "Siebe", "Van der Heyden", 76, 185, 25, "Defensa Central");
+insert into jugadores values(6, "Mallorca", "Jose Manuel", "Copete", 73, 192, 24, "Defensa Central");
+insert into jugadores values(11, "Mallorca", "Jaume", "Costa", 62, 171, 36, "Lateral");
+insert into jugadores values(15, "Mallorca", "Pablo", "Maffeo", 70, 172, 26, "Lateral");
+insert into jugadores values(20, "Mallorca", "Giovanni", "González", 73, 173, 29, "Lateral");
+insert into jugadores values(21, "Mallorca", "Antonio", "Raíllo", 80, 187, 32, "Defensa Central");
+insert into jugadores values(22, "Mallorca", "Nacho", "Vidal", 75, 180, 29, "Lateral");
+insert into jugadores values(24, "Mallorca", "Martin", "Valjent", 70, 187, 28, "Defensa Central");
+insert into jugadores values(5, "Mallorca", "Omar", "Mascarell", 76, 181, 31, "Mediocentro Defensivo");
+insert into jugadores values(8, "Mallorca", "Manu", "Morlanes", 75, 178, 25, "Mediocentro");
+insert into jugadores values(10, "Mallorca", "Sergi", "Darder", 71, 180, 30, "Mediocentro");
+insert into jugadores values(12, "Mallorca", "Samu", "Costa", 75, 183, 23, "Mediocentro Defensivo");
+insert into jugadores values(14, "Mallorca", "Dani", "Rodríguez", 71, 178, 35, "Mediapunta");
+insert into jugadores values(18, "Mallorca", "Antonio", "Sánchez", 78, 179, 27, "Mediocentro");
+insert into jugadores values(23, "Mallorca", "Nemja", "Radonjic", 78, 185, 28, "Mediocentro");
+insert into jugadores values(7, "Mallorca", "Vedat", "Muriqi", 92, 194, 30, "Delantero Centro");
+insert into jugadores values(9, "Mallorca", "Abdón", "Prats", 81, 181, 31, "Delantero Centro");
+insert into jugadores values(17, "Mallorca", "Cyle", "Larin", 90, 188, 29, "Delantero Centro");
+insert into jugadores values(19, "Mallorca", "Javi", "Llabrés", 67, 174, 21, "Extremo");
+
+
+
+insert into jugadores values(1, "Osasuna", "Sergio", "Herrera", 82, 192, 30, "Portero");
+insert into jugadores values(13, "Osasuna", "Aitor", "Fernández", 78, 182, 33, "Portero");
+insert into jugadores values(3, "Osasuna", "Juan", "Cruz", 79, 180, 31, "Lateral");
+insert into jugadores values(4, "Osasuna", "Unai", "García", 81, 186, 32, "Defensa Central");
+insert into jugadores values(5, "Osasuna", "David", "García", 72, 185, 30, "Defensa Central");
+insert into jugadores values(12, "Osasuna", "Jesús", "Areso", 81, 182, 24, "Lateral");
+insert into jugadores values(15, "Osasuna", "Rubén", "Peña", 65, 171, 32, "Lateral");
+insert into jugadores values(22, "Osasuna", "Johan", "Mojica", 66, 185, 31, "Lateral");
+insert into jugadores values(24, "Osasuna", "Alejandro", "Catena", 82, 194, 29, "Defensa Central");
+insert into jugadores values(28, "Osasuna", "Jorge", "Herrando", 77, 190, 29, "Defensa Central");
+insert into jugadores values(6, "Osasuna", "Lucas", "Torró", 75, 180, 29, "Mediocentro Defensivo");
+insert into jugadores values(7, "Osasuna", "Jon", "Moncayola", 86, 189, 25, "Mediocentro");
+insert into jugadores values(10, "Osasuna", "Aimar", "Oroz", 69, 177, 22, "Mediapunta");
+insert into jugadores values(14, "Osasuna", "Rubén", "García", 72, 171, 30, "Mediapunta");
+insert into jugadores values(16, "Osasuna", "Moi", "Gómez", 71, 176, 29, "Extremo");
+insert into jugadores values(19, "Osasuna", "Pablo", "Ibáñez", 75, 179, 25, "Mediocentro");
+insert into jugadores values(34, "Osasuna", "Iker", "Muñoz", 69, 180, 21, "Mediocentro");
+insert into jugadores values(11, "Osasuna", "Kike", "Barja", 69, 178, 27, "Delantero Centro");
+insert into jugadores values(17, "Osasuna", "Ante", "Budimir", 75, 190, 32, "Delantero Centro");
+insert into jugadores values(20, "Osasuna", "José", "Arnaiz", 70, 175, 29, "Extremo");
+insert into jugadores values(9, "Osasuna", "Raúl", "García", 70, 192, 23, "Delantero Centro");
+
+
+
+
+
+insert into jugadores values(1, "Rayo Vallecano", "Stole", "Dimitrievski", 84, 188, 30, "Portero");
+insert into jugadores values(13, "Rayo Vallecano", "Dani", "Cárdenas", 80, 186, 27, "Portero");
+insert into jugadores values(2, "Rayo Vallecano", "Andrei", "Ratiu", 72, 183, 25, "Lateral");
+insert into jugadores values(3, "Rayo Vallecano", "Pep", "Chavarría", 72, 174, 26, "Lateral");
+insert into jugadores values(5, "Rayo Vallecano", "Aridane", "Hernández", 77, 186, 35, "Defensa Central");
+insert into jugadores values(12, "Rayo Vallecano", "Alfonso", "Espino", 71, 172, 32, "Lateral");
+insert into jugadores values(16, "Rayo Vallecano", "Abdul", "Mumin", 79, 188, 25, "Defensa Central");
+insert into jugadores values(20, "Rayo Vallecano", "Iván", "Balliu", 63, 172, 32, "Lateral");
+insert into jugadores values(24, "Rayo Vallecano", "Florian", "Lejeune", 89, 189, 32, "Defensa Central");
+insert into jugadores values(7, "Rayo Vallecano", "Isi", "Palazón", 71, 169, 29, "Mediapunta");
+insert into jugadores values(8, "Rayo Vallecano", "Óscar", "Trejo", 79, 180, 36, "Mediapunta");
+insert into jugadores values(11, "Rayo Vallecano", "Randy", "Nteka", 75, 189, 26, "Mediapunta");
+insert into jugadores values(14, "Rayo Vallecano", "Kike", "Pérez", 80, 184, 27, "Mediocentro");
+insert into jugadores values(15, "Rayo Vallecano", "Miguel", "Crespo", 72, 186, 27, "Mediapunta");
+insert into jugadores values(17, "Rayo Vallecano", "Unai", "López", 68, 170, 28, "Mediocentro");
+insert into jugadores values(18, "Rayo Vallecano", "Álvaro", "García", 61, 167, 31, "Extremo");
+insert into jugadores values(21, "Rayo Vallecano", "Pathé", "Ciss", 71, 186, 30, "Mediocentro Defensivo");
+insert into jugadores values(23, "Rayo Vallecano", "Óscar ", "Valentín", 72, 177, 29, "Mediocentro Defensivo");
+insert into jugadores values(9, "Rayo Vallecano", "Radamel", "Falcao", 72, 177, 38, "Delantero Centro");
+insert into jugadores values(10, "Rayo Vallecano", "Bebé", "Correia", 83, 190, 33, "Extremo");
+insert into jugadores values(19, "Rayo Vallecano", "Jorge", "De Frutos", 72, 173, 27, "Extremo");
+insert into jugadores values(22, "Rayo Vallecano", "Raúl", "De Tomás", 72, 180, 29, "Delantero Centro");
+insert into jugadores values(34, "Rayo Vallecano", "Sergio", "Camello", 69, 177, 23, "Delantero Centro");
+
+
+
+
+
+insert into jugadores values(1, "Real Madrid", "Thibaut", "Courtois", 96, 200, 32, "Portero");
+insert into jugadores values(13, "Real Madrid", "Andreiy", "Lunin", 80, 191, 25, "Portero");
+insert into jugadores values(25, "Real Madrid", "Kepa", "Arrizabalaga", 84, 189, 29, "Portero");
+insert into jugadores values(2, "Real Madrid", "Dani", "Carvajal", 73, 173, 32, "Lateral");
+insert into jugadores values(3, "Real Madrid", "Éder", "Militao", 78, 186, 26, "Defensa Central");
+insert into jugadores values(4, "Real Madrid", "David", "Alaba", 78, 180, 31, "Defensa Central");
+insert into jugadores values(6, "Real Madrid", "Nacho", "Fernández", 76, 180, 34, "Defensa Central");
+insert into jugadores values(20, "Real Madrid", "Fran", "García", 69, 167, 24, "Lateral");
+insert into jugadores values(22, "Real Madrid", "Antonio", "Rüdiger", 85, 190, 31, "Defensa Central");
+insert into jugadores values(23, "Real Madrid", "Ferland", "Mendy", 73, 180, 28, "Lateral");
+insert into jugadores values(5, "Real Madrid", "Jude", "Bellingham", 75, 186, 20, "Mediocentro");
+insert into jugadores values(6, "Real Madrid", "Toni", "Kroos", 76, 183, 34, "Mediapunta");
+insert into jugadores values(10, "Real Madrid", "Luka", "Modric", 66, 172, 38, "Mediocentro");
+insert into jugadores values(12, "Real Madrid", "Eduardo", "Camavinga", 68, 182, 21, "Mediocentro");
+insert into jugadores values(15, "Real Madrid", "Federico", "Valverde", 78, 182, 25, "Mediocentro");
+insert into jugadores values(17, "Real Madrid", "Lucas", "Vázquez", 70, 173, 32, "Extremo");
+insert into jugadores values(18, "Real Madrid", "Aurélien", "Tchouaméni", 81, 187, 24, "Mediocentro Defensivo");
+insert into jugadores values(19, "Real Madrid", "Daniel", "Ceballos", 70, 179, 27, "Mediocentro");
+insert into jugadores values(21, "Real Madrid", "Brahim", "Díaz", 59, 171, 24, "Madiapunta");
+insert into jugadores values(7, "Real Madrid", "Vinicius", "Junior", 73, 176, 23, "Extremo");
+insert into jugadores values(11, "Real Madrid", "Rodrygo", "Goes", 64, 173, 23, "Extremo");
+insert into jugadores values(14, "Real Madrid", "Joselu", "Mato", 80, 192, 34, "Delantero Centro");
+
+
+
+
+
+
+insert into jugadores values(1, "Real Sociedad", "Álex", "Remiro", 79, 191, 29, "Portero");
+insert into jugadores values(13, "Real Sociedad", "Unai", "Marrero", 80, 189, 22, "Portero");
+insert into jugadores values(2, "Real Sociedad", "Álvaro", "Odriozola", 66, 176, 28, "Lateral");
+insert into jugadores values(3, "Real Sociedad", "Aihen", "Muñoz", 68, 175, 26, "Lateral");
+insert into jugadores values(6, "Real Sociedad", "Aritz", "Elustondo", 71, 180, 30, "Defensa Central");
+insert into jugadores values(17, "Real Sociedad", "Kieran", "Tierny", 70, 178, 26, "Lateral");
+insert into jugadores values(18, "Real Sociedad", "Hamari", "Traoré", 64, 175, 32, "Lateral");
+insert into jugadores values(20, "Real Sociedad", "Jon", "Pacheco", 77, 184, 23, "Defensa Central");
+insert into jugadores values(24, "Real Sociedad", "Robin", "Le Normand", 80, 187, 27, "Defensa Central");
+insert into jugadores values(25, "Real Sociedad", "Javi", "Galán", 70, 172, 29, "Lateral");
+insert into jugadores values(4, "Real Sociedad", "Martín", "Zubimendi", 75, 180, 25, "Mediocentro");
+insert into jugadores values(5, "Real Sociedad", "Igor", "Zubeldia", 73, 181, 27, "Mediocentro");
+insert into jugadores values(8, "Real Sociedad", "Mikel", "Merino", 83, 188, 27, "Mediocentro");
+insert into jugadores values(12, "Real Sociedad", "Arsen", "Zakharyan", 68, 180, 20, "Mediapunta");
+insert into jugadores values(14, "Real Sociedad", "Takefusa", "Kubo", 64, 173, 22, "Mediapunta");
+insert into jugadores values(16, "Real Sociedad", "Jon ", "Olasagasti", 74, 176, 23, "Mediocentro");
+insert into jugadores values(22, "Real Sociedad", "Beñat", "Turrientes", 70, 181, 22, "Mediocentro");
+insert into jugadores values(23, "Real Sociedad", "Brais", "Méndez", 76, 187, 27, "Mediapunta");
+insert into jugadores values(21, "Real Sociedad", "Brahim", "Díaz", 59, 171, 24, "Madiapunta");
+insert into jugadores values(7, "Real Sociedad", "Ander", "Barrenetxea", 75, 178, 22, "Extremo");
+insert into jugadores values(9, "Real Sociedad", "Carlos ", "Fernández", 72, 185, 27, "Delantero Centro");
+insert into jugadores values(10, "Real Sociedad", "Mikel", "Oyarzabal", 78, 181, 27, "Delantero Centro");
+insert into jugadores values(11, "Real Sociedad", "Sheraldo ", "Becker", 70, 180, 29, "Extremo");
+insert into jugadores values(19, "Real Sociedad", "Umar", "Sadiq", 75, 192, 27, "Delantero Centro");
+insert into jugadores values(21, "Real Sociedad", "Andre", "Silva", 84, 185, 28, "Delantero Centro");
+
+
+
+
+
+insert into jugadores values(1, "Sevilla", "Marko", "Dimitrovic", 91, 194, 32, "Portero");
+insert into jugadores values(13, "Sevilla", "Orjan", "Nyland", 90, 192, 33, "Portero");
+insert into jugadores values(2, "Sevilla", "Kike", "Salas", 72, 185, 22, "Defensa Central");
+insert into jugadores values(3, "Sevilla", "Adriá", "Pedrosa", 69, 176, 25, "Lateral");
+insert into jugadores values(4, "Sevilla", "Sergio", "Ramos", 82, 184, 38, "Defensa Central");
+insert into jugadores values(14, "Sevilla", "Tanguy ", "Nianzou", 83, 187, 21, "Defensa Central");
+insert into jugadores values(16, "Sevilla", "Jesús", "Navas", 60, 172, 38, "Lateral");
+insert into jugadores values(19, "Sevilla", "Marcos", "Acuña", 69, 172, 32, "Lateral");
+insert into jugadores values(22, "Sevilla", "Loïc", "Badé", 89, 181, 24, "Defensa Central");
+insert into jugadores values(23, "Sevilla", "Marcao", "Teixeira", 80, 185, 27, "Defensa Central");
+insert into jugadores values(5, "Sevilla", "Lucas", "Ocampos", 84, 187, 29, "Mediapunta");
+insert into jugadores values(6, "Sevilla", "Nemanja", "Gudelj", 79, 187, 32, "Mediocentro Defensivo");
+insert into jugadores values(7, "Sevilla", "Suso", "Fernández", 70, 177, 30, "Mediapunta");
+insert into jugadores values(8, "Sevilla", "Joan", "Jordán", 74, 184, 29, "Mediocentro");
+insert into jugadores values(17, "Sevilla", "Érik", "Lamela", 79, 181, 32, "Mediapunta");
+insert into jugadores values(18, "Sevilla", "Djibril", "Sow", 76, 183, 27, "Mediocentro");
+insert into jugadores values(21, "Sevilla", "Óliver", "Torres", 70, 178, 29, "Mediapunta");
+insert into jugadores values(24, "Sevilla", "Boubakary ", "Soumaré", 70, 188, 25, "Mediocentro");
+insert into jugadores values(25, "Sevilla", "Adnan", "Januzaj", 76, 186, 25, "Madiapunta");
+insert into jugadores values(26, "Sevilla", "Juanlu", "Sánchez", 68, 183, 20, "Extremo");
+insert into jugadores values(42, "Sevilla", "Lucien ", "Agoumé", 72, 185, 22, "Mediocentro Defensivo");
+insert into jugadores values(10, "Sevilla", "Rafa", "Mir", 86, 191, 26, "Delantero Centro");
+insert into jugadores values(11, "Sevilla", "Dodi ", "Lukebakio", 77, 187, 26, "Extremo");
+insert into jugadores values(15, "Sevilla", "Youssef ", "En-Nesyri", 73, 187, 26, "Delantero Centro");
+insert into jugadores values(20, "Sevilla", "Isaac ", "Romero", 70, 185, 23, "Delantero Centro");
+
+
+
+
+
+
+
+insert into jugadores values(1, "Valencia", "Jaume ", "Domènech", 73, 185 , 33, "Portero");
+insert into jugadores values(13, "Valencia", "Cristian ", "Rivero", 75, 188, 26, "Portero");
+insert into jugadores values(25, "Valencia", "Giorgi ", "Mamardashvili", 86, 199, 23, "Portero");
+insert into jugadores values(3, "Valencia", "Cristhian ", "Mosquera", 78, 188, 19, "Defensa Central");
+insert into jugadores values(5, "Valencia", "Mouctar ", "Diakhaby", 78, 189, 27, "Defensa Central");
+insert into jugadores values(6, "Valencia", "Hugo ", "Guillamón", 62, 178, 24, "Defensa Central");
+insert into jugadores values(12, "Valencia", "Thierry ", "Correia", 69, 176, 25, "Lateral");
+insert into jugadores values(14, "Valencia", "José ", "Gayà", 66, 172, 28, "Lateral");
+insert into jugadores values(15, "Valencia", "Cenk", "Özkacar", 90, 187, 23, "Defensa Central");
+insert into jugadores values(20, "Valencia", "Dimitri", "Foulquier", 72, 183, 31, "Lateral");
+insert into jugadores values(21, "Valencia", "Jesús", "Vázquez", 76, 182, 21, "Lateral");
+insert into jugadores values(34, "Valencia", "Yarek", "Gasiorowski", 81, 190, 34, "Defensa Central");
+insert into jugadores values(7, "Valencia", "Sergi", "Canós", 75, 177, 27, "Extremo");
+insert into jugadores values(8, "Valencia", "Javi", "Guerra", 77, 187, 20, "Mediocentro");
+insert into jugadores values(10, "Valencia", "André", "Almeida", 62, 176, 23, "Mediocentro");
+insert into jugadores values(18, "Valencia", "Pepelu", "García", 73, 185, 25, "Mediocentro Defensivo");
+insert into jugadores values(18, "Valencia", "Selim", "Amallah", 82, 186, 27, "Madiapunta");
+insert into jugadores values(23, "Valencia", "Fran", "Pérez", 68, 175, 21, "Extremo");
+insert into jugadores values(9, "Valencia", "Hugo", "Duro", 70, 177, 24, "Delantero Centro");
+insert into jugadores values(11, "Valencia", "Peter", "González", 73, 180, 21, "Extremo");
+insert into jugadores values(16, "Valencia", "Diego ", "López", 62, 172, 21, "Delantero Centro");
+insert into jugadores values(17, "Valencia", "Roman", "Yaremchuk", 79, 192, 28, "Delantero Centro");
+insert into jugadores values(22, "Valencia", "Alberto", "Marí", 78, 183, 22, "Delantero Centro");
+
+
+
+
+
+
+insert into jugadores values(1, "Villarreal", "Pepe ", "Reina", 92, 188 , 41, "Portero");
+insert into jugadores values(13, "Villarreal", "Filip", "Jørgensen", 82, 190, 22, "Portero");
+insert into jugadores values(2, "Villarreal", "Yerson ", "Mosquera", 76, 187, 23, "Defensa Central");
+insert into jugadores values(3, "Villarreal", "Raúl", "Albiol", 74, 187, 38, "Defensa Central");
+insert into jugadores values(5, "Villarreal", "Jorge", "Cuenca", 75, 190, 24, "Defensa Central");
+insert into jugadores values(8, "Villarreal", "Juan", "Foyth", 83, 187, 27, "Lateral");
+insert into jugadores values(12, "Villarreal", "Eric", "Bailly", 77, 187, 30, "Defensa Central");
+insert into jugadores values(17, "Villarreal", "Kiko", "Femenía", 61, 177, 33, "Lateral");
+insert into jugadores values(18, "Villarreal", "Alberto", "Moreno", 65, 171, 31, "Lateral");
+insert into jugadores values(23, "Villarreal", "Aïssa", "Mandi", 78, 184, 32, "Defensa Central");
+insert into jugadores values(26, "Villarreal", "Adrià", "Alti", 62, 170, 23, "Lateral");
+insert into jugadores values(4, "Villarreal", "Santi", "Comesaña", 75, 184, 27, "Mediapunta");
+insert into jugadores values(6, "Villarreal", "Étienne", "Capoue", 80, 189, 35, "Mediocentro Defensivo");
+insert into jugadores values(10, "Villarreal", "Dani", "Parejo", 74, 182, 35, "Mediocentro");
+insert into jugadores values(14, "Villarreal", "Manu", "Trigueros", 75, 178, 32, "Madiapunta");
+insert into jugadores values(16, "Villarreal", "Álex", "Baena", 70, 175, 22, "Madiapunta");
+insert into jugadores values(19, "Villarreal", "Francis", "Coquelin", 74, 176, 32, "Mediocentro Defensivo");
+insert into jugadores values(20, "Villarreal", "Ramon", "Terrats", 72, 181, 23, "Mediocentro");
+insert into jugadores values(21, "Villarreal", "Yeremy", "Pino", 65, 172, 21, "Mediapunta");
+insert into jugadores values(22, "Villarreal", "Denis", "Suárez", 69, 176, 30, "Mediapunta");
+insert into jugadores values(24, "Villarreal", "Alfonso", "Pedraza", 73, 184, 28, "Extremo");
+insert into jugadores values(7, "Villarreal", "Gerard", "Moreno", 77, 180, 32, "Delantero Centro");
+insert into jugadores values(9, "Villarreal", "Gonçalo", "Guedes", 68, 179, 27, "Extremo");
+insert into jugadores values(11, "Villarreal", "Alexander", "Sørloth", 90, 195, 28, "Delantero Centro");
+insert into jugadores values(15, "Villarreal", "José Luís", "Morales", 70, 180, 36, "Extremo");
+insert into jugadores values(25, "Villarreal", "Bertrand", "Traoré", 73, 181, 28, "Extremo");
+insert into jugadores values(27, "Villarreal", "Ilias", "Akhomach", 60, 175, 20, "Extremo");
+
+
+
