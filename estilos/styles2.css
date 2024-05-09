@@ -1,0 +1,26 @@
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrarBoton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 580px) {
+    .navbar .navbar-brand {
+        margin-left: 0 !important;
+    }
+
+    .navbar .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse .navbar-nav {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,50 @@
+use infofutbol;
+
+create table equipo(
+    nombre varchar(50) not null primary key,
+	id_equipo int,
+    ciudad varchar(50) not null,
+    anio_creacion int not null,
+    entrenador varchar(50) not null,
+    estadio varchar(50) not null
+);
+
+drop table equipo;
+
+
+create table plantilla(
+	nombre_plantilla varchar(50) primary key,
+    cantidad_jugadores int not null,
+    posicion_cambiada varchar(50),
+    numero_camiseta int not null,
+    foreign key(nombre_plantilla) references equipo(nombre),
+    foreign key(numero_camiseta) references jugadores(numero_camiseta)
+);
+
+
+create table jugadores(
+    numero_camiseta int primary key,
+	equipo varchar(50) not null,
+    nombre varchar(50) not null,
+    apellido varchar(50) not null,
+    peso int(3),
+    altura int(3) not null,
+	edad int not null,
+    posicion_base varchar(50),
+    foreign key (equipo) references plantilla(nombre_plantilla)
+);
+
+
+
+create table estadisticas(
+	id_estadisticas int primary key,
+    partidos_jugados int not null,
+    goles int not null,
+    asistencias int not null,
+    tarjetas_amarillas int not null,
+    tarjetas_rojas int not null,
+    temporadas_club int not null,
+    fk_jugador INT not null,
+    foreign key (fk_jugador) references jugadores(numero_camiseta)
+);
+
