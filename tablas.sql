@@ -1,6 +1,11 @@
 use infofutbol;
 
-create table equipo(
+-- drop table if exists estadisticas;
+-- drop table if exists jugadores;
+-- drop table if exists plantilla;
+-- drop table if exists equipo;
+
+create table if not exists equipo(
     nombre varchar(50) not null primary key,
 	id_equipo int,
     ciudad varchar(50) not null,
@@ -9,10 +14,9 @@ create table equipo(
     estadio varchar(50) not null
 );
 
-drop table equipo;
 
 
-create table plantilla(
+create table if not exists plantilla(
 	nombre_plantilla varchar(50) primary key,
     cantidad_jugadores int not null,
     posicion_cambiada varchar(50),
@@ -22,7 +26,7 @@ create table plantilla(
 );
 
 
-create table jugadores(
+create table if not exists jugadores(
     numero_camiseta int primary key,
 	equipo varchar(50) not null,
     nombre varchar(50) not null,
@@ -36,7 +40,8 @@ create table jugadores(
 
 
 
-create table estadisticas(
+create table if not exists estadisticas(
+create table if not exists estadisticas(
 	id_estadisticas int primary key,
     partidos_jugados int not null,
     goles int not null,
