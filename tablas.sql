@@ -41,7 +41,6 @@ create table if not exists jugadores(
 
 
 create table if not exists estadisticas(
-create table if not exists estadisticas(
 	id_estadisticas int primary key,
     partidos_jugados int not null,
     goles int not null,
