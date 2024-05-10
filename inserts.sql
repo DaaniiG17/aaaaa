@@ -462,14 +462,29 @@ insert into jugadores values(25, "Girona", "Eric", "García", 76, 182, 23, "Late
 -- CENTROCAMPISTAS
 
 
-insert into jugadores values(5, "Getafe", "Luis", "Milla", 67, 175, 29, "Mediocentro");
-insert into jugadores values(8, "Getafe", "Mauro", "Arambarri", 74, 175, 28, "Mediocentro");
-insert into jugadores values(9, "Getafe", "Óscar", "Rodríguez", 67, 174, 25, "Mediapunta");
-insert into jugadores values(11, "Getafe", "Carles", "Aleña", 73, 180, 26, "Mediocentro");
-insert into jugadores values(20, "Getafe", "Nemanja", "Maksimovic", 69, 189, 29, "Mediocentro");
-insert into jugadores values(24, "Getafe", "Ilaix", "Moriba", 73, 185, 21, "Mediocentro");
-insert into jugadores values(25, "Getafe", "Yellu", "Moriba", 77, 192, 19, "Mediocentro");
-insert into jugadores values(32, "Getafe", "Jorge", "Martín", 62, 176, 23, "Extremo");
+insert into jugadores values(14, "Girona", "Aleix", "García", 68, 173, 26, "Mediocentro");
+insert into jugadores values(18, "Girona", "Pablo", "Torre", 63, 173, 21, "Mediocentro");
+insert into jugadores values(19, "Girona", "Toni", "Villa", 63, 172, 29, "Extremo");
+insert into jugadores values(21, "Girona", "Yangel", "Herrera", 78, 184, 26, "Mediocentro");
+insert into jugadores values(22, "Girona", "John", "Solís", 80, 189, 19, "Mediocentro");
+insert into jugadores values(23, "Girona", "Iván", "Martín", 70, 178, 25, "Mediapunta");
+
+
+
+
+-- DELANTEROS
+
+
+
+
+insert into jugadores values(7, "Girona", "Cristhian", "Stuani", 76, 186, 37, "Delantero Centro");
+insert into jugadores values(8, "Girona", "Viktor", "Tsygankov", 73, 178, 26, "Extremo");
+insert into jugadores values(9, "Girona", "Artem", "Dobryk", 76, 184, 26, "Delantero Centro");
+insert into jugadores values(16, "Girona", "Savio", "Moreira de Oliveira", 66, 179, 20, "Extremo");
+insert into jugadores values(24, "Girona", "Cristian", "Portugués", 66, 167, 31, "Delanero Centro");
+
+
+
 
 
 
