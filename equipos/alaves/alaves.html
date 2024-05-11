@@ -54,22 +54,23 @@
 
 
 
-    <form class="container mt-5">
+    <form id="jugadorForm" class="container mt-5">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Escribe el nombre del Jugador</label>
-            <input type="text" class="form-control" style="width: 250px;">
+            <input type="text" class="form-control" id="exampleInputEmail1" style="width: 250px;">
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Escribe la posicion del jugador</label>
-            <input type="text" class="form-control" style="width: 250px;">
+            <input type="text" class="form-control" id="exampleInputPassword1" style="width: 250px;">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Escribe la url de la imagen del jugador</label>
-            <input type="text" class="form-control" style="width: 250px;">
+            <label for="exampleInputPassword2" class="form-label">Escribe la url de la imagen del jugador</label>
+            <input type="text" class="form-control" id="exampleInputPassword2" style="width: 250px;">
         </div>
 
         <button type="submit" class="btn btn-primary">Añadir jugador</button>
     </form>
+
 
 
 
@@ -91,6 +92,9 @@
                 <h5>Entrenador</h5>
                 <button class="btn btn-secondary bg-primary eliminarEntrenador">Eliminar entrenador</button>
             </div><!-- /.col-lg-4 -->
+
+
+
 
         </div><!-- /.row -->
 
@@ -401,11 +405,59 @@
         }
 
 
-        // AÑADIR ENTRENADOR
+        // AÑADIR PORTEROS
 
-        
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('jugadorForm').addEventListener('submit', function (event) {
+                event.preventDefault(); // Evita que se envíe el formulario de manera convencional
 
-        
+                // Obtener los valores del formulario
+                var nombre = document.getElementById('exampleInputEmail1').value;
+                var posicion = document.getElementById('exampleInputPassword1').value;
+                var imagenUrl = document.getElementById('exampleInputPassword2').value;
+
+                // Crear un nuevo elemento div para el jugador
+                var jugadorDiv = document.createElement('div');
+                jugadorDiv.className = 'col-lg-4';
+
+                // Configurar el HTML del jugador dentro del nuevo div
+                jugadorDiv.innerHTML = `
+            <img src="${imagenUrl}" class="rounded-circle" width="140" height="140">
+            <h2>${nombre}</h2>
+            <h5>${posicion}</h5>
+            <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
+        `;
+
+                // Buscar la fila de jugadores
+                var filaJugadores = document.querySelector('.row.text-center');
+
+                // Agregar el nuevo div del jugador al final de la fila de jugadores
+                filaJugadores.appendChild(jugadorDiv);
+
+                // Limpiar el formulario
+                document.getElementById('exampleInputEmail1').value = '';
+                document.getElementById('exampleInputPassword1').value = '';
+                document.getElementById('exampleInputPassword2').value = '';
+
+                // Agregar el controlador de eventos para eliminar porteros al nuevo botón de eliminar
+                var nuevoBotonEliminar = jugadorDiv.querySelector('.eliminarPorteros');
+                nuevoBotonEliminar.addEventListener('click', eliminarPortero);
+            });
+
+            // Función para eliminar porteros
+            function eliminarPortero(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
+        });
+
+
+
+
+
+
+
 
     </script>
 
