@@ -94,7 +94,7 @@
 
                 <h2>Luis Garcia Plaza</h2>
                 <h5>Entrenador</h5>
-                <h5><a class="btn btn-secondary bg-primary eliminar" href="#">Eliminar entrenador</a></h5>
+                <h5><a class="btn btn-secondary bg-primary eliminarEntrenador" href="#">Eliminar entrenador</a></h5>
             </div><!-- /.col-lg-4 -->
 
         </div><!-- /.row -->
@@ -113,7 +113,7 @@
 
                 <h2>Antonio Sivera</h2>
                 <h5>Portero</h5>
-                <h5><a class="btn btn-secondary bg-primary" href="#">Eliminar jugador</a></h5>
+                <h5><a class="btn btn-secondary bg-primary eliminarPorteros" href="#">Eliminar jugador</a></h5>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/jesusOwono.png">
@@ -121,7 +121,7 @@
 
                 <h2>Jesús Owono</h2>
                 <h5>Portero</h5>
-                <h5><a class="btn btn-secondary bg-primary" href="#">Eliminar jugador</a></h5>
+                <h5><a class="btn btn-secondary bg-primary eliminarPorteros" href="#">Eliminar jugador</a></h5>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -333,6 +333,32 @@
 
 
 
+    <script>
+
+        const eliminarEntrenadores = document.querySelector('.eliminarEntrenador');
+
+        eliminarEntrenadores.addEventListener('click', eliminarEntrenador);
+
+        function eliminarEntrenador(e){
+            event.preventDefault();
+            const contenido = e.target.parentNode.parentNode;
+            contenido.remove();
+        }
+
+
+        const eliminarPorteros = document.querySelectorAll('.eliminarPorteros');
+
+        eliminarPorteros.forEach(porteros => {
+            porteros.addEventListener('click', eliminarPortero);
+        })
+
+        function eliminarPortero(e){
+            event.preventDefault();
+            const contenido = e.target.parentNode.parentNode;
+            contenido.remove();
+        }
+
+    </script>
 
 
 
