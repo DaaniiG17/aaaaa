@@ -56,16 +56,16 @@
 
     <form id="jugadorForm" class="container mt-5">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Escribe el nombre del Jugador</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" style="width: 250px;">
+            <label for="nombreJugador" class="form-label">Escribe el nombre del Jugador</label>
+            <input type="text" class="form-control" id="nombreJugador" style="width: 250px;">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Escribe la posicion del jugador</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" style="width: 250px;">
+            <label for="posicionJugador" class="form-label">Escribe la posicion del jugador</label>
+            <input type="text" class="form-control" id="posicionJugador" style="width: 250px;">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword2" class="form-label">Escribe la url de la imagen del jugador</label>
-            <input type="text" class="form-control" id="exampleInputPassword2" style="width: 250px;">
+            <label for="urlJugador" class="form-label">Escribe la url de la imagen del jugador</label>
+            <input type="text" class="form-control" id="urlJugador" style="width: 250px;">
         </div>
 
         <button type="submit" class="btn btn-primary">Añadir jugador</button>
@@ -106,7 +106,7 @@
 
 
         <div class="row text-center">
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/antonioSivera.png">
                 </img>
 
@@ -114,7 +114,7 @@
                 <h5>Portero</h5>
                 <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/jesusOwono.png">
                 </img>
 
@@ -180,10 +180,10 @@
                 <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
-                <img class="rounded-circle" width="140" height="140" src="imgAlaves/josedaAlvarez.png">
+                <img class="rounded-circle" width="140" height="140" src="imgAlaves/josedaAlconstez.png">
                 </img>
 
-                <h2>Joseda Álvarez</h2>
+                <h2>Joseda Álconstez</h2>
                 <h5>Lateral</h5>
                 <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
@@ -211,10 +211,10 @@
 
         <div class="row text-center">
             <div class="col-lg-4 mb-5">
-                <img class="rounded-circle" width="140" height="140" src="imgAlaves/anderGuevara.png">
+                <img class="rounded-circle" width="140" height="140" src="imgAlaves/anderGueconsta.png">
                 </img>
 
-                <h2>Ander Guevara</h2>
+                <h2>Ander Gueconsta</h2>
                 <h5>Mediocentro</h5>
                 <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
@@ -408,40 +408,45 @@
         // AÑADIR PORTEROS
 
         document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('jugadorForm').addEventListener('submit', function (event) {
+            const enviarFormulario = document.getElementById('jugadorForm')
+            enviarFormulario.addEventListener('submit', function (event) {
                 event.preventDefault(); // Evita que se envíe el formulario de manera convencional
 
                 // Obtener los valores del formulario
-                var nombre = document.getElementById('exampleInputEmail1').value;
-                var posicion = document.getElementById('exampleInputPassword1').value;
-                var imagenUrl = document.getElementById('exampleInputPassword2').value;
+                const nombre = document.getElementById('nombreJugador').value;
+                const posicion = document.getElementById('posicionJugador').value;
+                const imagenUrl = document.getElementById('urlJugador').value;
 
-                // Crear un nuevo elemento div para el jugador
-                var jugadorDiv = document.createElement('div');
-                jugadorDiv.className = 'col-lg-4';
+                if (posicion == "Portero") {
+                    // Crear un nuevo elemento div para el jugador
+                    const jugadorDiv = document.createElement('div');
+                    jugadorDiv.className = 'col-lg-4';
 
-                // Configurar el HTML del jugador dentro del nuevo div
-                jugadorDiv.innerHTML = `
+                    // Configurar el HTML del jugador dentro del nuevo div
+                    jugadorDiv.innerHTML = `
             <img src="${imagenUrl}" class="rounded-circle" width="140" height="140">
             <h2>${nombre}</h2>
             <h5>${posicion}</h5>
             <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
         `;
 
-                // Buscar la fila de jugadores
-                var filaJugadores = document.querySelector('.row.text-center');
+                    // Buscar la fila de jugadores
+                    const filaJugadores = document.querySelector('.row.text-center');
 
-                // Agregar el nuevo div del jugador al final de la fila de jugadores
-                filaJugadores.appendChild(jugadorDiv);
+                    // Agregar el nuevo div del jugador al final de la fila de jugadores
+                    filaJugadores.appendChild(jugadorDiv);
 
-                // Limpiar el formulario
-                document.getElementById('exampleInputEmail1').value = '';
-                document.getElementById('exampleInputPassword1').value = '';
-                document.getElementById('exampleInputPassword2').value = '';
+                    // Limpiar el formulario
+                    document.getElementById('nombreJugador').value = '';
+                    document.getElementById('posicionJugador').value = '';
+                    document.getElementById('urlJugador').value = '';
 
-                // Agregar el controlador de eventos para eliminar porteros al nuevo botón de eliminar
-                var nuevoBotonEliminar = jugadorDiv.querySelector('.eliminarPorteros');
-                nuevoBotonEliminar.addEventListener('click', eliminarPortero);
+                    // Agregar el controlador de eventos para eliminar porteros al nuevo botón de eliminar
+                    const nuevoBotonEliminar = jugadorDiv.querySelector('.eliminarPorteros');
+                    nuevoBotonEliminar.addEventListener('click', eliminarPortero);
+                }
+
+
             });
 
             // Función para eliminar porteros
@@ -453,15 +458,7 @@
         });
 
 
-
-
-
-
-
-
     </script>
-
-
 
 </body>
 
