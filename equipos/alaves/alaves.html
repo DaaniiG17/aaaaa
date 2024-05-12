@@ -331,6 +331,7 @@
     </div>
 
     <script>
+        document.addEventListener('DOMContentLoaded', function (e) {
 
         // ELIMINAR ENTRENADORES
 
@@ -407,54 +408,42 @@
 
         // AÑADIR PORTEROS
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const enviarFormulario = document.getElementById('jugadorForm')
-            enviarFormulario.addEventListener('submit', function (event) {
-                event.preventDefault(); // Evita que se envíe el formulario de manera convencional
 
-                // Obtener los valores del formulario
-                const nombre = document.getElementById('nombreJugador').value;
-                const posicion = document.getElementById('posicionJugador').value;
-                const imagenUrl = document.getElementById('urlJugador').value;
+            const formulario = document.querySelector('#jugadorForm');
 
-                if (posicion == "Portero") {
-                    // Crear un nuevo elemento div para el jugador
-                    const jugadorDiv = document.createElement('div');
-                    jugadorDiv.className = 'col-lg-4';
+            formulario.addEventListener('submit', añadirJugador);
 
-                    // Configurar el HTML del jugador dentro del nuevo div
-                    jugadorDiv.innerHTML = `
-            <img src="${imagenUrl}" class="rounded-circle" width="140" height="140">
-            <h2>${nombre}</h2>
-            <h5>${posicion}</h5>
-            <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
-        `;
+            function añadirJugador(e) {
+                e.preventDefault();
+                const nombreJugador = document.querySelector('#nombreJugador').value;
+                const posicionJugador = document.querySelector('#posicionJugador').value;
+                const imagenJugador = document.querySelector('#urlJugador').value;
 
-                    // Buscar la fila de jugadores
-                    const filaJugadores = document.querySelector('.row.text-center');
+                const divJugador = document.createElement('div');
+                divJugador.classList.add('col-lg-4') //
+                divJugador.innerHTML = `
+  <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
+      <h2>${nombreJugador}</h2>
+      <h5>${posicionJugador}</h5>
+      <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
+  `
 
-                    // Agregar el nuevo div del jugador al final de la fila de jugadores
-                    filaJugadores.appendChild(jugadorDiv);
+                const encontrar = document.querySelector('.row.text-center');
 
-                    // Limpiar el formulario
-                    document.getElementById('nombreJugador').value = '';
-                    document.getElementById('posicionJugador').value = '';
-                    document.getElementById('urlJugador').value = '';
+                encontrar.appendChild(divJugador);
 
-                    // Agregar el controlador de eventos para eliminar porteros al nuevo botón de eliminar
-                    const nuevoBotonEliminar = jugadorDiv.querySelector('.eliminarPorteros');
-                    nuevoBotonEliminar.addEventListener('click', eliminarPortero);
+                const botonEliminar = divJugador.querySelector('.eliminarPorteros');
+
+                botonEliminar.addEventListener('click', eliminarPortero);
+
+                function eliminarPortero(e) {
+                    e.preventDefault();
+                    const contenido = e.target.parentNode;
+                    contenido.remove();
                 }
 
-
-            });
-
-            // Función para eliminar porteros
-            function eliminarPortero(e) {
-                e.preventDefault();
-                const contenido = e.target.parentNode;
-                contenido.remove();
             }
+
         });
 
 
