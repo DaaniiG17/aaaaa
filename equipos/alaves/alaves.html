@@ -57,15 +57,15 @@
     <form id="jugadorForm" class="container mt-5">
         <div class="mb-3">
             <label for="nombreJugador" class="form-label">Escribe el nombre del Jugador</label>
-            <input type="text" class="form-control" id="nombreJugador" style="width: 250px;">
+            <input type="text" class="form-control" id="nombreJugador" style="width: 250px;" required>
         </div>
         <div class="mb-3">
             <label for="posicionJugador" class="form-label">Escribe la posicion del jugador</label>
-            <input type="text" class="form-control" id="posicionJugador" style="width: 250px;">
+            <input type="text" class="form-control" id="posicionJugador" style="width: 250px;" required>
         </div>
         <div class="mb-3">
             <label for="urlJugador" class="form-label">Escribe la url de la imagen del jugador</label>
-            <input type="text" class="form-control" id="urlJugador" style="width: 250px;">
+            <input type="text" class="form-control" id="urlJugador" style="width: 250px;" required>
         </div>
 
         <button type="submit" class="btn btn-primary">Añadir jugador</button>
@@ -131,7 +131,7 @@
         <hr class="mb-5">
 
 
-        <div class="row text-center ">
+        <div class="row text-center" id="defensa">
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/andoniGorosabel.png">
                 </img>
@@ -180,7 +180,7 @@
                 <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
-                <img class="rounded-circle" width="140" height="140" src="imgAlaves/josedaAlconstez.png">
+                <img class="rounded-circle" width="140" height="140" src="imgAlaves/josedaAlvarez.png">
                 </img>
 
                 <h2>Joseda Álconstez</h2>
@@ -209,12 +209,12 @@
         <hr class="mb-5">
 
 
-        <div class="row text-center">
+        <div class="row text-center" id="mediocentros">
             <div class="col-lg-4 mb-5">
-                <img class="rounded-circle" width="140" height="140" src="imgAlaves/anderGueconsta.png">
+                <img class="rounded-circle" width="140" height="140" src="imgAlaves/anderGuevara.png">
                 </img>
 
-                <h2>Ander Gueconsta</h2>
+                <h2>Ander Guevara</h2>
                 <h5>Mediocentro</h5>
                 <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
             </div><!-- /.col-lg-4 -->
@@ -333,80 +333,80 @@
     <script>
         document.addEventListener('DOMContentLoaded', function (e) {
 
-        // ELIMINAR ENTRENADORES
+            // ELIMINAR ENTRENADORES
 
-        const eliminarEntrenadores = document.querySelector('.eliminarEntrenador');
+            const eliminarEntrenadores = document.querySelector('.eliminarEntrenador');
 
-        eliminarEntrenadores.addEventListener('click', eliminarEntrenador);
+            eliminarEntrenadores.addEventListener('click', eliminarEntrenador);
 
-        function eliminarEntrenador(e) {
-            e.preventDefault();
-            const contenido = e.target.parentNode;
-            contenido.remove();
-        }
+            function eliminarEntrenador(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
 
-        // ELIMINAR PORTEROS
+            // ELIMINAR PORTEROS
 
-        const eliminarPorteros = document.querySelectorAll('.eliminarPorteros');
+            const eliminarPorteros = document.querySelectorAll('.eliminarPorteros');
 
-        eliminarPorteros.forEach(porteros => {
-            porteros.addEventListener('click', eliminarPortero);
-        })
+            eliminarPorteros.forEach(porteros => {
+                porteros.addEventListener('click', eliminarPortero);
+            })
 
-        function eliminarPortero(e) {
-            e.preventDefault();
-            const contenido = e.target.parentNode;
-            contenido.remove();
-        }
+            function eliminarPortero(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
 
-        // ELIMINAR DEFENSAS
-
-
-        const eliminarDefensas = document.querySelectorAll('.eliminarDefensas')
-
-        eliminarDefensas.forEach(defensas => {
-            defensas.addEventListener('click', eliminarDefensa);
-        });
-
-        function eliminarDefensa(e) {
-            e.preventDefault();
-            const contenido = e.target.parentNode;
-            contenido.remove();
-        }
+            // ELIMINAR DEFENSAS
 
 
-        // ELIMINAR MEDIOCENTROS
+            const eliminarDefensas = document.querySelectorAll('.eliminarDefensas')
 
-        const eliminarMediocentros = document.querySelectorAll('.eliminarMediocentros');
+            eliminarDefensas.forEach(defensas => {
+                defensas.addEventListener('click', eliminarDefensa);
+            });
 
-        eliminarMediocentros.forEach(mediocentros => {
-            mediocentros.addEventListener('click', eliminarMediocentro);
-        })
-
-        function eliminarMediocentro(e) {
-            e.preventDefault();
-            const contenido = e.target.parentNode;
-            contenido.remove();
-        }
+            function eliminarDefensa(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
 
 
-        // ELIMINAR DELANTEROS
+            // ELIMINAR MEDIOCENTROS
+
+            const eliminarMediocentros = document.querySelectorAll('.eliminarMediocentros');
+
+            eliminarMediocentros.forEach(mediocentros => {
+                mediocentros.addEventListener('click', eliminarMediocentro);
+            })
+
+            function eliminarMediocentro(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
 
 
-        const eliminarDelanteros = document.querySelectorAll('.eliminarDelanteros');
-
-        eliminarDelanteros.forEach(delanteros => {
-            delanteros.addEventListener('click', eliminarDelantero);
-        })
-
-        function eliminarDelantero(e) {
-            e.preventDefault();
-            const contenido = e.target.parentNode;
-            contenido.remove();
-        }
+            // ELIMINAR DELANTEROS
 
 
-        // AÑADIR PORTEROS
+            const eliminarDelanteros = document.querySelectorAll('.eliminarDelanteros');
+
+            eliminarDelanteros.forEach(delanteros => {
+                delanteros.addEventListener('click', eliminarDelantero);
+            })
+
+            function eliminarDelantero(e) {
+                e.preventDefault();
+                const contenido = e.target.parentNode;
+                contenido.remove();
+            }
+
+
+            // AÑADIR JUGADORES
 
 
             const formulario = document.querySelector('#jugadorForm');
@@ -419,30 +419,84 @@
                 const posicionJugador = document.querySelector('#posicionJugador').value;
                 const imagenJugador = document.querySelector('#urlJugador').value;
 
-                const divJugador = document.createElement('div');
-                divJugador.classList.add('col-lg-4') //
-                divJugador.innerHTML = `
+                // AÑADIR PORTEROS
+
+                if (posicionJugador.toLowerCase() == "portero") {
+                    const divJugador = document.createElement('div');
+                    divJugador.classList.add('col-lg-4') //
+                    divJugador.innerHTML = `
   <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
       <h2>${nombreJugador}</h2>
       <h5>${posicionJugador}</h5>
       <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
   `
 
-                const encontrar = document.querySelector('.row.text-center');
+                    const encontrar = document.querySelector('.row.text-center');
 
-                encontrar.appendChild(divJugador);
+                    encontrar.appendChild(divJugador);
 
-                const botonEliminar = divJugador.querySelector('.eliminarPorteros');
+                    const botonEliminar = divJugador.querySelector('.eliminarPorteros');
 
-                botonEliminar.addEventListener('click', eliminarPortero);
+                    botonEliminar.addEventListener('click', eliminarPortero);
 
-                function eliminarPortero(e) {
-                    e.preventDefault();
-                    const contenido = e.target.parentNode;
-                    contenido.remove();
+                } else if (posicionJugador.toLowerCase() == "defensa central" || posicionJugador.toLowerCase() == "lateral") {
+
+                    // AÑADIR DEFENSA
+
+                    const filaDefensa = document.querySelector('#defensa');
+                    const nuevoDivDefensa = document.createElement('div');
+
+                    nuevoDivDefensa.className ='col-lg-4 mb-5'
+                    
+                    nuevoDivDefensa.innerHTML = `
+                        <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
+                        <h2>${nombreJugador}</h2>
+                        <h5>${posicionJugador}</h5>
+                        <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                        `
+
+                    filaDefensa.appendChild(nuevoDivDefensa);
+                    
+                    const botonEliminarDefensa = nuevoDivDefensa.querySelector('.eliminarDefensas');
+
+                    botonEliminarDefensa.addEventListener('click', eliminarDefensa);
+
+
+                }else if(posicionJugador.toLowerCase() == "mediocentro" ||posicionJugador.toLowerCase() == "mediocentro defensivo" || posicionJugador.toLowerCase() == "extremo (mediocentro)" || posicionJugador.toLowerCase() == "mediocentro ofensivo"){
+                    
+
+                    const mediocentros = document.querySelector('#mediocentros');
+
+                    const divMediocentros = document.createElement('div');
+
+                    divMediocentros.className = 'col-lg-4 mb-5';
+
+                    divMediocentros.innerHTML = `
+                    <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
+                        <h2>${nombreJugador}</h2>
+                        <h5>${posicionJugador}</h5>
+                        <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+ 
+                    `
+
+                    mediocentros.appendChild(divMediocentros);
+
+                    const botonEliminarMediocentros = divMediocentros.querySelector('.eliminarMediocentros');
+
+                    botonEliminarMediocentros.addEventListener('click', eliminarMediocentro);
+
+                }
+                
+                
+                else{
+                    alert('Elige una de estas posiciones: Portero, Defensa Central, Lateral,  Mediocentro, Mediocentro Defensivo , extremo (mediocentro), extremo (delantero) o Delantero Centro');
                 }
 
             }
+
+
+
+
 
         });
 
