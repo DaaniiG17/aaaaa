@@ -790,10 +790,6 @@ insert into jugadores values(27, "Villarreal", "Ilias", "Akhomach", 60, 175, 20,
 
 
 
-
-
-
-
 insert into equipo values(1, "Alaves", "Vitoria-Gasteiz", 1921, "Luis Garcia Plaza", "Estadio de Mendizorroza");
 insert into equipo values(2, "Almeria", "Almeria", 1909, "Pepe Mel", "Powe Horse Stadium");
 insert into equipo values(3, "Athletic Club deBilbao", "Bilbao", 1898, "Ernesto Valverde", "Estadio de San Mamés");
