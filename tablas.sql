@@ -6,8 +6,8 @@ use infofutbol;
 -- drop table if exists equipo;
 
 create table if not exists equipo(
-    nombre varchar(50) not null primary key,
-	id_equipo int,
+    id_equipo int not null primary key,
+	nombre varchar(50),
     ciudad varchar(50) not null,
     anio_creacion int not null,
     entrenador varchar(50) not null,
