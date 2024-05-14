@@ -788,8 +788,6 @@ insert into jugadores values(27, "Villarreal", "Ilias", "Akhomach", 60, 175, 20,
 
 
 
-
-
 insert into equipo values(1, "Alaves", "Vitoria-Gasteiz", 1921, "Luis Garcia Plaza", "Estadio de Mendizorroza");
 insert into equipo values(2, "Almeria", "Almeria", 1909, "Pepe Mel", "Powe Horse Stadium");
 insert into equipo values(3, "Athletic Club deBilbao", "Bilbao", 1898, "Ernesto Valverde", "Estadio de San Mamés");
@@ -810,6 +808,7 @@ insert into equipo values(17, "Real Sociedad", "San Sebastian", 1909, "Imanol Al
 insert into equipo values(18, "Sevilla", "Sevilla", 1890, "Quique Sánchez Flores", "Estadio Ramón Sánchez-Pizjuán");
 insert into equipo values(19, "Valencia", "Valencia", 1919, "Rubén Baraja", "Estadio de Mestalla");
 insert into equipo values(20, "Villarreal", "Villarreal", 1923, "Marcelino García Toral", "Estadio de la Cerámica");
+
 
 -- Procedimientos
 

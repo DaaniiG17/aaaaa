@@ -16,11 +16,13 @@ create table if not exists equipo(
 
 
 
-create table if not exists plantilla(
-	id_plantilla varchar(50) primary key,
-    cantidad_jugadores int not null,
+create table if not exists alineacion(
+	id_alineacion varchar(50) primary key,
+    nombre_jugador int not null,
+    apellido_jugador int not null,
+    posicion varchar(50) not null,
     numero_camiseta int not null,
-    foreign key(id_plantilla) references equipo(nombre),
+    foreign key(id_alineacion) references equipo(nombre),
     foreign key(numero_camiseta) references jugadores(numero_camiseta)
 );
 
