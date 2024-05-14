@@ -491,8 +491,6 @@ insert into jugadores values(24, "Girona", "Cristian", "Portugués", 66, 167, 31
 
 
 
-
-
 insert into jugadores values(1, "Granada", "Raúl", "Fernández", 92, 195, 36, "Portero");
 insert into jugadores values(13, "Granada", "Marc", "Martínez", 72, 186, 34, "Portero");
 insert into jugadores values(25, "Granada", "Augusto", "Batalla", 87, 186, 28, "Portero");
