@@ -53,40 +53,81 @@
 
 
     <form id="jugadorForm" class="container mt-5">
-        <div class="mb-3">
-            <label for="nombreJugador" class="form-label">Escribe el nombre del estadio</label>
-            <input type="text" class="form-control" id="nombreJugador" style="width: 250px;" required>
-        </div>
-        <div class="mb-3">
-            <label for="urlJugador" class="form-label">Escribe la url del estadio</label>
-            <input type="text" class="form-control" id="urlJugador" style="width: 250px;" required>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Cambiar estadio</button>
+        
     </form>
 
 
-    <div class="container marketing">
+    <div class="container marketing mb-5">
 
         <!-- ENTRENADOR -->
         <h1 class="mt-5">ESTADIO</h1>
         <hr>
-        <div class="row mt-5 d-flex justify-content-center">
+        <div class="row mt-5 d-flex justify-content-center" id="estadio">
             <div class="col-lg-4 text-center">
 
-                <h2>Estadio de Mendizorroza</h2>
-                <button class="btn btn-secondary bg-primary eliminarEntrenador mt-3">Cambiar estadio</button>
+                <h2 id="nombreEstadio">Estadio de Mendizorroza</h2>
+                <button class="btn btn-secondary bg-primary cambiarEstadio mt-3">Cambiar estadio</button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
 
         <div class="d-flex  justify-content-center mt-5">
-            <img src="imgAlaves/estadioAlaves.jpg" alt="" class="rounded-4" style="width: 100%;">
+            <img src="imgAlaves/estadioAlaves.jpg" id="imagenEstadio" alt="" class="rounded-4" style="width: 100%;">
         </div>
+    </div>
 
+    <script>
 
-        ddd
-    
+        document.addEventListener('DOMContentLoaded', function(){
+
+            const formulario = document.getElementById('jugadorForm');
+            const botonCambiar = document.querySelector('.cambiarEstadio');
+
+            botonCambiar.addEventListener('click', cambiarEstadio);
+
+            function cambiarEstadio(e){
+
+                event.preventDefault();
+
+                formulario.innerHTML = `
+                <div class="mb-3">
+            <label class="form-label">Escribe el nombre del estadio</label>
+            <input type="text" class="form-control" id="nombreEstadioNuevo" style="width: 250px;" required>
+            </div>
+            <div class="mb-3">
+                <label for="urlJugador" class="form-label">Escribe la url del estadio</label>
+                <input type="text" class="form-control" id="urlImagen" style="width: 250px;" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="botonCambiar">Cambiar estadio</button>
+                `
+            
+            const botonCambiarEstadio = formulario.querySelector('#botonCambiar');
+            const estadio = document.querySelector('#imagenEstadio');
+            let nuevoEstadio = document.getElementById('nombreEstadio');
+            let URL = document.querySelector('#imagenEstadio');
+
+            botonCambiarEstadio.addEventListener('click', cambiarANuevoEstadio);
+
+            function cambiarANuevoEstadio(e){
+                const nombreEstadioNuevo = formulario.querySelector('#nombreEstadioNuevo').value;
+                const nuevaURL = formulario.querySelector('#urlImagen').value;
+                e.preventDefault();
+            nuevoEstadio.innerHTML = `
+                ${nombreEstadioNuevo}
+            `
+            
+            URL.src = `
+                ${nuevaURL}
+            `
+
+            }
+            }
+
+        })
+
+    </script>
+
 </body>
 
 </html>
