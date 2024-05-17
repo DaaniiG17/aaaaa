@@ -85,7 +85,8 @@
         <div class="row mt-5 d-flex justify-content-center">
 
             <div class="col-lg-4 text-center">
-                <img class="rounded-circle" width="140" height="140" src="../../entrenadores/imgEntrenadores/entrenadorAlaves.png">
+                <img class="rounded-circle" width="140" height="140"
+                    src="../../entrenadores/imgEntrenadores/entrenadorAlaves.png">
                 </img>
 
                 <h2>Luis Garcia Plaza</h2>
@@ -330,6 +331,23 @@
 
     </div>
 
+    <div class="bg-primary">
+        <footer class="py-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="alaves.html" class="nav-link text-white">Plantilla</a></li>
+                <li class="nav-item"><a href="estadio.html" class="nav-link text-white">Estadio</a></li>
+                <li class="nav-item"><a href="partidosJugados.html" class="nav-link text-white">Partidos jugados</a></li>
+                <li class="nav-item"><a href="goles.html" class="nav-link text-white">Goles</a></li>
+                <li class="nav-item"><a href="asistencias.html" class="nav-link text-white">Asistencias</a></li>
+                <li class="nav-item"><a href="amarillas.html" class="nav-link text-white">Tarjetas amarillas</a></li>
+                <li class="nav-item"><a href="rojas.html" class="nav-link text-white">Tarjetas rojas</a></li>
+                <li class="nav-item"><a href="temporadas.html" class="nav-link text-white">Temporadas en el club</a></li>
+            </ul>
+
+            <p class="text-center text-white mt-3">&copy; INFOFUTBOL</p>
+        </footer>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function (e) {
 
@@ -446,8 +464,8 @@
                     const filaDefensa = document.querySelector('#defensa');
                     const nuevoDivDefensa = document.createElement('div');
 
-                    nuevoDivDefensa.className ='col-lg-4 mb-5'
-                    
+                    nuevoDivDefensa.className = 'col-lg-4 mb-5'
+
                     nuevoDivDefensa.innerHTML = `
                         <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
                         <h2>${nombreJugador}</h2>
@@ -456,13 +474,13 @@
                         `
 
                     filaDefensa.appendChild(nuevoDivDefensa);
-                    
+
                     const botonEliminarDefensa = nuevoDivDefensa.querySelector('.eliminarDefensas');
 
                     botonEliminarDefensa.addEventListener('click', eliminarDefensa);
 
 
-                }else if(posicionJugador.toLowerCase() == "mediocentro" ||posicionJugador.toLowerCase() == "mediocentro defensivo" || posicionJugador.toLowerCase() == "extremo (mediocentro)" || posicionJugador.toLowerCase() == "mediocentro ofensivo"){
+                } else if (posicionJugador.toLowerCase() == "mediocentro" || posicionJugador.toLowerCase() == "mediocentro defensivo" || posicionJugador.toLowerCase() == "extremo (mediocentro)" || posicionJugador.toLowerCase() == "mediocentro ofensivo") {
 
                     let comprobador = 0;
 
@@ -478,7 +496,7 @@
 
                     divMediocentros.className = 'col-lg-4 mb-5';
 
-                    if(comprobador == 1){
+                    if (comprobador == 1) {
                         divMediocentros.innerHTML = `
                     <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
                         <h2>${nombreJugador}</h2>
@@ -486,7 +504,7 @@
                         <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
  
                     `
-                    }else{
+                    } else {
                         divMediocentros.innerHTML = `
                         <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
                         <h2>${nombreJugador}</h2>
@@ -495,7 +513,7 @@
  
                     `
                     }
-                
+
 
                     mediocentros.appendChild(divMediocentros);
 
@@ -503,22 +521,22 @@
 
                     botonEliminarMediocentros.addEventListener('click', eliminarMediocentro);
 
-                }else if(posicionJugador.toLowerCase() == 'delantero centro' || posicionJugador.toLowerCase() == 'extremo (delantero)'){
-                    
+                } else if (posicionJugador.toLowerCase() == 'delantero centro' || posicionJugador.toLowerCase() == 'extremo (delantero)') {
+
                     const contenido = document.querySelector('#delantero');
 
                     const divDelanteros = document.createElement('div');
 
                     let comprobador = 0;
 
-                    let posicionMostrada; 
+                    let posicionMostrada;
 
-                    if(posicionJugador.toLowerCase() == 'extremo (delantero)'){
+                    if (posicionJugador.toLowerCase() == 'extremo (delantero)') {
                         posicionMostrada = 'extremo';
                         comprobador = 1;
                     }
 
-                    if(comprobador == 1){
+                    if (comprobador == 1) {
                         divDelanteros.innerHTML = `
                         <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
                         <h2>${nombreJugador}</h2>
@@ -526,8 +544,8 @@
                         <button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>
  
                     `
-                    }else{
-                        
+                    } else {
+
                         divDelanteros.innerHTML = `
                         <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
                         <h2>${nombreJugador}</h2>
@@ -537,7 +555,7 @@
                     `
                     }
 
-                    
+
 
                     divDelanteros.className = 'col-lg-4 mb-5';
 
@@ -548,7 +566,7 @@
                     botonEliminarDelanteros.addEventListener('click', eliminarDelantero);
 
                 }
-                else{
+                else {
                     alert('Elige una de estas posiciones: Portero, Defensa Central, Lateral,  Mediocentro, Mediocentro Defensivo , extremo (mediocentro), extremo (delantero) o Delantero Centro');
                 }
 
