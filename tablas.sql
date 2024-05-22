@@ -1,3 +1,5 @@
+create table if not exists infofutbol;
+
 use infofutbol;
 
 -- drop table if exists estadisticas;

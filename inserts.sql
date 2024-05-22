@@ -1446,7 +1446,6 @@ insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicio
 
 
 
-
 insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Andriy", "Lunin", "Portero", 13);
 insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Eder", "Militao", "Defensa Central", 3);
 insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Dani", "Carvajal", "Lateral", 2);
