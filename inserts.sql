@@ -12,7 +12,7 @@ insert into equipo values(8, "Celta de Vigo", "Vigo", 1923, "Claudio Giráldez",
 insert into equipo values(9, "Getafe", "Madrid", 1923, "José Bordalás", "Estadio Coliseum");
 insert into equipo values(10, "Girona", "Barcelona", 1930, "Miguel Ángel Sánchez", "Montilivi");
 insert into equipo values(11, "Granada", "Granada", 1931, "José Ramón Sandoval", "Nuevo los Cármenes");
-insert into equipo values(12, "Las Palmas", "Las Palmas de Gra Canaria", 1949, "Francisco Javier García Pimienta", "Estadio de Gran Canaria");
+insert into equipo values(12, "Las Palmas", "Las Palmas de Gran Canaria", 1949, "Francisco Javier García Pimienta", "Estadio de Gran Canaria");
 insert into equipo values(13, "Mallorca", "Mallorca", 1916, "Javier Aguirre", "Son Moix");
 insert into equipo values(14, "Osasuna", "Pamplona", 1920, "Jagoba Arrasate", "El Sadar");
 insert into equipo values(15, "Rayo Vallecano", "Madrid", 1924, "Iñigo Perez", "Estadio de Vallecas");
@@ -30,9 +30,6 @@ insert into equipo values(20, "Villarreal", "Villareal", 1923, "Marcelino Garcí
 
 insert into jugadores values(1, "Alaves", "Antonio", "Sivera", 75, 184, 27, "Portero");
 insert into jugadores values(31, "Alaves", "Jesús", "Owono", 67, 183, 23, "Portero");
-
--- DEFENSAS
-
 insert into jugadores values(31, "Alaves", "Andoni", "Gorosabel", 70, 174, 27, "Lateral");
 insert into jugadores values(3, "Alaves", "Rubén", "Duarte", 75, 180, 28, "Lateral");
 insert into jugadores values(26, "Alaves", "Joseda", "Álvarez", 75, 183, 23, "Lateral");
@@ -42,18 +39,11 @@ insert into jugadores values(39, "Alaves", "Victor", "Parada", 76, 187, 22, "Lat
 insert into jugadores values(4, "Alaves", "Aleksandar", "Sedlar", 79, 178, 32, "Defensa Central");
 insert into jugadores values(5, "Alaves", "Abdel", "Abqar", 80, 188, 25, "Defensa Central");
 insert into jugadores values(16, "Alaves", "Rafa", "Marín", 86, 190, 21, "Defensa Central");
-
--- CENTROCAMPISTAS
-
 insert into jugadores values(6, "Alaves", "Ander", "Guevara", 73, 180, 26, "Mediocentro");
 insert into jugadores values(8, "Alaves", "Antonio", "Blanco", 70, 176, 23, "Mediocentro");
 insert into jugadores values(10, "Alaves", "Ianis", "Hagi", 72, 182, 25, "Mediocentro");
 insert into jugadores values(18, "Alaves", "Jon", "Guridi", 64, 179, 29, "Mediocentro");
 insert into jugadores values(23, "Alaves", "Carlos", "Benavídez", 76, 185, 26, "Mediocentro");
-
-
--- DELANTEROS
-
 insert into jugadores values(11, "Alaves", "Luis", "Rioja", 68, 175, 30, "Extremo");
 insert into jugadores values(17, "Alaves", "Xeber", "Alkain", 69, 174, 26, "Extremo");
 insert into jugadores values(21, "Alaves", "Abde", "Rebbach", 70, 176, 25, "Extremo");
@@ -65,16 +55,10 @@ insert into jugadores values(32, "Alaves", "Samu", "Omorodion", 90, 193, 20, "De
 
 
 
--- PORTEROS
 
 
 insert into jugadores values(13, "Almería", "Fernando", "Martínez", 85, 185, 33, "Portero");
 insert into jugadores values(25, "Almería", "Luís", "Maximiliano", 82, 190, 25, "Portero");
-
-
--- DEFENSAS
-
-
 insert into jugadores values(17, "Almería", "Álex", "Pozo", 70, 174, 25, "Lateral");
 insert into jugadores values(18, "Almería", "Marc", "Pubil", 86, 190, 20, "Lateral");
 insert into jugadores values(20, "Almería", "Álex", "Centelles", 73, 185, 24, "Lateral");
@@ -82,20 +66,12 @@ insert into jugadores values(17, "Almería", "Bruno", "Langa", 70, 178, 26, "Lat
 insert into jugadores values(3, "Almería", "Edgar", "González", 78, 193, 27, "Defensa Central");
 insert into jugadores values(16, "Almería", "Aleksandar", "Radovanovic", 83, 189, 30, "Defensa Central");
 insert into jugadores values(21, "Almería", "Chumi", "González", 78, 186, 25, "Defensa Central");
-
-
--- CENTROCAMPISTAS
-
 insert into jugadores values(4, "Almería", "Iddrisu", "Baba", 77, 185, 28, "Mediocentro");
 insert into jugadores values(5, "Almería", "Lucas", "Robertone", 70, 175, 27, "Mediocentro");
 insert into jugadores values(6, "Almería", "Dion", "Lopy", 80, 186, 22, "Mediocentro");
 insert into jugadores values(8, "Almería", "Jonathan", "Viera", 66, 171, 34, "Mediocentro");
 insert into jugadores values(11, "Almería", "Gonzalo", "Melero", 77, 183, 30, "Mediocentro");
 insert into jugadores values(19, "Almería", "Sergio", "Arribas", 64, 173, 22, "Mediocentro");
-
-
--- DELANTERO
-
 insert into jugadores values(7, "Almería", "Largie", "Ramazani", 55, 167, 23, "Extremo");
 insert into jugadores values(10, "Almería", "Adri", "Embarba", 66, 173, 32, "Extremo");
 insert into jugadores values(38, "Almería", "Luka", "Romero", 64, 165, 19, "Extremo");
@@ -107,17 +83,11 @@ insert into jugadores values(29, "Almería", "Marko", "Milovanovic", 85, 196, 20
 
 
 
--- PORTEROS
+
 
 
 insert into jugadores values(1, "Athletic Club", "Unai", "Simón", 88, 190, 26, "Portero");
 insert into jugadores values(13, "Athletic Club", "Julen", "Agirrezalaba", 80, 187, 23, "Portero");
-
-
-
--- DEFENSAS
-
-
 insert into jugadores values(3, "Athletic Club", "Dani", "Vivian", 78, 183, 24, "Defensa Central");
 insert into jugadores values(4, "Athletic Club", "Aitor", "Paredes", 76, 186, 24, "Defensa Central");
 insert into jugadores values(5, "Athletic Club", "Yeray", "Álvarez", 78, 182, 29, "Defensa Central");
@@ -126,21 +96,12 @@ insert into jugadores values(17, "Athletic Club", "Yuri", "Berchiche", 79, 181, 
 insert into jugadores values(18, "Athletic Club", "Oscar", "De Marcos", 77, 182, 35, "Lateral");
 insert into jugadores values(19, "Athletic Club", "Imanol", "Garcia", 63, 177, 23, "Lateral");
 insert into jugadores values(24, "Athletic Club", "Beñat", "Prados", 73, 180, 23, "Lateral");
-
-
--- CENTROCAMPISTAS
-
 insert into jugadores values(6, "Athletic Club", "Mikel", "Vesga", 83, 191, 31, "Mediocentro ofensivo");
 insert into jugadores values(8, "Athletic Club", "Oihan", "Sancet", 73, 188, 24, "Mediapunta");
 insert into jugadores values(16, "Athletic Club", "Iñigo", "Ruíz", 69, 175, 30, "Mediocentro");
 insert into jugadores values(21, "Athletic Club", "Dani", "Vivian", 71, 182, 34, "Mediocentro");
 insert into jugadores values(22, "Athletic Club", "Raúl", "García", 83, 184, 37, "Mediapunta");
 insert into jugadores values(30, "Athletic Club", "Unai", "Gómez", 74, 183, 20, "Mediapunta");
-
-
-
--- DELANTEROS
-
 insert into jugadores values(7, "Athletic Club", "Alex", "Berenguer", 73, 175, 28, "Extremo");
 insert into jugadores values(9, "Athletic Club", "Iñaki", "Williams", 81, 186, 29, "Extremo");
 insert into jugadores values(10, "Athletic Club", "Iker", "Muniain", 65, 170, 31, "Extremo");
@@ -151,28 +112,17 @@ insert into jugadores values(23, "Athletic Club", "Malcum", "Adu", 69, 183, 22, 
 
 
 
--- PORTEROS
+
 
 
 insert into jugadores values(13, "Atletico de madrid", "Jan", "Oblak", 87, 188, 31, "Portero");
 insert into jugadores values(1, "Atletico de madrid", "Horatiu", "Moldovan", 80, 187, 26, "Portero");
-
-
-
--- DEFENSA
-
-
 insert into jugadores values(2, "Atletico de madrid", "Jose", "Giménez", 77, 185, 29, "Defensa Central");
 insert into jugadores values(3, "Atletico de madrid", "Cesar", "Azpilicueta", 34, 178, 34, "Lateral");
 insert into jugadores values(15, "Atletico de madrid", "Stefan", "Savic", 81, 187, 33, "Defensa Central");
 insert into jugadores values(16, "Atletico de madrid", "Nahuel", "Molina", 70, 175, 26, "Lateral");
 insert into jugadores values(22, "Atletico de madrid", "Mario", "Hermoso", 75, 184, 28, "Defensa Central");
 insert into jugadores values(23, "Atletico de madrid", "Reinildo", "Mandava", 73, 180, 30, "Lateral");
-
-
-
--- CENTROCAMPISTAS
-
 insert into jugadores values(5, "Atletico de madrid", "Rodrigo", "De Paul", 70, 180, 29, "Mediocentro");
 insert into jugadores values(6, "Atletico de madrid", "Koke", "Resurrección", 77, 176, 32, "Mediocentro");
 insert into jugadores values(8, "Atletico de madrid", "Saúl", "Ñíguez", 76, 184, 29, "Mediocentro");
@@ -181,13 +131,6 @@ insert into jugadores values(14, "Atletico de madrid", "Marcos", "Llorente", 74,
 insert into jugadores values(17, "Atletico de madrid", "Rodrigo", "Riquelme", 66, 174, 24, "Mediapunta");
 insert into jugadores values(20, "Atletico de madrid", "Axel", "Witsel", 81, 186, 35, "Mediocentro");
 insert into jugadores values(24, "Atletico de madrid", "Pablo", "Barrios", 75, 181, 20, "Mediocentro");
-
-
-
--- DELANTEROS
-
-
-
 insert into jugadores values(7, "Atletico de madrid", "Antoine", "Griezman", 73, 176, 33, "Delantero Centro");
 insert into jugadores values(9, "Atletico de madrid", "Memphis", "Depay", 78, 178, 30, "Extremo");
 insert into jugadores values(10, "Atletico de madrid", "Angel", "Correa", 68, 171, 29, "Delantero Centro");
@@ -197,16 +140,11 @@ insert into jugadores values(19, "Atletico de madrid", "Álvaro", "Morata", 84, 
 
 
 
--- PORTEROS
+
 
 
 insert into jugadores values(1, "Barcelona", "Marc-Andre", "Ter Stegen", 85, 187, 32, "Portero");
 insert into jugadores values(13, "Barcelona", "Iñaki", "Peña", 78, 184, 25, "Portero");
-
-
--- DEFENSAS
-
-
 insert into jugadores values(2, "Barcelona", "João", "Cancelo", 74, 182, 29, "Lateral");
 insert into jugadores values(3, "Barcelona", "Alejandro", "Balde", 69, 175, 20, "Lateral");
 insert into jugadores values(4, "Barcelona", "Ronald", "Araujo", 79, 188, 25, "Defensa Central");
@@ -215,24 +153,12 @@ insert into jugadores values(15, "Barcelona", "Andreas", "Christensen", 82, 187,
 insert into jugadores values(17, "Barcelona", "Marcos", "Alonso", 84, 188, 33, "Lateral");
 insert into jugadores values(20, "Barcelona", "Sergi", "Roberto", 68, 178, 32, "Lateral");
 insert into jugadores values(23, "Barcelona", "Jules", "Kounde", 75, 180, 25, "Defensa Central");
-
-
-
-
--- CENTROCAMPISTAS
-
-
 insert into jugadores values(6, "Barcelona", "Pablo", "Gavi", 70, 173, 19, "Mediocentro");
 insert into jugadores values(8, "Barcelona", "Pedri", "González", 60, 174, 21, "Extremo");
 insert into jugadores values(16, "Barcelona", "Fermín", "López", 64, 174, 20, "Mediocentro");
 insert into jugadores values(18, "Barcelona", "Oriol", "Romeu", 83, 183, 32, "Mediocentro Defensivo");
 insert into jugadores values(21, "Barcelona", "Frenkie", "De Jong", 74, 181, 26, "Mediocentro");
 insert into jugadores values(22, "Barcelona", "Ilkay", "Gundogan", 80, 180, 33, "Mediocentro");
-
-
-
--- DELANTEROS
-
 insert into jugadores values(9, "Barcelona", "Robert", "Lewandowski", 81, 185, 35, "Delantero Centro");
 insert into jugadores values(7, "Barcelona", "Ferran", "Torres", 77, 184, 24, "Mediapunta");
 insert into jugadores values(11, "Barcelona", "Raphael", "Dias", 68, 176, 27, "Extremo");
@@ -242,19 +168,10 @@ insert into jugadores values(27, "Barcelona", "Lamine", "Yamal", 72, 180, 16, "E
 
 
 
--- PORTEROS
 
 
 insert into jugadores values(1, "Betis", "Claudio", "Bravo", 80, 184, 41, "Portero");
 insert into jugadores values(13, "Betis", "Rui", "Silva", 91, 191, 30, "Portero");
-
-
-
-
-
--- DEFENSAS
-
-
 insert into jugadores values(2, "Betis", "Héctor", "Bellerin", 74, 178, 29, "Lateral");
 insert into jugadores values(3, "Betis", "Juan", "Miranda", 76, 185, 24, "Lateral");
 insert into jugadores values(6, "Betis", "Germán", "Pezzella", 82, 187, 32, "Defensa Central");
@@ -263,12 +180,6 @@ insert into jugadores values(19, "Betis", "Sokratis", "Papastathopoulos", 85, 18
 insert into jugadores values(23, "Betis", "Youssouf", "Sabaly", 67, 174, 31, "Lateral");
 insert into jugadores values(24, "Betis", "Aitor", "Ruibal", 74, 176, 28, "Lateral");
 insert into jugadores values(28, "Betis", "Chadi", "Riad", 78, 186, 20, "Lateral");
-
-
-
--- CENTROCAMPISTAS
-
-
 insert into jugadores values(4, "Betis", "Johnny", "Cardoso", 83, 185, 22, "Mediocentro");
 insert into jugadores values(5, "Betis", "Guido", "Rodríguez", 80, 185, 30, "Mediocentro Defensivo");
 insert into jugadores values(14, "Betis", "William", "Carvalho", 83, 187, 32, "Mediocentro Defensivo");
@@ -277,13 +188,6 @@ insert into jugadores values(18, "Betis", "Pablo", "Fornals", 67, 178, 28, "Medi
 insert into jugadores values(21, "Betis", "Marc", "Roca", 77, 184, 27, "Mediocentro Defensivo");
 insert into jugadores values(21, "Betis", "Isco", "Alarcon", 79, 176, 32, "Mediapunta");
 insert into jugadores values(21, "Betis", "Sergi", "Altimira", 80, 188, 22, "Mediocentro");
-
-
-
--- DELANTEROS
-
-
-
 insert into jugadores values(8, "Betis", "Nabil", "Fekir", 72, 173, 30, "Delantero Centro");
 insert into jugadores values(10, "Betis", "Ayoze", "Pérez", 72, 178, 30, "Delantero Centro");
 insert into jugadores values(9, "Betis", "Chimi", "Ávila", 81, 172, 30, "Delantero Centro");
@@ -293,14 +197,12 @@ insert into jugadores values(38, "Betis", "Assane", "Diao", 80, 185, 18, "Extrem
 
 
 
--- PORTEROS
+
+
 
 
 insert into jugadores values(1, "Cadiz", "Conan", "Ledesma", 70, 187, 31, "Portero");
 insert into jugadores values(13, "Cadiz", "David", "Gil", 81, 186, 30, "Portero");
-
-
--- DEFENSAS
 insert into jugadores values(2, "Cadiz", "Joseba", "Zaldúa", 70, 176, 31, "Lateral");
 insert into jugadores values(3, "Cadiz", "Rafael ", "Dali", 84, 186, 30, "Defensa Central");
 insert into jugadores values(5, "Cadiz", "Victor", "Chust", 77, 182, 24, "Defensa Central");
@@ -309,23 +211,12 @@ insert into jugadores values(20, "Cadiz", "Iza", "Carcelén", 69, 170, 31, "Late
 insert into jugadores values(27, "Cadiz", "Jorge", "Meré", 77, 182, 27, "Defensa Central");
 insert into jugadores values(23, "Cadiz", "Luis", "Hernández", 75, 183, 35, "Defensa Central");
 insert into jugadores values(33, "Cadiz", "Lucas", "Pires", 71, 175, 23, "Lateral");
-
-
-
--- CENTROCAMPISTAS
-
 insert into jugadores values(4, "Cadiz", "Rubén", "Alcaraz", 81, 183, 33, "Mediocentro");
 insert into jugadores values(8, "Cadiz", "Alex", "Fernández", 72, 182, 31, "Mediocentro");
 insert into jugadores values(4, "Cadiz", "Iván", "Alejo", 73, 184, 29, "Mediocentro");
 insert into jugadores values(12, "Cadiz", "Rominigue", "Kouamé", 68, 177, 27, "Mediocentro");
 insert into jugadores values(17, "Cadiz", "Gonzalo", "Escalante", 76, 182, 31, "Mediocentro");
 insert into jugadores values(27, "Cadiz", "Robert", "Navarro", 69, 178, 22, "Mediocentro");
-
-
-
--- DELANTEROS
-
-
 insert into jugadores values(7, "Cadiz", "Rubén", "Sobrino", 73, 185, 31, "Delantero Centro");
 insert into jugadores values(9, "Cadiz", "Juan Miguel", "Jiménez", 69, 172, 30, "Delantero Centro");
 insert into jugadores values(10, "Cadiz", "Brian", "Ocampo", 70, 173, 24, "Extremo");
@@ -338,18 +229,12 @@ insert into jugadores values(25, "Cadiz", "Maxi", "Gómez", 91, 186, 27, "Delant
 
 
 
--- PORTEROS
+
 
 
 
 insert into jugadores values(25, "Celta", "Vicente", "Guaita", 81, 190, 37, "Portero");
 insert into jugadores values(13, "Celta", "Iván", "Villar", 76, 183, 26, "Portero");
-
-
-
--- DEFENSAS
-
-
 insert into jugadores values(2, "Celta", "Carl", "Starfelt", 83, 185, 28, "Defensa Central");
 insert into jugadores values(3, "Celta", "Óscar", "Mingueza", 75, 184, 24, "Defensa Central");
 insert into jugadores values(4, "Celta", "Unai", "Núñez", 80, 186, 27, "Defensa Central");
@@ -358,13 +243,6 @@ insert into jugadores values(20, "Celta", "Kevin", "Vázquez", 72, 173, 31, "Lat
 insert into jugadores values(21, "Celta", "Mihailo", "Ristic", 75, 180, 28, "Lateral");
 insert into jugadores values(23, "Celta", "Manu", "Sanchez", 70, 179, 23, "Lateral");
 insert into jugadores values(28, "Celta", "Carlos", "Domínguez", 81, 187, 23, "Defensa Central");
-
-
-
-
--- CENTROCAMPISTAS
-
-
 insert into jugadores values(5, "Celta", "Rubén", "Alcaraz", 78, 185, 28, "Mediocentro");
 insert into jugadores values(6, "Celta", "Carlos", "Dotor", 68, 180, 23, "Mediocentro");
 insert into jugadores values(8, "Celta", "Fran", "Beltran", 66, 170, 25, "Mediocentro");
@@ -374,11 +252,6 @@ insert into jugadores values(16, "Celta", "Jaílson", "Marques", 75, 187, 28, "M
 insert into jugadores values(19, "Celta", "Williot", "Swedberg", 78, 185, 20, "Mediapunta");
 insert into jugadores values(30, "Celta", "Hugo", "Sotelo", 72, 180, 20, "Extremo");
 insert into jugadores values(33, "Celta", "Hugo", "Álvarez", 70, 176, 20, "Extremo");
-
-
-
--- DELANTEROS
-
 insert into jugadores values(7, "Celta", "Carles", "Pérez", 75, 173, 26, "Extremo");
 insert into jugadores values(10, "Celta", "Iago", "Aspas", 67, 176, 36, "Delantero Centro");
 insert into jugadores values(12, "Celta", "Tasos", "Douvikas", 76, 184, 24, "Delantero Centro");
@@ -388,16 +261,10 @@ insert into jugadores values(18, "Celta", "Jørgen Strand", "Larsen", 79, 193, 2
 
 
 
--- PORTEROS
+
 
 insert into jugadores values(13, "Getafe", "David", "Soria", 85, 192, 31, "Portero");
 insert into jugadores values(1, "Getafe", "Daniel", "Furato", 88, 190, 26, "Portero");
-
-
-
--- DEFENSAS
-
-
 insert into jugadores values(2, "Getafe", "Djené", "Dakonam", 72, 187, 32, "Lateral");
 insert into jugadores values(3, "Getafe", "Fabrizio", "Angileri", 73, 179, 30, "Lateral");
 insert into jugadores values(4, "Getafe", "Gaston", "Álvarez", 72, 184, 24, "Defensa Central");
@@ -407,12 +274,6 @@ insert into jugadores values(16, "Getafe", "Diego", "Rico", 78, 180, 31, "Latera
 insert into jugadores values(18, "Getafe", "José Ángel", "Carmona", 75, 183, 22, "Lateral");
 insert into jugadores values(21, "Getafe", "Juan", "Iglesias", 79, 185, 25, "Lateral");
 insert into jugadores values(27, "Getafe", "Gorka", "Rivera", 76, 184, 19, "Lateral");
-
-
-
--- CENTROCAMPISTAS
-
-
 insert into jugadores values(5, "Getafe", "Luis", "Milla", 67, 175, 29, "Mediocentro");
 insert into jugadores values(8, "Getafe", "Mauro", "Arambarri", 74, 175, 28, "Mediocentro");
 insert into jugadores values(9, "Getafe", "Óscar", "Rodríguez", 67, 174, 25, "Mediapunta");
@@ -421,12 +282,6 @@ insert into jugadores values(20, "Getafe", "Nemanja", "Maksimovic", 69, 189, 29,
 insert into jugadores values(24, "Getafe", "Ilaix", "Moriba", 73, 185, 21, "Mediocentro");
 insert into jugadores values(25, "Getafe", "Yellu", "Moriba", 77, 192, 19, "Mediocentro");
 insert into jugadores values(32, "Getafe", "Jorge", "Martín", 62, 176, 23, "Extremo");
-
-
-
--- DELANTEROS
-
-
 insert into jugadores values(7, "Getafe", "Jaime", "Maite", 79, 185, 35, "Delantero Centro");
 insert into jugadores values(12, "Getafe", "Mason", "Greenwood", 70, 181, 22, "Extremo");
 insert into jugadores values(14, "Getafe", "Juanmi", "Latasa", 86, 192, 23, "Delantero Centro");
@@ -435,17 +290,11 @@ insert into jugadores values(19, "Getafe", "Borja", "Mayoral", 74, 182, 27, "Del
 
 
 
--- PORTEROS
+
 
 
 insert into jugadores values(13, "Girona", "Paulo", "Gazzaniga", 90, 196, 32, "Portero");
 insert into jugadores values(1, "Girona", "Juan Carlos", "Martin", 85, 186, 36, "Portero");
-
-
-
--- DEFENSAS
-
-
 insert into jugadores values(3, "Girona", "Miguel", "Gutiérrez", 73, 180, 22, "Lateral");
 insert into jugadores values(4, "Girona", "Arnau", "Martínez", 72, 181, 21, "Defensa Central");
 insert into jugadores values(5, "Girona", "David", "López", 81, 183, 34, "Defensa Central");
@@ -454,29 +303,12 @@ insert into jugadores values(15, "Girona", "Juan pedro", "Ramírez", 80, 190, 33
 insert into jugadores values(17, "Girona", "Daley", "Blind", 72, 180, 34, "Lateral");
 insert into jugadores values(20, "Girona", "Yan", "Couto", 60, 168, 21, "Lateral");
 insert into jugadores values(25, "Girona", "Eric", "García", 76, 182, 23, "Lateral");
-
-
-
-
-
--- CENTROCAMPISTAS
-
-
 insert into jugadores values(14, "Girona", "Aleix", "García", 68, 173, 26, "Mediocentro");
 insert into jugadores values(18, "Girona", "Pablo", "Torre", 63, 173, 21, "Mediocentro");
 insert into jugadores values(19, "Girona", "Toni", "Villa", 63, 172, 29, "Extremo");
 insert into jugadores values(21, "Girona", "Yangel", "Herrera", 78, 184, 26, "Mediocentro");
 insert into jugadores values(22, "Girona", "John", "Solís", 80, 189, 19, "Mediocentro");
 insert into jugadores values(23, "Girona", "Iván", "Martín", 70, 178, 25, "Mediapunta");
-
-
-
-
--- DELANTEROS
-
-
-
-
 insert into jugadores values(7, "Girona", "Cristhian", "Stuani", 76, 186, 37, "Delantero Centro");
 insert into jugadores values(8, "Girona", "Viktor", "Tsygankov", 73, 178, 26, "Extremo");
 insert into jugadores values(9, "Girona", "Artem", "Dobryk", 76, 184, 26, "Delantero Centro");
@@ -517,6 +349,8 @@ insert into jugadores values(9, "Granada", "José", "Callejón", 73, 178, 37, "E
 insert into jugadores values(11, "Granada", "Myrto", "Uzuni", 72, 178, 28, "Extremo");
 insert into jugadores values(17, "Granada", "Theo", "Corbeanu", 83, 190, 21, "Extremo");
 insert into jugadores values(18, "Granada", "Kamil", "Józwiak", 70, 176, 26, "Extremo");
+
+
 
 
 
@@ -1383,6 +1217,305 @@ insert into estadisticas (id_estadisticas, partidos_jugados, goles, asistencias,
 insert into estadisticas (id_estadisticas, partidos_jugados, goles, asistencias, tarjetas_amarillas, tarjetas_rojas, temporadas_club, fk_jugador) values (600, 600, 600, 600, 600, 600, 600, 600);
 
 
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Antonio", "Sivera", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Andoni", "Gorosabel", "Lateral", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Ruben", "Duarte", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Abdel", "Abqar", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Rafa", "Marin", "Defensa Central", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Ander", "Guevara", "Mediocentro", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Antonio", "Blanco", "Mediocentro Defensivo", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Jon", "Guridi", "Mediocentro", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Luis", "Rioja", "Extremo", 11);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Carlos", "Vicente", "Extremo", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (1, "Kike", "Garcia", "Delantero centro", 15);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Luis", "Maximiano", "Portero", 25);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Edgar", "Gonzalez", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Marc", "Pubill", "Lateral", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Cesar", "Montes", "Defensa Central", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Alex", "Centelles", "Lateral", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Lucas", "Robertone", "Mediapunta", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Dion", "Lopy", "Mediocentro Defensivo", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Sergio", "Arribas", "Mediapunta", 19);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Largie", "Ramazani", "Extremo", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Adri", "Embarba", "Extremo", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (2, "Leo", "Baptistao", "Delantero centro", 12);
+
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Unai", "Simon", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Dani", "Vivian", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Yuri", "Berchiche", "Lateral", 17);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Aitor", "Paredes", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Oscar", "De Marcos", "Lateral", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Oihan", "Sancet", "Mediapunta", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Mikel", "Vesga", "Mediocentro Defensivo", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Ander", "Herrera", "Mediocentro", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Nico", "Williams", "Extremo", 11);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Iñaki", "Williams", "Extremo", 9);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (3, "Gorka", "Guruzeta", "Delantero centro", 12);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Jan", "Oblak", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Jose", "Gimenez", "Defensa Central", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Nahuel", "Molina", "Lateral", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Stefan", "Savic", "Defensa Central", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Cesar", "Azpilicueta", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Mario", "Hermoso", "Defensa Central", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Rodrigo", "De Paul", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Koke", "Reserrecion", "Mediocentro", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Samu", "Lino", "Extremo", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Antoine", "Griezmann", "Segundo delantero", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (4, "Alvaro", "Morata", "Delantero centro", 19);
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Marc", "Ter-Stegen", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Ronald", "Araujo", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Joao", "Cancelo", "Lateral", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Jules", "Kounde", "Defensa Central", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Alex", "Balde", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Pablo", "Gavi", "Mediocentro", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Pedri", "Gonzalez", "Mediocentro", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Frenkie", "De Jong", "Mediocentro", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Ilkay", "Gundogan", "Mediapunta", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Robert", "Lewandowski", "Delantero centro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (5, "Lamine", "Yamal", "Extremo", 27);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Rui", "Silva", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "German", "Pezzela", "Defensa Central", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Hector", "Bellerin", "Lateral", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Chadi", "Riad", "Defensa Central", 28);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Juan", "Miranda", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Isco", "Alarcon", "Mediapunta", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Johnny", "Cardoso", "Mediocentro Defensivo", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Guido", "Rodriguez", "Mediocentro Defensivo", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Nabil", "Fekir", "Mediapunta", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Ayoze", "Perez", "Delantero centro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (6, "Wiliam", "Jose", "Delantero centro", 12);
+
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Conan", "Ledesma", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Fali", "Jimenez", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Joseba", "Zaldua", "Lateral", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Victor", "Chust", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Lucas", "Pires", "Lateral", 33);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Ruben", "Alcaraz", "Mediocentro", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Alex", "Fernandez", "Mediocentro Defensivo", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Gonzalo", "Escalante", "Mediocentro", 17);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Chris", "Ramos", "Delantero centro", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Darwin", "Machis", "Extremo", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (7, "Roger", "Marti", "Delantero centro", 21);
+
+
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Vicente", "Guaita", "Portero", 25);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Carl", "Starfelt", "Defensa Central", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Oscar", "Mingueza", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Unai", "Nuñez", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Kevin", "Vazquez", "Lateral", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Renatio", "Tapia", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Jailson", "Marques", "Mediocentro Defensivo", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Fran", "Beltran", "Mediocentro", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Iago", "Aspas", "Delantero centro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Jonathan", "Bamba", "Extremo", 17);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (8, "Tasos", "Douvikas", "Delantero centro", 12);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "David", "Soria", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Omar", "Alderete", "Defensa Central", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Juan", "Iglesias", "Lateral", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Gaston", "Alvarez", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Jose", "Carmona", "Lateral", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Djene", "Dakona,", "Defensa Central", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Luis", "Milla", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Mauro", "Arambarri", "Mediocentro", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Nemanja", "Maksimovic", "Mediocentro", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Mason", "Grenwood", "Extremo", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (9, "Borja", "Mayoral", "Delantero centro", 19);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Paulo", "Gazzaniga", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "David", "Lopez", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Miguel", "Gutierrez", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Daley", "Blind", "Defensa Central", 17);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Yan", "Couto", "Lateral", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Aleix", "Garcia", "Mediocentro", 14);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Yangel", "Herrera", "Mediocentro", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Ivan", "Martin", "Mediapunta", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Viktor", "Tsyhankov", "Extremo", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Savio", "Moreira", "Extremo", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (10, "Artem", "Dovbyk", "Delantero centro", 9);
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Augusto", "Batalla", "Portero", 25);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Jesus", "Vallejo", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Ricard", "Sanchez", "Lateral", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Kamil", "Piatkowski", "Defensa Central", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Carlos", "Neva", "Lateral", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Sergio", "Ruiz", "Mediocentro", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Gerard", "Gumbau", "Mediocentro Defensivo", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Gonzalo", "Villar", "Mediocentro", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Lucas", "Boye", "Delantero centro", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Oscar", "Melendo", "Extremo", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (11, "Myrto", "Uzuni", "Extremo", 11);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Alvaro", "Valles", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Mika", "Marmol", "Defensa Central", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Sergi", "Cardona", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Saul", "Coco", "Defensa Central", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Julian", "Araujo", "Lateral", 28);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Javi", "Muñoz", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Alberto", "Moleiro", "Mediapunta", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Enzo", "Loiodice", "Mediocentro", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Kirian", "Rodriguez", "Mediocentro", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Sandro", "Rodriguez", "Delantero centro", 9);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (12, "Munir", "El Haddadi", "Delantero centro", 17);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Predrag", "Rajkovic", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Matija", "Nastasic", "Defensa Central", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Toni", "Lato", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Martin", "Valjent", "Defensa Central", 24);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Pablo", "Maffeo", "Lateral", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Antonio", "Raillo", "Defensa Central", 21);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Sergi", "Darder", "Mediocentro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Samu", "Costa", "Mediocentro defensivo", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Dani", "Rodriguez", "Mediapunta", 14);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Vedat", "Muriqi", "Delantero centro", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (13, "Cyle", "Larin", "Delantero centro", 17);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Sergio", "Herrera", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "David", "Garcia", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Juan", "Cruz", "Lateral", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Alejandro", "Catena", "Defensa Central", 24);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Ruben", "Peña", "Lateral", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Lucas", "Torro", "Mediocentro defensivo", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Jon", "Moncayola", "Mediocentro", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Aimar", "Oroz", "Mediapunta", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Moi", "Gomez", "Extremo", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Iker", "Muñoz", "Mediocentro", 34);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (14, "Ante", "Budimir", "Delantero centro", 17);
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Stole", "Dimitrievski", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Aridane", "Hernández", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Alfonso", "Espino", "Lateral", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Florian", "Lejeune", "Defensa Central", 24);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Ivan", "Balliu", "Lateral", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Isi", "Palazon", "Mediapunta", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Oscar", "Trejo", "Mediapunta", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Aimar", "Oroz", "Mediapunta", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Alvaro", "Garcia", "Extremo", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Oscar", "Valentin", "Mediocentro defensivo", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (15, "Sergio", "Camello", "Delantero centro", 34);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Andriy", "Lunin", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Eder", "Militao", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Dani", "Carvajal", "Lateral", 2);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Antonio", "Rudiger", "Defensa Central", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Ferland", "Mendy", "Lateral", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Jude", "Bellingham", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Toni", "Kroos", "Mediocentro", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Federico", "Valverde", "Mediapunta", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Aurelien", "Tchouameni", "Mediocentro", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Vinicius", "Junior", "Extremo", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (16, "Rodrygo", "Goes", "Delantero centro", 11);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Alex", "Remiro", "Portero", 1);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Jon", "Pacheco", "Defensa Central", 20);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Aritz", "Elustondo", "Lateral", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Robin", "Le Normand", "Defensa Central", 24);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Hamari", "Traore", "Lateral", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Martin", "Zubimendi", "Mediocentro", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Mikel", "Merino", "Mediocentro", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Takefusa", "Kubo", "Mediapunta", 14);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Brais", "Mendez", "Mediapunta", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (17, "Umar", "Sadiq", "Delantero centro", 19);
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Orjan", "Nyland", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Sergio", "Ramos", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Marcos", "Acuña", "Lateral", 19);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Loic", "Bade", "Defensa Central", 22);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Jesus", "Navas", "Lateral", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Nemanja", "Gudelj", "Mediocentro", 6);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Djibril", "Sow", "Mediocentro", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Lucas", "Ocampos", "Mediapunta", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Dodi", "Lukebakio", "Extremo", 11);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Youssef", "En-Nesyri", "Delantero centro", 15);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (18, "Isaac", "Romero", "Delantero centro", 20);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Giorgi", " Mamardashvili", "Portero", 25);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Cristhian", "Mosquera", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Thierry", "Correia", "Lateral", 12);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Mouctar", "Diakhaby", "Defensa Central", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Jose", "Gaya", "Lateral", 14);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Javi", "Guerra", "Mediocentro", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Andre", "Almeida", "Mediocentro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Pepelu", "Garcia", "Mediocentro defensivo", 18);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Fran", "Perez", "Extremo", 23);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Hugo", "Duro", "Delantero centro", 9);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (19, "Diego", "Lopez", "Delantero centro", 16);
+
+
+
+
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Filip", "Jørgensen", "Portero", 13);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Raul", "Albiol", "Defensa Central", 3);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Juan", "Foyth", "Lateral", 8);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Jorge", "Cuenca", "Defensa Central", 5);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Kiko", "Femenia", "Lateral", 17);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Dani", "Parejo", "Mediocentro", 10);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Alex", "Baena", "Mediapunta", 16);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Santi", "Comesaña", "Mediapunta", 4);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Gerard", "Moreno", "Delantero centro", 7);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Alexander", "Sorloth", "Delantero centro", 11);
+insert into alineacion (id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta) values (20, "Ilias", "Akhomach", "Extremo", 27);
 
 
 -- Procedimientos
