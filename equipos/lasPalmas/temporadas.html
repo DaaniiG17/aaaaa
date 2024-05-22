@@ -36,7 +36,7 @@
                             <li><a class="dropdown-item" href="partidosJugados.html">Partidos Jugados</a></li>
                             <li><a class="dropdown-item" href="goles.html">Goles</a></li>
                             <li><a class="dropdown-item" href="asistencias.html">Asistencias</a></li>
-                            <li><a class="dropdown-item" href="amarillas.html">Tarjetas amarillas</a></li>
+                            <li><a class="dropdown-item" href="temporadas.html">Tarjetas temporadas</a></li>
                             <li><a class="dropdown-item" href="rojas.html">Tarjetas rojas</a></li>
                             <li><a class="dropdown-item" href="temporadas.html">Temporadas en el club</a></li>
                         </ul>
@@ -50,54 +50,12 @@
 
     <!-- AÑADIR JUGADOR -->
 
-
-
-
-
-    <form id="jugadorForm" class="container mt-5">
-        <div class="mb-3">
-            <label for="nombreJugador" class="form-label">Escribe el nombre del Jugador</label>
-            <input type="text" class="form-control" id="nombreJugador" style="width: 250px;" required>
-        </div>
-        <div class="mb-3">
-            <label for="posicionJugador" class="form-label">Escribe la posicion del jugador</label>
-            <input type="text" class="form-control" id="posicionJugador" style="width: 250px;" required>
-        </div>
-        <div class="mb-3">
-            <label for="urlJugador" class="form-label">Escribe la url de la imagen del jugador</label>
-            <input type="text" class="form-control" id="urlJugador" style="width: 250px;" required>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Añadir jugador</button>
-    </form>
-
-
-
+    <div id="formulario"></div>
 
 
     <!-- PLANTILLA -->
 
     <div class="container marketing">
-
-        <!-- ENTRENADOR -->
-        <h1 class="mt-5">ENTRENADOR</h1>
-        <hr>
-        <div class="row mt-5 d-flex justify-content-center">
-
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle" width="140" height="140" src="../../entrenadores/imgEntrenadores/entrenadorLasPalmas.png">
-                </img>
-
-                <h2>Francisco Pimienta</h2>
-                <h5>Entrenador</h5>
-                <button class="btn btn-secondary bg-primary eliminarEntrenador">Eliminar entrenador</button>
-            </div><!-- /.col-lg-4 -->
-
-
-
-
-        </div><!-- /.row -->
-
 
         <!-- PORTEROS -->
 
@@ -112,7 +70,7 @@
 
                 <h2>Álvaro Valles</h2>
                 <h5>Portero</h5>
-                <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/aaronEscandell.png">
@@ -120,7 +78,7 @@
 
                 <h2>Aarón Escandell</h2>
                 <h5>Portero</h5>
-                <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -138,7 +96,7 @@
 
                 <h2>Marvin Park</h2>
                 <h5>Lateral</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/sergiCardona.png">
@@ -146,7 +104,7 @@
 
                 <h2>Sergi Cardona</h2>
                 <h5>Lateral</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/alexSuarez.png">
@@ -154,7 +112,7 @@
 
                 <h2>Álex Suarez</h2>
                 <h5>Defensa central</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -169,7 +127,7 @@
 
                 <h2>Eric Curbelo</h2>
                 <h5>Defensa central</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/alvaroLemos.png">
@@ -177,7 +135,7 @@
 
                 <h2>Álvaro Lemos</h2>
                 <h5>Lateral</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/mikaMarmol.png">
@@ -185,7 +143,7 @@
 
                 <h2>Mika Mármol</h2>
                 <h5>Defensa central</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -195,7 +153,7 @@
 
                 <h2>Daley Sinkgraven</h2>
                 <h5>Lateral</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -205,7 +163,7 @@
 
                 <h2>Saúl Coco</h2>
                 <h5>Defensa central</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -216,7 +174,7 @@
 
                 <h2>Julián Araujo</h2>
                 <h5>Lateral</h5>
-                <button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
         </div><!-- /.row -->
@@ -235,7 +193,7 @@
 
                 <h2>Javi Muñóz</h2>
                 <h5>Mediocentro</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/albertoMoleiro.png">
@@ -243,7 +201,7 @@
 
                 <h2>Albeto Moleiro</h2>
                 <h5>Mediocentro ofensivo</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/benitoRamirez.png">
@@ -251,7 +209,7 @@
 
                 <h2>Benito Ramírez</h2>
                 <h5>Mediocentro</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -266,7 +224,7 @@
 
                 <h2>Enzo Loiodice</h2>
                 <h5>Mediocentro</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/kirianRodriguez.png">
@@ -274,7 +232,7 @@
 
                 <h2>Kirian Rodríguez</h2>
                 <h5>Mediocentro</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/omenukeMfulu.png">
@@ -282,7 +240,7 @@
 
                 <h2>Omenuke Mfulu</h2>
                 <h5>Mediocentro defensivo</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/pejiño.png">
@@ -290,7 +248,7 @@
 
                 <h2>Pejiño</h2>
                 <h5>Extremo</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4 mb-5">
@@ -299,7 +257,7 @@
 
                 <h2>Fabio González</h2>
                 <h5>Mediocentro</h5>
-                <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -320,7 +278,7 @@
 
                 <h2>Cristian Herrera</h2>
                 <h5>Delantero centro</h5>
-                <button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/sandroRamirez.png">
@@ -328,7 +286,7 @@
 
                 <h2>Sandro Ramírez</h2>
                 <h5>Delantero centro</h5>
-                <button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="../../jugadores/lasPalmas/munirElHaddadi.png">
@@ -336,7 +294,7 @@
 
                 <h2>Munir El Haddadi</h2>
                 <h5>Extremo</h5>
-                <button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -351,7 +309,7 @@
 
                 <h2>Marc Cardona</h2>
                 <h5>Delantero Centro</h5>
-                <button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>
+                <button class="btn btn-secondary bg-primary cambiarNumeroTemporadas">Cambiar temporadas</button>
             </div><!-- /.col-lg-4 -->
 
             
@@ -369,7 +327,7 @@
                 <li class="nav-item"><a href="partidosJugados.html" class="nav-link text-white">Partidos jugados</a></li>
                 <li class="nav-item"><a href="goles.html" class="nav-link text-white">Goles</a></li>
                 <li class="nav-item"><a href="asistencias.html" class="nav-link text-white">Asistencias</a></li>
-                <li class="nav-item"><a href="amarillas.html" class="nav-link text-white">Tarjetas amarillas</a></li>
+                <li class="nav-item"><a href="temporadas.html" class="nav-link text-white">Tarjetas temporadas</a></li>
                 <li class="nav-item"><a href="rojas.html" class="nav-link text-white">Tarjetas rojas</a></li>
                 <li class="nav-item"><a href="temporadas.html" class="nav-link text-white">Temporadas en el club</a></li>
             </ul>
@@ -383,7 +341,7 @@
         document.addEventListener('DOMContentLoaded', function (e) {
 
 
-            const botonCambiarPartidos = document.querySelectorAll('.cambiarNumeroAmarillas');
+            const botonCambiarPartidos = document.querySelectorAll('.cambiarNumeroTemporadas');
 
             let formulario = document.getElementById('formulario');
 
@@ -402,10 +360,10 @@
 
 
                 divContenido.innerHTML = `
-        <label for="posicionJugador" class="form-label">Escribe la cantidad de amarillas</label>
-        <input type="text" class="form-control mb-3" id="cantidadPartidosNueva" style="width: 250px;" required>
+        <label for="posicionJugador" class="form-label">Escribe la cantidad de temporadas</label>
+        <input type="text" class="form-control mb-3" id="cantidadTemporadasNueva" style="width: 250px;" required>
 
-        <button type="submit" class="btn btn-primary">Cambiar amarillas</button>
+        <button type="submit" class="btn btn-primary">Cambiar temporadas</button>
         `;
 
                 formulario.appendChild(divContenido);
@@ -416,9 +374,9 @@
                 boton.addEventListener('click', cambiarNumeroPartidos)
 
                 function cambiarNumeroPartidos(e){
-                    let numeroPartidosNuevo = formulario.querySelector('#cantidadPartidosNueva').value;
+                    let numeroPartidosNuevo = formulario.querySelector('#cantidadTemporadasNueva').value;
                     nuevosPartidos.innerHTML = `
-                    ${numeroPartidosNuevo} amarillas
+                    ${numeroPartidosNuevo} temporadas
                     `
                 }
 
