@@ -13,7 +13,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
     if (is_countable($results) && password_verify($_POST['password'], $results['password'])) {
         $_SESSION['user_id'] = $results['id'];
-        header('Location: ../index.html');  // Error tipográfico corregido
+        header('Location: ../../index.html');
         exit();  // Asegúrate de detener la ejecución después de la redirección
     } else {
         $message = 'Sorry, Those credentials do not match';
