@@ -62,6 +62,5 @@ create table if not exists usuarios (
     nombre_usuario varchar(50) not null,
     contrasena varchar(50) not null,
     correo varchar(50) not null,
-    id_equipo INT,
     FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo)
 );

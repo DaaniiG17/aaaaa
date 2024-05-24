@@ -1669,7 +1669,6 @@ CREATE PROCEDURE RegistrarUsuario(
     IN p_nombre_usuario VARCHAR(50),
     IN p_contrasena VARCHAR(50),
     IN p_correo VARCHAR(50),
-    IN p_id_equipo INT
 )
 BEGIN
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
@@ -1678,8 +1677,8 @@ BEGIN
         SELECT 'Error en el registro de usuario';
     END;
     START TRANSACTION;
-    INSERT INTO usuarios (nombre_usuario, contrasena, correo, id_equipo)
-    VALUES (p_nombre_usuario, p_contrasena, p_correo, p_id_equipo);
+    INSERT INTO usuarios (nombre_usuario, contrasena, correo)
+    VALUES (p_nombre_usuario, p_contrasena, p_correo);
     COMMIT;
     SELECT 'Usuario registrado';
 END;
