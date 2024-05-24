@@ -1,3 +1,7 @@
+<?php
+require_once 'phps/login.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +16,8 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="estilos/styles2.css">
+    <link rel="stylesheet" href="phps/assets/css/styles.css">
+
 
     
 </head>
