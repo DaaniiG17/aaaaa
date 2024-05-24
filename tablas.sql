@@ -2,6 +2,7 @@ create table if not exists infofutbol;
 
 use infofutbol;
 
+-- drop table if exists usuarios;
 -- drop table if exists estadisticas;
 -- drop table if exists jugadores;
 -- drop table if exists plantilla;
