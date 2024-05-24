@@ -16,40 +16,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark container" aria-label="Third navbar example">
-        <div class="container-fluid">
-            <img src="../../img/alaves.png" alt="" width="40px">
-            <h4 class="text-white ms-2 mt-1">Alavés</h4>
+    <?php
+        include '../../encabezado.php';
+    
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
-                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    //AÑADIR JUGADOR 
+    
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Procesar los datos del formulario
+    $nombreJugador = $_POST['nombreJugador'];
+    $posicionJugador = $_POST['posicionJugador'];
+    $urlJugador = $_POST['urlJugador'];
 
-            <div class="collapse navbar-collapse ms-5" id="navbarsExample03">
-                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="alaves.html">Plantilla</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="estadio.html">Estadio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown03"
-                            data-bs-toggle="dropdown">Estadisticas</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                            <li><a class="dropdown-item" href="partidosJugados.html">Partidos Jugados</a></li>
-                            <li><a class="dropdown-item" href="goles.html">Goles</a></li>
-                            <li><a class="dropdown-item" href="asistencias.html">Asistencias</a></li>
-                            <li><a class="dropdown-item" href="amarillas.html">Tarjetas amarillas</a></li>
-                            <li><a class="dropdown-item" href="rojas.html">Tarjetas rojas</a></li>
-                            <li><a class="dropdown-item" href="temporadas.html">Temporadas en el club</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    // Aquí puedes realizar cualquier acción con los datos recibidos, como almacenarlos en una base de datos
+    // o mostrarlos en otra página.
+}
+?>
 
     <div id="formulario">
 
@@ -70,16 +52,16 @@
                 </img>
 
                 <h2>Antonio Sivera</h2>
-                <h5>3 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>0 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/jesusOwono.png">
                 </img>
 
                 <h2>Jesús Owono</h2>
-                <h5>1 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>2 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -96,24 +78,24 @@
                 </img>
 
                 <h2>Andoni Gorosabel</h2>
-                <h5>5 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>4 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/rubenDuarte.png">
                 </img>
 
                 <h2>Rubén Duarte</h2>
-                <h5>6 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>1 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/sedlar.png">
                 </img>
 
                 <h2>Aleksandar Sedlar</h2>
-                <h5>3 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>3 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -127,24 +109,24 @@
                 </img>
 
                 <h2>Nahuel Tenaglia</h2>
-                <h5>5 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>3 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/rafaMarín.png">
                 </img>
 
                 <h2>Rafa Marín</h2>
-                <h5>7 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>1 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/josedaAlvarez.png">
                 </img>
 
                 <h2>Joseda Álconstez</h2>
-                <h5>3 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>4 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -155,8 +137,8 @@
                 </img>
 
                 <h2>Javi Lopez</h2>
-                <h5>10 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>2 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
         </div><!-- /.row -->
@@ -174,24 +156,24 @@
                 </img>
 
                 <h2>Ander Guevara</h2>
-                <h5>3 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>0 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/antonioBlanco.png">
                 </img>
 
                 <h2>Antonio Blanco</h2>
-                <h5>4 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>4 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/hagi.png">
                 </img>
 
                 <h2>Ianis Hagi</h2>
-                <h5>3 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>2 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -205,16 +187,16 @@
                 </img>
 
                 <h2>Jon Guridi</h2>
-                <h5>2 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>2 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/carlosBenavidez.png">
                 </img>
 
                 <h2>Carlos Benavídez</h2>
-                <h5>4 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>4 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
         </div><!-- /.row -->
@@ -233,24 +215,24 @@
                 </img>
 
                 <h2>Luis Rioja</h2>
-                <h5>8 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>1 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/kikeGarcia.png">
                 </img>
 
                 <h2>Kike García</h2>
-                <h5>4 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>4 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/alkain.png">
                 </img>
 
                 <h2>Xeber Alkain</h2>
-                <h5>5 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>2 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
 
 
@@ -264,24 +246,24 @@
                 </img>
 
                 <h2>Abde Rebbach</h2>
-                <h5>6 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>5 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/carlosVicente.png">
                 </img>
 
                 <h2>Carlos Vicente</h2>
-                <h5>4 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>3 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 mb-5">
                 <img class="rounded-circle" width="140" height="140" src="imgAlaves/unaiRopero.png">
                 </img>
 
                 <h2>Unai Ropero</h2>
-                <h5>1 amarillas</h5>
-                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de amarillas</button>
+                <h5>1 rojas</h5>
+                <button class="btn btn-secondary bg-primary cambiarNumeroPartidos">Cambiar numero de rojas</button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -289,23 +271,9 @@
 
     </div>
 
-    <div class="bg-primary">
-        <footer class="py-3">
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a href="alaves.html" class="nav-link text-white">Plantilla</a></li>
-                <li class="nav-item"><a href="estadio.html" class="nav-link text-white">Estadio</a></li>
-                <li class="nav-item"><a href="partidosJugados.html" class="nav-link text-white">Partidos jugados</a></li>
-                <li class="nav-item"><a href="goles.html" class="nav-link text-white">Goles</a></li>
-                <li class="nav-item"><a href="asistencias.html" class="nav-link text-white">Asistencias</a></li>
-                <li class="nav-item"><a href="amarillas.html" class="nav-link text-white">Tarjetas amarillas</a></li>
-                <li class="nav-item"><a href="rojas.html" class="nav-link text-white">Tarjetas rojas</a></li>
-                <li class="nav-item"><a href="temporadas.html" class="nav-link text-white">Temporadas en el club</a></li>
-            </ul>
-
-            <p class="text-center text-white mt-3">&copy; INFOFUTBOL</p>
-        </footer>
-    </div>
-
+    <?php
+        include '../../footer.php';
+    ?>
     <script>
 
         document.addEventListener('DOMContentLoaded', function (e) {
@@ -330,10 +298,10 @@
 
 
                 divContenido.innerHTML = `
-        <label for="posicionJugador" class="form-label">Escribe la cantidad de amarillas</label>
+        <label for="posicionJugador" class="form-label">Escribe la cantidad de rojas</label>
         <input type="text" class="form-control mb-3" id="cantidadPartidosNueva" style="width: 250px;" required>
 
-        <button type="submit" class="btn btn-primary">Cambiar amarillas</button>
+        <button type="submit" class="btn btn-primary">Cambiar rojas</button>
         `;
 
                 formulario.appendChild(divContenido);
@@ -346,7 +314,7 @@
                 function cambiarNumeroPartidos(e){
                     let numeroPartidosNuevo = formulario.querySelector('#cantidadPartidosNueva').value;
                     nuevosPartidos.innerHTML = `
-                    ${numeroPartidosNuevo} amarillas
+                    ${numeroPartidosNuevo} rojas
                     `
                 }
 
