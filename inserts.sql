@@ -1659,3 +1659,56 @@ BEGIN
             where nombre like antiguoEntrenador;
 END ;
 DELIMITER //
+
+
+-- Registro
+
+DELIMITER //
+
+CREATE PROCEDURE RegistrarUsuario(
+    IN p_nombre_usuario VARCHAR(50),
+    IN p_contrasena VARCHAR(50),
+    IN p_correo VARCHAR(50),
+    IN p_id_equipo INT
+)
+BEGIN
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN
+        ROLLBACK;
+        SELECT 'Error en el registro de usuario';
+    END;
+    START TRANSACTION;
+    INSERT INTO usuarios (nombre_usuario, contrasena, correo, id_equipo)
+    VALUES (p_nombre_usuario, p_contrasena, p_correo, p_id_equipo);
+    COMMIT;
+    SELECT 'Usuario registrado';
+END;
+
+DELIMITER //
+
+
+-- Iniciar sesion
+
+DELIMITER //
+
+CREATE PROCEDURE IniciarSesion(
+    IN p_nombre_usuario VARCHAR(50),
+    IN p_contrasena VARCHAR(50)
+)
+BEGIN
+    DECLARE v_id_usuario INT;
+    DECLARE v_contrasena VARCHAR(50);
+
+    SELECT id_usuario, contrasena INTO v_id_usuario, v_contrasena
+    FROM usuarios
+    WHERE nombre_usuario = p_nombre_usuario;
+
+    IF v_contrasena = p_contrasena THEN
+        SELECT 'Inicio de sesión exitoso' AS mensaje, v_id_usuario AS id_usuario;
+    ELSE
+        SELECT 'Nombre de usuario o contraseña incorrecta' AS mensaje;
+    END IF;
+END;
+
+DELIMITER //
+

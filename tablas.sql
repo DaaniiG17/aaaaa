@@ -55,3 +55,12 @@ create table if not exists estadisticas(
     foreign key (fk_jugador) references jugadores(numero_camiseta)
 );
 
+
+create table if not exists usuarios (
+    id_usuario int primary key,
+    nombre_usuario varchar(50) not null,
+    contrasena varchar(50) not null,
+    correo varchar(50) not null,
+    id_equipo INT,
+    FOREIGN KEY (id_equipo) REFERENCES equipo(id_equipo)
+);
