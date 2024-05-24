@@ -1,0 +1,51 @@
+package infofutbol;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+
+public class Equipos extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Equipos frame = new Equipos();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Equipos() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 610, 536);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		  JLabel lblNewLabel = new JLabel("New label");
+	        lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/Images/alaves.jpg")).getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH))); // Corregido aquí
+	        lblNewLabel.setBounds(29, 41, 46, 14);
+	        contentPane.add(lblNewLabel);
+		
+	}
+
+}
