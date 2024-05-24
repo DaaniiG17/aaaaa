@@ -1,7 +1,3 @@
-<?php
-require_once 'phps/login.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
