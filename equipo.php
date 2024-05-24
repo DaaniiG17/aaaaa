@@ -10,7 +10,7 @@ if (isset($_GET['id'])) {
             header("Location: equipos/alaves/alaves.php");
             break;
         case 'almeria':
-            header("Location: equipos/almeria/almeria.html");
+            header("Location: equipos/almeria/almeria.php");
             break;
         case 'athleticClub':
             header("Location: equipos/athleticClub/athleticClub.html");
