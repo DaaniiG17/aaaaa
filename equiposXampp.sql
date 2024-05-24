@@ -1,4 +1,5 @@
 create table alaves(
+id int(1),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -29,6 +30,7 @@ insert into alaves values("Samu", "Omorodion", "Delantero Centro");
 
 
 create table almeria(
+id int(2),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -60,6 +62,7 @@ insert into almeria values("Marko", "Milovanovic", "Delantero Centro");
 
 
 create table Bilbao(
+id int(3),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -93,6 +96,7 @@ insert into Bilbao values("Malcum", "Adu", "Extremo");
 
 
 create table AtleticoDeMadrid(
+id int(4),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -124,6 +128,7 @@ insert into AtleticoDeMadrid values("Álvaro", "Morata", "Delantero Centro");
 
 
 create table barcelona(
+id int(5),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -157,6 +162,7 @@ insert into barcelona values("Lamine", "Yamal", "Extremo");
 
 
 create table betis(
+id int(6),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -191,6 +197,7 @@ insert into betis values("Assane", "Diao", "Extremo");
 
 
 create table cadiz(
+id int(7),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -225,6 +232,7 @@ insert into cadiz values("Maxi", "Gómez", "Delantero Centro");
 
 
 create table celta(
+id int(8),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -259,6 +267,7 @@ insert into celta values("Jørgen Strand", "Larsen", "Delantero Centro");
 
 
 create table getafe(
+id int(9),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -292,6 +301,7 @@ insert into getafe values("Borja", "Mayoral", "Delantero Centro");
 
 
 create table girona(
+id int(10),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -323,6 +333,7 @@ insert into girona values("Cristian", "Portugués", "Delanero Centro");
 
 
 create table granada(
+id int(11),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -358,6 +369,7 @@ insert into granada values("Kamil", "Józwiak", "Extremo");
 
 
 create table lasPalmas(
+id int(12),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -394,6 +406,7 @@ insert into lasPalmas values("Marc", "Cardona", "Delantero Centro");
 
 
 create table mallorca(
+id int(13),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -426,6 +439,7 @@ insert into mallorca values("Javi", "Llabrés", "Extremo");
 
 
 create table osasuna(
+id int(14),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -458,6 +472,7 @@ insert into osasuna values("Raúl", "García", "Delantero Centro");
 
 
 create table rayo(
+id int(15),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -492,6 +507,7 @@ insert into rayo values("Sergio", "Camello", "Delantero Centro");
 
 
 create table realMadrid(
+id int(16),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -525,6 +541,7 @@ insert into realMadrid values("Joselu", "Mato", "Delantero Centro");
 
 
 create table realSociedad(
+id int(17),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -561,6 +578,7 @@ insert into realSociedad values("Andre", "Silva", "Delantero Centro");
 
 
 create table sevilla(
+id int(18),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -597,6 +615,7 @@ insert into sevilla values("Isaac ", "Romero", "Delantero Centro");
 
 
 create table valencia(
+id int(19),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
@@ -631,6 +650,7 @@ insert into valencia values("Alberto", "Marí", "Delantero Centro");
 
 
 create table villarreal(
+id int(20),
 nombre varchar(200),
 apellido varchar(200),
 posicion varchar(200)
