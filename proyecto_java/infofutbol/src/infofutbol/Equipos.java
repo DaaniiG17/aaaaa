@@ -138,7 +138,7 @@ public class Equipos extends JFrame {
 		contentPane.add(lblRayo);
 		
 		JLabel lblRealSociedad = new JLabel("Real Sociedad");
-		lblRealSociedad.setBounds(209, 376, 55, 36);
+		lblRealSociedad.setBounds(209, 376, 89, 36);
 		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/realSociedad.jpg")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblRealSociedad);
