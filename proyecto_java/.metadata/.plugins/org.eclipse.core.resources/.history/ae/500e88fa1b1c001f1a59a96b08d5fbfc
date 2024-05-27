@@ -79,85 +79,85 @@ public class Equipos extends JFrame {
 		
 		JLabel lblCadiz = new JLabel("Cadiz");
 		lblCadiz.setBounds(209, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/cadiz.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/cadiz.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblCadiz);
 		
 		JLabel lblCelta = new JLabel("Celta");
 		lblCelta.setBounds(415, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/celta.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/celta.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblCelta);
 		
 		JLabel lblGetafe = new JLabel("Getafe");
 		lblGetafe.setBounds(617, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/getafe.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/getafe.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblGetafe);
 		
 		JLabel lblGirona = new JLabel("Girona");
 		lblGirona.setBounds(832, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/girona.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/girona.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblGirona);
 		
 		JLabel lblGranada = new JLabel("Granada");
 		lblGranada.setBounds(34, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/granada.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/granada.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblGranada);
 		
 		JLabel lblMadrid = new JLabel("Madrid");
 		lblMadrid.setBounds(34, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/realMadrid.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/realMadrid.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblMadrid);
 		
 		JLabel lblLasPalmas = new JLabel("Las Palmas");
 		lblLasPalmas.setBounds(209, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/lasPalmas.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/lasPalmas.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblLasPalmas);
 		
 		JLabel lblMallorca = new JLabel("Mallorca");
 		lblMallorca.setBounds(415, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/mallorca.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/mallorca.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblMallorca);
 		
 		JLabel lblOsasuna = new JLabel("Osasuna");
 		lblOsasuna.setBounds(617, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/osasuna.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/osasuna.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblOsasuna);
 		
 		JLabel lblRayo = new JLabel("Rayo ");
 		lblRayo.setBounds(832, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/rayo.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/rayo.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblRayo);
 		
 		JLabel lblRealSociedad = new JLabel("Real Sociedad");
 		lblRealSociedad.setBounds(209, 376, 89, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/realSociedad.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/realSociedad.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblRealSociedad);
 		
 		JLabel lblSevilla = new JLabel("Sevilla");
 		lblSevilla.setBounds(415, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/sevilla.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/sevilla.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblSevilla);
 		
 		JLabel lblValencia = new JLabel("Valencia");
 		lblValencia.setBounds(617, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/valencia.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/valencia.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblValencia);
 		
 		JLabel lblVillarreal = new JLabel("Villarreal");
 		lblVillarreal.setBounds(832, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/villarreal.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
+		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/villarreal.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
 		contentPane.add(lblNewLabel);
 		contentPane.add(lblVillarreal);
 		

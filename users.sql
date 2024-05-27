@@ -1,5 +1,5 @@
 create database if not exists php_login_database;
-drop database infofutbol;
+drop database php_login_database;
 use php_login_database;
 
 -- drop table if exists estadisticas;
