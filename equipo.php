@@ -13,58 +13,58 @@ if (isset($_GET['id'])) {
             header("Location: equipos/almeria/almeria.php");
             break;
         case 'athleticClub':
-            header("Location: equipos/athleticClub/athleticClub.html");
+            header("Location: equipos/athleticClub/athleticClub.php");
             break;
         case 'atleticoDeMadrid':
-            header("Location: equipos/atleticoDeMadrid/atleticoDeMadrid.html");
+            header("Location: equipos/atleticoDeMadrid/atleticoDeMadrid.php");
             break;
         case 'barcelona':
-            header("Location: equipos/barcelona/barcelona.html");
+            header("Location: equipos/barcelona/barcelona.php");
             break;
         case 'betis':
-            header("Location: equipos/betis/betis.html");
+            header("Location: equipos/betis/betis.php");
             break;
         case 'cadiz':
-            header("Location: equipos/cadiz/cadiz.html");
+            header("Location: equipos/cadiz/cadiz.php");
             break;
         case 'celtaDeVigo':
-            header("Location: equipos/celtaDeVigo/celtaDeVigo.html");
+            header("Location: equipos/celtaDeVigo/celtaDeVigo.php");
             break;
         case 'getafe':
-            header("Location: equipos/getafe/getafe.html");
+            header("Location: equipos/getafe/getafe.php");
             break;
         case 'girona':
-            header("Location: equipos/girona/girona.html");
+            header("Location: equipos/girona/girona.php");
             break;
         case 'granada':
-            header("Location: equipos/granada/granada.html");
+            header("Location: equipos/granada/granada.php");
             break;
         case 'lasPalmas':
-            header("Location: equipos/lasPalmas/lasPalmas.html");
+            header("Location: equipos/lasPalmas/lasPalmas.php");
             break;
         case 'mallorca':
-            header("Location: equipos/mallorca/mallorca.html");
+            header("Location: equipos/mallorca/mallorca.php");
             break;
         case 'osasuna':
-            header("Location: equipos/osasuna/osasuna.html");
+            header("Location: equipos/osasuna/osasuna.php");
             break;
         case 'rayo':
-            header("Location: equipos/rayo/rayo.html");
+            header("Location: equipos/rayo/rayo.php");
             break;
         case 'realMadrid':
-            header("Location: equipos/realMadrid/realMadrid.html");
+            header("Location: equipos/realMadrid/realMadrid.php");
             break;
         case 'realSociedad':
-            header("Location: equipos/realSociedad/realSociedad.html");
+            header("Location: equipos/realSociedad/realSociedad.php");
             break;
         case 'sevilla':
-            header("Location: equipos/sevilla/sevilla.html");
+            header("Location: equipos/sevilla/sevilla.php");
             break;
         case 'valencia':
-            header("Location: equipos/valencia/valencia.html");
+            header("Location: equipos/valencia/valencia.php");
             break;
         case 'villareal':
-            header("Location: equipos/villareal/villareal.html");
+            header("Location: equipos/villareal/villareal.php");
             break;
         default:
             echo "El equipo seleccionado no es válido.";

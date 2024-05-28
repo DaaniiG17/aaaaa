@@ -38,7 +38,7 @@
         </header>
     </div>
 
-    
+
 
 
     <form action="equipo.php" method="GET" class="container">
