@@ -31,14 +31,14 @@
             </div>
 
             <ul class="nav nav-pills me-5 ">
-                <li class="nav-item"><a href="registro.html" class="nav-link active bg-success"
-                        aria-current="page">Suscribete</a>
+                <li class="nav-item"><a href="phps/logout.php" class="nav-link active bg-success"
+                        aria-current="page">Cerrar sesion</a>
                 </li>
-                <li class="nav-item"><a href="iniciarSesion.html" class="nav-link text-dark">Iniciar Sesion</a></li>
-
             </ul>
         </header>
     </div>
+
+    
 
 
     <form action="equipo.php" method="GET" class="container">

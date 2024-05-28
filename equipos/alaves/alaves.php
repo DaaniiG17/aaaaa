@@ -18,7 +18,6 @@
 <body>
     <?php
         include '../../encabezado.php';
-    
 
     //AÑADIR JUGADOR 
     
