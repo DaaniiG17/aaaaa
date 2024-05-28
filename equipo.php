@@ -1,75 +1,57 @@
 <?php
-// Verifica si se proporcionó un ID de equipo en la URL
-if (isset($_GET['id'])) {
-    // Obtener el ID del equipo
-    $equipoId = $_GET['id'];
+// Obtener el ID del equipo desde el parámetro de consulta
+$equipoId = isset($_GET['id']) ? $_GET['id'] : '';
 
-    // Redirigir al usuario a la página del equipo correspondiente
-    switch ($equipoId) {
-        case 'alaves':
-            header("Location: equipos/alaves/alaves.php");
-            break;
-        case 'almeria':
-            header("Location: equipos/almeria/almeria.php");
-            break;
-        case 'athleticClub':
-            header("Location: equipos/athleticClub/athleticClub.php");
-            break;
-        case 'atleticoDeMadrid':
-            header("Location: equipos/atleticoDeMadrid/atleticoDeMadrid.php");
-            break;
-        case 'barcelona':
-            header("Location: equipos/barcelona/barcelona.php");
-            break;
-        case 'betis':
-            header("Location: equipos/betis/betis.php");
-            break;
-        case 'cadiz':
-            header("Location: equipos/cadiz/cadiz.php");
-            break;
-        case 'celtaDeVigo':
-            header("Location: equipos/celtaDeVigo/celtaDeVigo.php");
-            break;
-        case 'getafe':
-            header("Location: equipos/getafe/getafe.php");
-            break;
-        case 'girona':
-            header("Location: equipos/girona/girona.php");
-            break;
-        case 'granada':
-            header("Location: equipos/granada/granada.php");
-            break;
-        case 'lasPalmas':
-            header("Location: equipos/lasPalmas/lasPalmas.php");
-            break;
-        case 'mallorca':
-            header("Location: equipos/mallorca/mallorca.php");
-            break;
-        case 'osasuna':
-            header("Location: equipos/osasuna/osasuna.php");
-            break;
-        case 'rayo':
-            header("Location: equipos/rayo/rayo.php");
-            break;
-        case 'realMadrid':
-            header("Location: equipos/realMadrid/realMadrid.php");
-            break;
-        case 'realSociedad':
-            header("Location: equipos/realSociedad/realSociedad.php");
-            break;
-        case 'sevilla':
-            header("Location: equipos/sevilla/sevilla.php");
-            break;
-        case 'valencia':
-            header("Location: equipos/valencia/valencia.php");
-            break;
-        case 'villareal':
-            header("Location: equipos/villareal/villareal.php");
-            break;
-        default:
-            echo "El equipo seleccionado no es válido.";
-            break;
-    }
-    exit; // Asegúrate de salir del script después de redirigir al usuario
+// Verificar si el ID del equipo está vacío
+if (empty($equipoId)) {
+    echo "No se ha seleccionado ningún equipo.";
+    exit();
 }
+
+// Array de nombres de equipos
+$nombresEquipos = [
+    'alaves' => 'Alavés',
+    'almeria' => 'Almería',
+    'athleticClub' => 'Athletic Club',
+    'atleticoDeMadrid' => 'Atlético de Madrid',
+    'barcelona' => 'FC Barcelona',
+    'betis' => 'Betis',
+    'cadiz' => 'Cádiz',
+    'celtaDeVigo' => 'Celta de Vigo',
+    'getafe' => 'Getafe',
+    'girona' => 'Girona',
+    'granada' => 'Granada',
+    'lasPalmas' => 'Las Palmas',
+    'mallorca' => 'Mallorca',
+    'osasuna' => 'Osasuna',
+    'rayo' => 'Rayo Vallecano',
+    'realMadrid' => 'Real Madrid',
+    'realSociedad' => 'Real Sociedad',
+    'sevilla' => 'Sevilla',
+    'valencia' => 'Valencia',
+    'villareal' => 'Villarreal'
+];
+
+// Obtener el nombre del equipo
+$nombreEquipo = isset($nombresEquipos[$equipoId]) ? $nombresEquipos[$equipoId] : 'Equipo desconocido';
 ?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $nombreEquipo; ?></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <?php include 'encabezado.php'; ?>
+    <div class="container mt-4">
+        <h1><?php echo $nombreEquipo; ?></h1>
+        <!-- Aquí puedes agregar más contenido relacionado con el equipo seleccionado -->
+    </div>
+
+    <?php include 'insertarPorteros.php'?>
+</body>
+</html>
