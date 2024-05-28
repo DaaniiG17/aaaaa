@@ -193,7 +193,7 @@ BEGIN
     
     SELECT usuario FROM users WHERE usuario LIKE _nombre
     INTO existe;
-    
+     
     IF(_nombre IS NULL or _nombre LIKE "") THEN 
 		SET _resultado = -1;
 	ELSEIF(_password IS NULL or _password LIKE "") THEN
@@ -239,4 +239,16 @@ BEGIN
 	END IF;
 END//
 DELIMITER ;
+
+-- VISTAS
+CREATE VIEW AlineacionEquipo AS
+    SELECT id_alineacion, nombre_jugador, apellido_jugador, posicion, numero_camiseta
+    FROM alineacion
+    WHERE id_alineacion = 'Alineacion';
+   
+SELECT *
+FROM AlineacionEquipo;
+
+
+
 
