@@ -193,7 +193,7 @@ BEGIN
     
     SELECT usuario FROM users WHERE usuario LIKE _nombre
     INTO existe;
-    
+     
     IF(_nombre IS NULL or _nombre LIKE "") THEN 
 		SET _resultado = -1;
 	ELSEIF(_password IS NULL or _password LIKE "") THEN
@@ -240,3 +240,33 @@ BEGIN
 END//
 DELIMITER ;
 
+
+
+
+-- VISTAS
+
+-- Ver Alineacion
+CREATE VIEW AlineacionEquipo AS
+    SELECT a.id_alineacion, a.nombre_jugador, a.apellido_jugador, a.posicion, a.numero_camiseta, e.nombre AS equipo_nombre
+    FROM alineacion a
+    JOIN jugadores j ON a.numero_camiseta = j.numero_camiseta
+    JOIN equipo e ON j.equipo = e.id_equipo;
+
+SELECT *
+FROM AlineacionEquipo;
+
+
+
+
+-- Ver estadisticas de jugadores
+CREATE VIEW EstadisticasJugadores AS
+    SELECT j.numero_camiseta, j.nombre, j.apellido, j.edad, j.posicion_base, 
+           e.nombre AS equipo_nombre, 
+           e.partidos_jugados, e.goles, e.asistencias, 
+           e.tarjetas_amarillas, e.tarjetas_rojas, e.temporadas_club
+    FROM jugadores j
+    JOIN equipo e ON j.equipo = e.id_equipo
+    JOIN estadisticas e ON j.numero_camiseta = e.fk_jugador;
+
+SELECT *
+FROM EstadisticasJugadores;
