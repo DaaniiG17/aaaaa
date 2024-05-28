@@ -26,11 +26,18 @@ DELIMITER ;
 
 DELIMITER //
 CREATE PROCEDURE eliminarJugador(
-			in nombreJugador char(50)
+			in nombreJugador char(50),
+            OUT _resultado int
 )
 BEGIN
+
+	if(nombreJugador IS NULL OR nombreJugador like "") THEN
+    SET _resultado = -1;
+
 	DELETE FROM JUGADORES
     WHERE nombreJugador LIKE nombre;
+    set _resultado = 0;
+    END IF;
 END//
 DELIMITER ;
 
@@ -66,13 +73,20 @@ DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE cambiarEdadJugador(
 			in nombreJugador char(50),
-            in edadJugador int
+            in edadJugador int,
+            out _resultado int
 )
 BEGIN
+			if(nombreJugador IS NULL OR nombreJugador like "") then
+            set _resultado = -1;
+            elseif(edadJugador IS NULL OR edadJugador like "") THEN
+            SET _resultado = -2;
+            else
 			UPDATE jugadores
             set edad = edadJugador
             where nombre like nombreJugador;
-
+			SET _resultado = 0;
+            END IF;
 END//
 DELIMITER ;
 
@@ -100,13 +114,20 @@ DELIMITER //
 DELIMITER //
 CREATE PROCEDURE cambiarNombreJugador(
 			in nuevoNombre char(50),
-            in nombreAntiguo char(50)
+            in nombreAntiguo char(50),
+            OUT _resultado int
 )
 BEGIN
+	IF(nuevoNombre IS NULL OR nuevoNombre LIKE "") THEN
+		SET _resultado = -1;
+	ELSEIF(nombreAntiguo IS NULL OR nombreAntiguo LIKE "") THEN
+		SET _resultado = -2;
+        else
 			UPDATE jugadores
             set nombre = nuevoNombre
             where nombre like nombreAntiguo;
-
+            set _resultado = 0;
+	END IF;
 END//
 DELIMITER ;
 
@@ -116,13 +137,21 @@ DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE cambiarDorsalJugador(
 			in nuevoDorsal char(50),
-            in dorsalAntiguo char(50)
+            in dorsalAntiguo char(50),
+            out _resultado int
 )
 BEGIN
+
+	IF(nuevoDorsal IS NULL) THEN
+		SET _resultado = -1;
+	ELSEIF(dorsalAntiguo IS NULL) THEN
+		SET _resultado = -2;
+	ELSE    
 			UPDATE jugadores
             set numero_camiseta = nuevoDorsal
             where numero_camiseta like dorsalAntiguo;
-
+            SET _resultado = 0;
+	END IF;
 END//
 DELIMITER ;
 
@@ -132,11 +161,82 @@ DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE cambiarEntrenador(
 			in nuevoEntrenador char(50),
-            in antiguoEntrenador char(50)
+            in antiguoEntrenador char(50),
+            OUT _resultado int
 )
 BEGIN
-			UPDATE EQUIPO
-			SET nombre = nuevoEntrenador
-            where nombre like antiguoEntrenador;
-END ;
+	IF(nuevoEntrenador IS NULL OR nuevoEntrenador LIKE "") THEN
+    SET _resultado = -1;
+    ELSEIF(antiguoEntrenador IS NULL OR antiguoEntrenador LIKE "") THEN
+    SET _resultado = -2;
+    ELSE
+		UPDATE EQUIPO
+		SET nombre = nuevoEntrenador
+		where nombre like antiguoEntrenador;
+		SET _resultado = 0;
+	END IF;
+END//
+DELIMITER ;
+
+
+-- Registrarse
+
+DROP PROCEDURE Registrar;
 DELIMITER //
+CREATE PROCEDURE Registrar(IN _id int,
+							IN _nombre VARCHAR(50),
+                           IN _password VARCHAR(40),
+                           OUT _resultado INT)
+BEGIN
+	DECLARE existe VARCHAR(16);
+    SET existe = NULL;
+    
+    SELECT usuario FROM users WHERE usuario LIKE _nombre
+    INTO existe;
+    
+    IF(_nombre IS NULL or _nombre LIKE "") THEN 
+		SET _resultado = -1;
+	ELSEIF(_password IS NULL or _password LIKE "") THEN
+		SET _resultado = -2;
+	ELSEIF(existe IS NOT NULL) THEN
+		SET _resultado = -3;
+    ELSE	-- TODO PERFECTO
+		INSERT INTO users(id, usuario, contrasenia)
+				VALUES(_id, _nombre, _password);
+		SET _resultado = 0;
+    END IF;            
+END//
+DELIMITER ;
+
+
+-- INICIAR SESION
+
+
+DROP PROCEDURE login;
+DELIMITER //
+CREATE PROCEDURE login(IN _nombre varchar(16),
+							   IN _pass varchar(40),
+							   OUT _resultado INT)
+BEGIN
+	DECLARE existe VARCHAR(16);
+    DECLARE passCorrecta varchar(40);    
+    SET existe = NULL;
+    SET passCorrecta = NULL;
+    
+    SELECT usuario FROM users WHERE usuario LIKE _nombre
+    INTO existe;
+    SELECT contrasenia FROM users WHERE username LIKE _usuario and contrasenia LIKE _pass
+    INTO passCorrecta;
+    
+    IF(_nombre LIKE "" or _nombre IS NULL) THEN -- CASO -1 - Usuario vacio o nulo
+		SET _resultado = -1;
+    ELSEIF(existe IS NULL) THEN -- CASO -2 - Usuario no existe
+		SET _resultado = -2;
+    ELSEIF(passCorrecta IS NULL) THEN -- CASO -3 - Contraseña incorrecta
+		SET _resultado = -3;
+	ELSE -- CASO 0 - TODO OK (Contraseña correcta)
+		SET _resultado = 0;
+	END IF;
+END//
+DELIMITER ;
+
