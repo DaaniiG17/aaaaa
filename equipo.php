@@ -1,14 +1,11 @@
 <?php
-// Obtener el ID del equipo desde el parámetro de consulta
 $equipoId = isset($_GET['id']) ? $_GET['id'] : '';
 
-// Verificar si el ID del equipo está vacío
 if (empty($equipoId)) {
     echo "No se ha seleccionado ningún equipo.";
     exit();
 }
 
-// Array de nombres de equipos
 $nombresEquipos = [
     'alaves' => 'Alavés',
     'almeria' => 'Almería',
@@ -32,7 +29,6 @@ $nombresEquipos = [
     'villareal' => 'Villarreal'
 ];
 
-// Obtener el nombre del equipo
 $nombreEquipo = isset($nombresEquipos[$equipoId]) ? $nombresEquipos[$equipoId] : 'Equipo desconocido';
 ?>
 
@@ -48,10 +44,19 @@ $nombreEquipo = isset($nombresEquipos[$equipoId]) ? $nombresEquipos[$equipoId] :
 <body>
     <?php include 'encabezado.php'; ?>
     <div class="container mt-4">
-        <h1><?php echo $nombreEquipo; ?></h1>
-        <!-- Aquí puedes agregar más contenido relacionado con el equipo seleccionado -->
     </div>
 
     <?php include 'insertarPorteros.php'?>
+    <?php include 'insertarDefensas.php'?>
+    <?php include 'insertarMediocentros.php'?>
+    <?php include 'insertarDelanteros.php'?>
+
+
+    <?php
+        include 'footer.php';
+    ?>
+
+<script src="script.js?v=<?php echo time(); ?>"></script>
+
 </body>
 </html>

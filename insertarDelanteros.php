@@ -4,13 +4,13 @@ include 'phps/database.php';
 if(isset($_GET['id'])) {
     $equipo = $_GET['id'];
 
-    $sql = "SELECT * FROM $equipo WHERE posicion = 'Portero'";
+    $sql = "SELECT * FROM $equipo WHERE posicion = 'Delantero Centro' OR posicion = 'Extremo'";
 
     $resultado = $conn->query($sql);
 
     if ($resultado && $resultado->rowCount() > 0) {
         echo '<div class="container marketing">';
-        echo '<h1 class="mt-5">PORTEROS</h1>';
+        echo '<h1 class="mt-5">DELANTEROS</h1>';
         echo '<hr class="mb-5">';
         echo '<div class="row text-center">';
         while ($fila = $resultado->fetch(PDO::FETCH_ASSOC)) {
@@ -18,7 +18,7 @@ if(isset($_GET['id'])) {
             echo '<img class="rounded-circle" width="140" height="140" src="' . $fila['imagen'] . '">';
             echo '<h2>' . $fila['nombre'] . '</h2>';
             echo '<h5>' . $fila['posicion'] . '</h5>';
-            echo '<button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>';
+            echo '<button class="btn btn-secondary bg-primary eliminarDelanteros">Eliminar jugador</button>';
             echo '</div><!-- /.col-lg-4 -->';
         }
         echo '</div><!-- /.row -->';

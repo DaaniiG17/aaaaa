@@ -2,9 +2,11 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
     // ELIMINAR ENTRENADORES
 
-    const eliminarEntrenadores = document.querySelector('.eliminarEntrenador');
-
-    eliminarEntrenadores.addEventListener('click', eliminarEntrenador);
+    const eliminarEntrenadores = document.getElementsByClassName('eliminarEntrenador');
+    for(let item of eliminarEntrenadores){
+        item.addEventListener('click', eliminarEntrenador);
+    }
+    
 
     function eliminarEntrenador(e) {
         e.preventDefault();
