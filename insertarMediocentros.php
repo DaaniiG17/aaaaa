@@ -4,13 +4,13 @@ include 'phps/database.php';
 if(isset($_GET['id'])) {
     $equipo = $_GET['id'];
 
-    $sql = "SELECT * FROM $equipo WHERE posicion = 'Portero'";
+    $sql = "SELECT * FROM $equipo WHERE posicion = 'Mediocentro' OR posicion = 'Mediocentro defensivo' OR posicion = 'Mediocentro ofensivo'";
 
     $resultado = $conn->query($sql);
 
     if ($resultado && $resultado->rowCount() > 0) {
         echo '<div class="container marketing">';
-        echo '<h1 class="mt-5">PORTEROS</h1>';
+        echo '<h1 class="mt-5">MEDIOCENTROS</h1>';
         echo '<hr class="mb-5">';
         echo '<div class="row text-center">';
         while ($fila = $resultado->fetch(PDO::FETCH_ASSOC)) {
