@@ -34,7 +34,7 @@ public class Almeria extends JFrame {
 	 */
 	public Almeria() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 931, 772);
+		setBounds(100, 100, 1022, 784);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
