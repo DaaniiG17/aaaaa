@@ -3,7 +3,7 @@ echo '
 <div class="bg-primary">
     <footer class="py-3">
         <ul class="nav justify-content-center">
-            <li class="nav-item"><a href="alaves.php" class="nav-link text-white">Plantilla</a></li>
+            <li class="nav-item"><a href="equipo.php" class="nav-link text-white">Plantilla</a></li>
             <li class="nav-item"><a href="estadio.php" class="nav-link text-white">Estadio</a></li>
             <li class="nav-item"><a href="partidosJugados.php" class="nav-link text-white">Partidos jugados</a></li>
             <li class="nav-item"><a href="goles.php" class="nav-link text-white">Goles</a></li>

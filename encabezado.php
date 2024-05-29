@@ -49,10 +49,11 @@ echo '
         <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="' . $equipoId . '.php">Plantilla</a>
+                
+                <a class="nav-link active" aria-current="page" href="equipo.php?id=' . $equipoId . '">Plantilla</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="estadio.php">Estadio</a>
+                    <a class="nav-link active" href="estadios.php?id=' . $equipoId .'">Estadio</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="dropdown03" data-bs-toggle="dropdown">Estadísticas</a>
