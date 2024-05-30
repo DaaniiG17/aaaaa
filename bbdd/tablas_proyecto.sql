@@ -1,7 +1,10 @@
-create database if not exists php_login_database;
-drop database php_login_database;
-use php_login_database;
+create database if not exists infofutbol;
 
+-- drop database infofutbol;
+
+use infofutbol;
+
+-- drop table if exists sers
 -- drop table if exists estadisticas;
 -- drop table if exists jugadores;
 -- drop table if exists plantilla;

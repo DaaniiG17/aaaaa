@@ -1,166 +1,96 @@
 package infofutbol;
 
-import java.awt.EventQueue;
-import java.awt.Image;
+import javax.swing.*;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
+import java.awt.Desktop;
+import java.awt.event.*;
+import java.io.File;
 
-public class Equipos extends JFrame {
+public class Equipos {
 
-	private static final long serialVersionUID = 1L;
-	private JPanel contentPane;
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Selecciona tu equipo");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(800, 600);
+        
+        JPanel contentPane = new JPanel();
+        contentPane.setLayout(null); // Usamos un layout nulo para poder usar setBounds
+        
+        JComboBox<String> comboBox = new JComboBox<>();
+        comboBox.setModel(new DefaultComboBoxModel<>(new String[] {
+            "Que equipo quieres elegir", "Alaves", "Almeria", "Atleti", "Barca", "Betis", "Bilbao", 
+            "Cadiz", "Celta", "Getafe", "Girona", "Granada", "Las Palmas", "Mallorca", "Osasuna", 
+            "Rayo Vallecano", "Real Madrid", "Real Sociedad", "Sevilla", "Valencia", "Villarreal"
+        }));
+        comboBox.setBounds(315, 230, 203, 37);
+        
+        comboBox.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String selectedTeam = (String) comboBox.getSelectedItem();
+                openTeamFile(selectedTeam);
+            }
+        });
+        
+        contentPane.add(comboBox);
+        frame.setContentPane(contentPane);
+        frame.setVisible(true);
+    }
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Equipos frame = new Equipos();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+    private static void openTeamFile(String teamName) {
+        // Ruta base del directorio de los archivos
+        String basePath = "src/infofutbol/";
 
-	/**
-	 * Create the frame.
-	 */
-	public Equipos() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 967, 526);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+        // Ruta del archivo del equipo seleccionado
+        String filePath;
 
-		setContentPane(contentPane);
-		contentPane.setLayout(null);
-		
-		JLabel lblNewLabel = new JLabel("Alaves");
-		lblNewLabel.setBounds(34, 38, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(Equipos.class.getResource("/infofutbol/imgEquipos/alaves.png")));
-		contentPane.add(lblNewLabel);
-		
-		JLabel lblAlmeria = new JLabel("Almeria");
-		lblAlmeria.setBounds(209, 38, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/almeria.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblAlmeria);
-		
-		JLabel lblBilbao = new JLabel("Bilbao");
-		lblBilbao.setBounds(415, 38, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/bilbao.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblBilbao);
-		
-		JLabel lblAtleti = new JLabel("Atleti");
-		lblAtleti.setBounds(617, 38, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/atleticoMadrid.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblAtleti);
-		
-		JLabel lblBarca = new JLabel("Barca");
-		lblBarca.setBounds(832, 38, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/barca.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblBarca);
-		
-		JLabel lblBetis = new JLabel("Betis");
-		lblBetis.setBounds(34, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/imgEquipos/betis.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblBetis);
-		
-		JLabel lblCadiz = new JLabel("Cadiz");
-		lblCadiz.setBounds(209, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/cadiz.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblCadiz);
-		
-		JLabel lblCelta = new JLabel("Celta");
-		lblCelta.setBounds(415, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/celta.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblCelta);
-		
-		JLabel lblGetafe = new JLabel("Getafe");
-		lblGetafe.setBounds(617, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/getafe.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblGetafe);
-		
-		JLabel lblGirona = new JLabel("Girona");
-		lblGirona.setBounds(832, 146, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/girona.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblGirona);
-		
-		JLabel lblGranada = new JLabel("Granada");
-		lblGranada.setBounds(34, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/granada.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblGranada);
-		
-		JLabel lblMadrid = new JLabel("Madrid");
-		lblMadrid.setBounds(34, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/realMadrid.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblMadrid);
-		
-		JLabel lblLasPalmas = new JLabel("Las Palmas");
-		lblLasPalmas.setBounds(209, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/lasPalmas.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblLasPalmas);
-		
-		JLabel lblMallorca = new JLabel("Mallorca");
-		lblMallorca.setBounds(415, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/mallorca.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblMallorca);
-		
-		JLabel lblOsasuna = new JLabel("Osasuna");
-		lblOsasuna.setBounds(617, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/osasuna.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblOsasuna);
-		
-		JLabel lblRayo = new JLabel("Rayo ");
-		lblRayo.setBounds(832, 263, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/rayo.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblRayo);
-		
-		JLabel lblRealSociedad = new JLabel("Real Sociedad");
-		lblRealSociedad.setBounds(209, 376, 89, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/realSociedad.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblRealSociedad);
-		
-		JLabel lblSevilla = new JLabel("Sevilla");
-		lblSevilla.setBounds(415, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/sevilla.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblSevilla);
-		
-		JLabel lblValencia = new JLabel("Valencia");
-		lblValencia.setBounds(617, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/valencia.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblValencia);
-		
-		JLabel lblVillarreal = new JLabel("Villarreal");
-		lblVillarreal.setBounds(832, 376, 55, 36);
-		lblNewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/infofutbol.imgEquipos/villarreal.png")).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
-		contentPane.add(lblNewLabel);
-		contentPane.add(lblVillarreal);
+        // Switch para determinar el archivo según el equipo seleccionado
+        switch (teamName) {
+            case "Alaves.java":
+            case "Almeria.java":
+            case "Atleti.java":
+            case "Barca.java":
+            case "Betis.java":
+            case "Bilbao.java":
+            case "Cadiz.java":
+            case "Celta.java":
+            case "Getafe.java":
+            case "Girona.java":
+            case "Granada.java":
+            case "Las Palmas.java":
+            case "Mallorca.java":
+            case "Osasuna.java":
+            case "Rayo Vallecano.java":
+            case "Real Madrid.java":
+            case "Real Sociedad.java":
+            case "Sevilla.java":
+            case "Valencia.java":
+            case "Villarreal.java":
+                filePath = basePath + teamName + ".java";
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "No se ha seleccionado un equipo válido.");
+                return; // Salir del método si no se selecciona un equipo válido
+        }
+
+        // Crear un objeto File con la ruta del archivo
+        File file = new File(filePath);
+
+        // Verificar si el archivo existe
+        if (file.exists()) {
+            try {
+                // Abrir el archivo en el editor de código
+                Desktop.getDesktop().open(file);
+            } catch (Exception e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Error al abrir el archivo del equipo");
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "El archivo del equipo no se ha encontrado.");
+        }
+    }
+
+	public void setVisible(boolean b) {
+		// TODO Auto-generated method stub
 		
 	}
-
 }
