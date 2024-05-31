@@ -679,3 +679,3737 @@ insert into villarreal (nombre, posicion, imagen) VALUES(27, "Ilias Akhomach", "
 
 
 
+
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 10),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE almeria 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+
+
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE athleticclub 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE AtleticoDeMadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE barcelona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE betis 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE cadiz 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE celtadevigo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE getafe 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE girona 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE granada 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE laspalmas 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE mallorca 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE rayo 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE realmadrid 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE realsociedad 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE sevilla 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE valencia 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
+
+
+
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 1;
+
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 0),
+    asistencias = ROUND(RAND() * 0),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 2;
+
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 3;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 4;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 5;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 6;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 7;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 8;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 9;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 10;
+
+
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 11;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 12;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 13;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 14;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 15;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 16;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 5),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 17;
+
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 18;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 19;
+
+UPDATE villareal 
+SET 
+    partidosJugados = ROUND(RAND() * 50 + 50),
+    goles = ROUND(RAND() * 20),
+    asistencias = ROUND(RAND() * 10),
+    amarillas = ROUND(RAND() * 10),
+    rojas = ROUND(RAND() * 4),
+    temporadas = ROUND(RAND() * 5) + 1
+WHERE id = 20;
