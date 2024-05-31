@@ -12,19 +12,14 @@
 </head>
 
 <body>
+
+    <?php include 'encabezado.php'; ?>
+
     <div class="">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none ms-5">
-                <img src="img/logo.png" alt="" width="50px">
-                <span class="fs-4">INFOFUTBOL</span>
-            </div>
-            <ul class="nav nav-pills me-5">
-                <li class="nav-item"><a href="phps/logout.php" class="nav-link active bg-success" aria-current="page">Cerrar sesion</a></li>
-            </ul>
-        </header>
-
-        <?php include 'insertarEstadios.php'?>
+        <?php include 'insertarEstadios.php' ?>
+        <?php include 'footer.php' ?>
     </div>
-    </body>
-</html>
 
+</body>
+
+</html>

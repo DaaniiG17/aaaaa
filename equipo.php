@@ -43,9 +43,7 @@ $nombreEquipo = isset($nombresEquipos[$equipoId]) ? $nombresEquipos[$equipoId] :
 </head>
 <body>
     <?php include 'encabezado.php'; ?>
-    <div class="container mt-4">
-    </div>
-
+    <?php include 'insertarJugador.php'?>
     <?php include 'insertarPorteros.php'?>
     <?php include 'insertarDefensas.php'?>
     <?php include 'insertarMediocentros.php'?>

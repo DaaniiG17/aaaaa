@@ -93,57 +93,7 @@
         </footer>
     </div>
 
-    <script>
-
-        document.addEventListener('DOMContentLoaded', function(){
-
-            const formulario = document.getElementById('jugadorForm');
-            const botonCambiar = document.querySelector('.cambiarEstadio');
-
-            botonCambiar.addEventListener('click', cambiarEstadio);
-
-            function cambiarEstadio(e){
-
-                event.preventDefault();
-
-                formulario.innerHTML = `
-                <div class="mb-3">
-            <label class="form-label">Escribe el nombre del estadio</label>
-            <input type="text" class="form-control" id="nombreEstadioNuevo" style="width: 250px;" required>
-            </div>
-            <div class="mb-3">
-                <label for="urlJugador" class="form-label">Escribe la url del estadio</label>
-                <input type="text" class="form-control" id="urlImagen" style="width: 250px;" required>
-            </div>
-
-            <button type="submit" class="btn btn-primary" id="botonCambiar">Cambiar estadio</button>
-                `
-            
-            const botonCambiarEstadio = formulario.querySelector('#botonCambiar');
-            const estadio = document.querySelector('#imagenEstadio');
-            let nuevoEstadio = document.getElementById('nombreEstadio');
-            let URL = document.querySelector('#imagenEstadio');
-
-            botonCambiarEstadio.addEventListener('click', cambiarANuevoEstadio);
-
-            function cambiarANuevoEstadio(e){
-                const nombreEstadioNuevo = formulario.querySelector('#nombreEstadioNuevo').value;
-                const nuevaURL = formulario.querySelector('#urlImagen').value;
-                e.preventDefault();
-            nuevoEstadio.innerHTML = `
-                ${nombreEstadioNuevo}
-            `
-            
-            URL.src = `
-                ${nuevaURL}
-            `
-
-            }
-            }
-
-        })
-
-    </script>
+    
 
 </body>
 
