@@ -1,5 +1,3 @@
-<?php
-echo '
 <div class="bg-primary">
     <footer class="py-3">
         <ul class="nav justify-content-center">
@@ -17,5 +15,3 @@ echo '
     </footer>
 </div>
 
-'
-?>

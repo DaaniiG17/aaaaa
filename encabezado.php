@@ -1,6 +1,7 @@
 <?php
 // Obtener el ID del equipo desde el parámetro de consulta
 $equipoId = isset($_GET['id']) ? $_GET['id'] : '';
+$equipoId = isset($_GET['id']) ? $_GET['id'] : '';
 
 // Verificar si el ID del equipo está vacío
 if (empty($equipoId)) {
@@ -59,8 +60,8 @@ echo '
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="dropdown03" data-bs-toggle="dropdown">Estadísticas</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                        <li><a class="dropdown-item" href="partidosJugados.php">Partidos Jugados</a></li>
-                        <li><a class="dropdown-item" href="goles.php">Goles</a></li>
+                        <li><a class="dropdown-item" href="partidosJugados.php?id='. $equipoId .'">Partidos Jugados</a></li>
+                        <li><a class="dropdown-item" href="goles.php?id='. $equipoId .'">Goles</a></li>
                         <li><a class="dropdown-item" href="asistencias.php">Asistencias</a></li>
                         <li><a class="dropdown-item" href="amarillas.php">Tarjetas amarillas</a></li>
                         <li><a class="dropdown-item" href="rojas.php">Tarjetas rojas</a></li>

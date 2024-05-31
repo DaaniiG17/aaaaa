@@ -14,8 +14,8 @@
 <body>
 
     <?php include 'encabezado.php'; ?>
-    <?php include 'insertarEstadios.php' ?>
-    <?php include 'footer.php' ?>
+    <?php include 'insertarPartidos.php'?>
+    <?php include 'footer.php'?>
     
 
 </body>
