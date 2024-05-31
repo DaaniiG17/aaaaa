@@ -62,10 +62,10 @@ echo '
                     <ul class="dropdown-menu" aria-labelledby="dropdown03">
                         <li><a class="dropdown-item" href="partidosJugados.php?id='. $equipoId .'">Partidos Jugados</a></li>
                         <li><a class="dropdown-item" href="goles.php?id='. $equipoId .'">Goles</a></li>
-                        <li><a class="dropdown-item" href="asistencias.php">Asistencias</a></li>
-                        <li><a class="dropdown-item" href="amarillas.php">Tarjetas amarillas</a></li>
-                        <li><a class="dropdown-item" href="rojas.php">Tarjetas rojas</a></li>
-                        <li><a class="dropdown-item" href="temporadas.php">Temporadas en el club</a></li>
+                        <li><a class="dropdown-item" href="asistencias.php?id='. $equipoId .'">Asistencias</a></li>
+                        <li><a class="dropdown-item" href="amarillas.php?id='. $equipoId .'">Tarjetas amarillas</a></li>
+                        <li><a class="dropdown-item" href="rojas.php?id='. $equipoId .'">Tarjetas rojas</a></li>
+                        <li><a class="dropdown-item" href="temporadas.php?id='. $equipoId .'">Temporadas en el club</a></li>
                     </ul>
                 </li>
             </ul>

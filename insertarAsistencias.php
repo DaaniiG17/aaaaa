@@ -25,8 +25,8 @@ try {
                 echo '<img class="rounded-circle" width="140" height="140" src="' . $row["imagen"] . '"></img>';
                 echo '<h2>' . $row["nombre"] . '</h2>';
                 echo '<br>';
-                echo '<h5>' . $row["posicion"] . '<br> Asistencias: ' . $row["asistencias"] . '</h5>';
-                echo '<button class="btn btn-secondary bg-primary cambiarAsistencias">Cambiar asistencias</button>';
+                echo '<h5>' . $row["posicion"] . '<br>  Asistencias: ' . $row["asistencias"] . '</h5>';
+                echo '<button class="btn btn-secondary bg-primary cambiarNumeroAsistencias">Cambiar número de asistencias</button>';
                 echo '</div><!-- /.col-lg-4 -->';
             }
 
