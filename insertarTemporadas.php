@@ -8,7 +8,7 @@ try {
 
     if ($equipo) {
         // Consulta para obtener los jugadores del equipo seleccionado
-        $sql = "SELECT nombre, posicion, asistencias, imagen FROM $equipo";
+        $sql = "SELECT nombre, posicion, temporadas, imagen FROM $equipo";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
 
@@ -25,8 +25,8 @@ try {
                 echo '<img class="rounded-circle" width="140" height="140" src="' . $row["imagen"] . '"></img>';
                 echo '<h2>' . $row["nombre"] . '</h2>';
                 echo '<br>';
-                echo '<h5>' . $row["posicion"] . '<br> Asistencias: ' . $row["asistencias"] . '</h5>';
-                echo '<button class="btn btn-secondary bg-primary cambiarAsistencias">Cambiar asistencias</button>';
+                echo '<h5>' . $row["posicion"] . '<br> Temporadas: ' . $row["temporadas"] . '</h5>';
+                echo '<button class="btn btn-secondary bg-primary cambiarTemporadas">Cambiar temporadas</button>';
                 echo '</div><!-- /.col-lg-4 -->';
             }
 
