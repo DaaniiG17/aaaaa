@@ -12,11 +12,15 @@
 </head>
 
 <body>
+    
+<div id="formulario"></div>
+
 
     <?php include 'encabezado.php'; ?>
     <?php include 'insertarAmarillas.php'?>
     <?php include 'footer.php'?>
     
+    <script src="script.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

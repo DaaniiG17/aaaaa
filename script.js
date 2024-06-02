@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function (e) {
     // ELIMINAR ENTRENADORES
 
     const eliminarEntrenadores = document.getElementsByClassName('eliminarEntrenador');
-    for(let item of eliminarEntrenadores){
+    for (let item of eliminarEntrenadores) {
         item.addEventListener('click', eliminarEntrenador);
     }
-    
+
 
     function eliminarEntrenador(e) {
         e.preventDefault();
@@ -89,24 +89,23 @@ document.addEventListener('DOMContentLoaded', function (e) {
         const imagenJugador = document.querySelector('#urlJugador').value;
 
         // AÑADIR PORTEROS
-
         if (posicionJugador.toLowerCase() == "portero") {
             const divJugador = document.createElement('div');
-            divJugador.classList.add('col-lg-4') //
+            divJugador.classList.add('col-lg-4');
             divJugador.innerHTML = `
-  <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
-      <h2>${nombreJugador}</h2>
-      <h5>${posicionJugador}</h5>
-      <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
-  `
+        <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
+        <h2>${nombreJugador}</h2>
+        <h5>${posicionJugador}</h5>
+        <button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>
+    `;
 
             const encontrar = document.querySelector('.row.text-center');
-
             encontrar.appendChild(divJugador);
 
             const botonEliminar = divJugador.querySelector('.eliminarPorteros');
-
             botonEliminar.addEventListener('click', eliminarPortero);
+
+
 
         } else if (posicionJugador.toLowerCase() == "defensa central" || posicionJugador.toLowerCase() == "lateral") {
 
@@ -115,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
             const filaDefensa = document.querySelector('#defensa');
             const nuevoDivDefensa = document.createElement('div');
 
-            nuevoDivDefensa.className = 'col-lg-4 mb-5'
+            nuevoDivDefensa.className = 'col-lg-4 mb-5';
 
             nuevoDivDefensa.innerHTML = `
                         <img src="${imagenJugador}" class="rounded-circle" width="140" height="140">
@@ -222,5 +221,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
         }
 
     }
+
+
 
 });

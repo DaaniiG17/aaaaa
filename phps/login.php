@@ -22,7 +22,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
         header("Location: login.php"); 
         exit(); 
     } else {
-        $message = 'Sorry, those credentials do not match';
+        $message = 'Lo siento, el usuario o la contraseña son incorrectos';
     }
 }
 ?>
@@ -36,18 +36,17 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <?php require 'partials/header.php'; ?>
 
     <?php if (!empty($message)): ?>
         <p><?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Login</h1>
-    <span>or <a href="signup.php">SignUp</a></span>
+    <h1>Inicia sesion</h1>
+    <span>o <a href="signup.php">Registrate</a></span>
 
     <form action="login.php" method="POST">
-        <input name="email" type="text" placeholder="Enter your email">
-        <input name="password" type="password" placeholder="Enter your Password">
+        <input name="email" type="text" placeholder="Introduce tu email">
+        <input name="password" type="password" placeholder="Introduce tu contraseña">
         <input type="submit" value="Submit">
     </form>
 </body>

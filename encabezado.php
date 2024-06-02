@@ -49,7 +49,7 @@ echo '
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample03">
-            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0 d-flex">
                 <li class="nav-item">
                 
                 <a class="nav-link active" aria-current="page" href="equipo.php?id=' . $equipoId . '">Plantilla</a>
@@ -67,6 +67,9 @@ echo '
                         <li><a class="dropdown-item" href="rojas.php?id='. $equipoId .'">Tarjetas rojas</a></li>
                         <li><a class="dropdown-item" href="temporadas.php?id='. $equipoId .'">Temporadas en el club</a></li>
                     </ul>
+                </li>
+                <li class="ms-auto">
+                    <a class="nav-link active" href="index.php">Inicio</a>
                 </li>
             </ul>
         </div>

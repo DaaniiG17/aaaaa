@@ -20,9 +20,12 @@ if(isset($_GET['id'])) {
             echo '<h5>' . $fila['posicion'] . '</h5>';
             echo '<button class="btn btn-secondary bg-primary eliminarDefensas">Eliminar jugador</button>';
             echo '</div><!-- /.col-lg-4 -->';
+            
         }
+        echo '<div id="defensa" class="d-flex row"></div>';
         echo '</div><!-- /.row -->';
         echo '</div>';
+
     } else {
         echo '<div class="container">No se encontraron defensas en el equipo seleccionado.</div>';
     }
