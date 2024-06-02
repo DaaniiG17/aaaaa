@@ -1,6 +1,6 @@
 <?php
 // Incluir el archivo de conexión a la base de datos
-require_once 'phps/database.php';
+include 'phps/database.php';
 
 try {
     // Obtener el equipo seleccionado desde la URL

@@ -1,6 +1,6 @@
 <?php
 // Incluir el archivo de conexión a la base de datos
-require_once 'phps/database.php';
+include 'phps/database.php';
 
 try {
     // Obtener el equipo seleccionado desde la URL
@@ -8,7 +8,7 @@ try {
 
     if ($equipo) {
         // Consulta para obtener los jugadores del equipo seleccionado
-        $sql = "SELECT nombre, posicion, asistencias, imagen FROM $equipo";
+        $sql = "SELECT nombre, posicion, goles, imagen FROM $equipo";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
 
@@ -25,8 +25,8 @@ try {
                 echo '<img class="rounded-circle" width="140" height="140" src="' . $row["imagen"] . '"></img>';
                 echo '<h2>' . $row["nombre"] . '</h2>';
                 echo '<br>';
-                echo '<h5>' . $row["posicion"] . '<br>  Asistencias: ' . $row["asistencias"] . '</h5>';
-                echo '<button class="btn btn-secondary bg-primary cambiarNumeroAsistencias">Cambiar número de asistencias</button>';
+                echo '<h5>' . $row["posicion"] . '<br>  Goles: ' . $row["goles"] . '</h5>';
+                echo '<button class="btn btn-secondary bg-primary cambiarNumeroGoles">Cambiar número de goles</button>';
                 echo '</div><!-- /.col-lg-4 -->';
             }
 

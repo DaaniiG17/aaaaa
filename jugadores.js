@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
     // AÑADIR JUGADORES
 
-
+    let botonAñadirJugador = document.getElementById('botonAñadirJugador');
     const formulario = document.querySelector('#jugadorForm');
 
-    formulario.addEventListener('submit', añadirJugador);
+    botonAñadirJugador.addEventListener('click', añadirJugador);
 
     function añadirJugador(e) {
         e.preventDefault();
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
             botonEliminarDefensa.addEventListener('click', eliminarDefensa);
 
-
+                // añadir mediocentro
         } else if (posicionJugador.toLowerCase() == "mediocentro" || posicionJugador.toLowerCase() == "mediocentro defensivo" || posicionJugador.toLowerCase() == "extremo (mediocentro)" || posicionJugador.toLowerCase() == "mediocentro ofensivo") {
 
             let comprobador = 0;
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 comprobador = 1;
             }
 
-            const mediocentros = document.querySelector('#mediocentros');
+            const mediocentros = document.querySelector('#mediocentro');
 
             const divMediocentros = document.createElement('div');
 
@@ -152,7 +152,6 @@ document.addEventListener('DOMContentLoaded', function (e) {
                         <h2>${nombreJugador}</h2>
                         <h5>${posicionMostrada}</h5>
                         <button class="btn btn-secondary bg-primary eliminarMediocentros">Eliminar jugador</button>
- 
                     `
             } else {
                 divMediocentros.innerHTML = `
@@ -170,6 +169,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
             const botonEliminarMediocentros = divMediocentros.querySelector('.eliminarMediocentros');
 
             botonEliminarMediocentros.addEventListener('click', eliminarMediocentro);
+
+            //añadir delantero
 
         } else if (posicionJugador.toLowerCase() == 'delantero centro' || posicionJugador.toLowerCase() == 'extremo (delantero)') {
 
@@ -222,6 +223,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
     }
 
+        
 
 
-});
+
+    });

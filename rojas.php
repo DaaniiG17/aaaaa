@@ -15,7 +15,7 @@
 <div id="rojas"></div>
 
     <?php include 'encabezado.php'; ?>
-    <?php include 'insertarRojas.php'?>
+    <?php include 'insertarEstadisticas/insertarRojas.php'?>
     <?php include 'footer.php'?>
     
     <script src="script.js?v=<?php echo time(); ?>"></script>

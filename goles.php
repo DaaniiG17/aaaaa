@@ -15,10 +15,10 @@
 <div id="formulario"></div>
 
     <?php include 'encabezado.php'; ?>
-    <?php include 'insertarGoles.php'?>
+    <?php include 'insertarEstadisticas/insertarGoles.php'?>
     <?php include 'footer.php'?>
     
-    <script src="script.js?v=<?php echo time(); ?>"></script>
+    <script src="estadisticas.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

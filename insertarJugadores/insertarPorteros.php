@@ -19,7 +19,7 @@ if(isset($_GET['id'])) {
             echo '<h2>' . $fila['nombre'] . '</h2>';
             echo '<h5>' . $fila['posicion'] . '</h5>';
             echo '<button class="btn btn-secondary bg-primary eliminarPorteros">Eliminar jugador</button>';
-            echo '</div><!-- /.col-lg-4 -->';
+            echo '</div>';
         }
         echo '</div><!-- /.row -->';
         echo '</div>';

@@ -45,18 +45,18 @@ $nombreEquipo = isset($nombresEquipos[$equipoId]) ? $nombresEquipos[$equipoId] :
 
 
     <?php include 'encabezado.php'; ?>
-    <?php include 'insertarJugador.php'?>
-    <?php include 'insertarPorteros.php'?>
-    <?php include 'insertarDefensas.php'?>
-    <?php include 'insertarMediocentros.php'?>
-    <?php include 'insertarDelanteros.php'?>
+    <?php include 'insertarJugadores/insertarJugador.php'?>
+    <?php include 'insertarJugadores/insertarPorteros.php'?>
+    <?php include 'insertarJugadores/insertarDefensas.php'?>
+    <?php include 'insertarJugadores/insertarMediocentros.php'?>
+    <?php include 'insertarJugadores/insertarDelanteros.php'?>
 
 
     <?php
         include 'footer.php';
     ?>
 
-<script src="script.js?v=<?php echo time(); ?>"></script>
+<script src="jugadores.js?v=<?php echo time(); ?>"></script>
 
 </body>
 </html>

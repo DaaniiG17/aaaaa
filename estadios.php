@@ -17,6 +17,7 @@
     <?php include 'insertarEstadios.php' ?>
     <?php include 'footer.php' ?>
     
+    <script src="estadios.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

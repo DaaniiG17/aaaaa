@@ -17,10 +17,10 @@
 
 
     <?php include 'encabezado.php'; ?>
-    <?php include 'insertarAmarillas.php'?>
+    <?php include 'insertarEstadisticas/insertarAmarillas.php'?>
     <?php include 'footer.php'?>
     
-    <script src="script.js?v=<?php echo time(); ?>"></script>
+    <script src="jugadores.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

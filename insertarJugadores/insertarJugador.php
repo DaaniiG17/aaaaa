@@ -13,6 +13,6 @@ echo '<form id="jugadorForm" class="container mt-5">
     <input type="text" class="form-control" id="urlJugador" style="width: 250px;" required>
 </div>
 
-<button type="submit" class="btn btn-primary">Añadir jugador</button>
+<button type="submit" class="btn btn-primary" id = "botonAñadirJugador">Añadir jugador</button>
 </form>'
 ?>

@@ -30,14 +30,15 @@ echo '
     <link rel="stylesheet" href="phps/assets/css/styles.css">
 </head>
 <body>
-    <div class="container marketing mb-5" id = >
-        <div class = "formularioEstadio"></div>
+    <div class = "formularioEstadio"></div>
+
+    <div class="container marketing mb-5">
         <h1 class="mt-5">ESTADIO</h1>
         <hr>
         <div class="row mt-5 d-flex justify-content-center" id="estadio">
             <div class="col-lg-4 text-center">
                 <h2 id="nombreEstadio">' . htmlspecialchars($nombreEstadio) . '</h2>
-                <button class="btn btn-secondary bg-primary cambiarEstadio mt-3">Cambiar estadio</button>
+                <button class="btn btn-secondary bg-primary mt-3" id = "cambiarEstadio">Cambiar estadio</button>
             </div>
         </div>
         <div class="d-flex justify-content-center mt-5">
