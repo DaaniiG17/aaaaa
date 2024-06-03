@@ -14,7 +14,7 @@ public class Equipos {
         frame.setSize(800, 600);
         
         JPanel contentPane = new JPanel();
-        contentPane.setLayout(null); // Usamos un layout nulo para poder usar setBounds
+        contentPane.setLayout(null);
         
         JComboBox<String> comboBox = new JComboBox<>();
         comboBox.setModel(new DefaultComboBoxModel<>(new String[] {
@@ -37,13 +37,10 @@ public class Equipos {
     }
 
     private static void openTeamFile(String teamName) {
-        // Ruta base del directorio de los archivos
         String basePath = "src/infofutbol/";
 
-        // Ruta del archivo del equipo seleccionado
         String filePath;
 
-        // Switch para determinar el archivo según el equipo seleccionado
         switch (teamName) {
             case "Alaves.java":
             case "Almeria.java":
@@ -69,16 +66,14 @@ public class Equipos {
                 break;
             default:
                 JOptionPane.showMessageDialog(null, "No se ha seleccionado un equipo válido.");
-                return; // Salir del método si no se selecciona un equipo válido
+                return; 
         }
 
-        // Crear un objeto File con la ruta del archivo
+     
         File file = new File(filePath);
 
-        // Verificar si el archivo existe
         if (file.exists()) {
             try {
-                // Abrir el archivo en el editor de código
                 Desktop.getDesktop().open(file);
             } catch (Exception e) {
                 e.printStackTrace();
