@@ -18,7 +18,6 @@
     <?php include 'insertarEstadisticas/insertarRojas.php'?>
     <?php include 'footer.php'?>
     
-    <script src="script.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

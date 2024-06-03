@@ -18,7 +18,6 @@
     <?php include 'insertarEstadisticas/insertarGoles.php'?>
     <?php include 'footer.php'?>
     
-    <script src="estadisticas.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

@@ -17,7 +17,6 @@
     <?php include 'insertarEstadisticas/insertarAsistencias.php'?>
     <?php include 'footer.php'?>
     
-    <script src="jugadores.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

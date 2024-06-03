@@ -220,8 +220,11 @@ document.addEventListener('DOMContentLoaded', function (e) {
         else {
             alert('Elige una de estas posiciones: Portero, Defensa Central, Lateral,  Mediocentro, Mediocentro Defensivo , extremo (mediocentro), extremo (delantero) o Delantero Centro');
         }
+        
 
     }
+
+    
 
         
 
