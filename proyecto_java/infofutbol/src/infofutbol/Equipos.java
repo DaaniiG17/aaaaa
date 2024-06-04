@@ -1,17 +1,19 @@
 package infofutbol;
 
 import javax.swing.*;
-
 import java.awt.Desktop;
+import java.awt.EventQueue;
 import java.awt.event.*;
 import java.io.File;
 
-public class Equipos {
+public class Equipos extends JFrame {
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Selecciona tu equipo");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 600);
+    private static final long serialVersionUID = 1L;
+
+    public Equipos() {
+        setTitle("Selecciona tu equipo");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(800, 600);
         
         JPanel contentPane = new JPanel();
         contentPane.setLayout(null);
@@ -32,36 +34,35 @@ public class Equipos {
         });
         
         contentPane.add(comboBox);
-        frame.setContentPane(contentPane);
-        frame.setVisible(true);
+        setContentPane(contentPane);
     }
 
-    private static void openTeamFile(String teamName) {
+    private void openTeamFile(String teamName) {
         String basePath = "src/infofutbol/";
 
         String filePath;
 
         switch (teamName) {
-            case "Alaves.java":
-            case "Almeria.java":
-            case "Atleti.java":
-            case "Barca.java":
-            case "Betis.java":
-            case "Bilbao.java":
-            case "Cadiz.java":
-            case "Celta.java":
-            case "Getafe.java":
-            case "Girona.java":
-            case "Granada.java":
-            case "Las Palmas.java":
-            case "Mallorca.java":
-            case "Osasuna.java":
-            case "Rayo Vallecano.java":
-            case "Real Madrid.java":
-            case "Real Sociedad.java":
-            case "Sevilla.java":
-            case "Valencia.java":
-            case "Villarreal.java":
+            case "Alaves":
+            case "Almeria":
+            case "Atleti":
+            case "Barca":
+            case "Betis":
+            case "Bilbao":
+            case "Cadiz":
+            case "Celta":
+            case "Getafe":
+            case "Girona":
+            case "Granada":
+            case "Las Palmas":
+            case "Mallorca":
+            case "Osasuna":
+            case "Rayo Vallecano":
+            case "Real Madrid":
+            case "Real Sociedad":
+            case "Sevilla":
+            case "Valencia":
+            case "Villarreal":
                 filePath = basePath + teamName + ".java";
                 break;
             default:
@@ -69,7 +70,6 @@ public class Equipos {
                 return; 
         }
 
-     
         File file = new File(filePath);
 
         if (file.exists()) {
@@ -84,8 +84,16 @@ public class Equipos {
         }
     }
 
-	public void setVisible(boolean b) {
-		// TODO Auto-generated method stub
-		
-	}
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    Equipos frame = new Equipos();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 }

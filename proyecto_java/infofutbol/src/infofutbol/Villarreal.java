@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class Villarreal extends JFrame {
 
@@ -34,7 +36,7 @@ public class Villarreal extends JFrame {
 	 */
 	public Villarreal() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1022, 784);
+		setBounds(100, 100, 1013, 814);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -140,6 +142,106 @@ public class Villarreal extends JFrame {
 		lblNewLabel_20.setIcon(new ImageIcon(Villarreal.class.getResource("/infofutbol/jugadores/villarreal/alexanderSorloth.png")));
 		lblNewLabel_20.setBounds(833, 572, 141, 137);
 		contentPane.add(lblNewLabel_20);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Pepe Reina", "0 goles", "0 asistencias", "3 tarjetas amarillas", "1 tarjeta roja", "2 partidos jugados"}));
+		comboBox.setBounds(49, 168, 141, 22);
+		contentPane.add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"Filip Jorgensen", "0 goles", "0 asistencias", "3 tarjetas amarillas", "0 tarjeta roja", "30 partidos jugados"}));
+		comboBox_1.setBounds(235, 168, 141, 22);
+		contentPane.add(comboBox_1);
+		
+		JComboBox comboBox_2 = new JComboBox();
+		comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"Raul Albiol", "2 goles", "0 asistencias", "8 tarjetas amarillas", "1 tarjeta roja", "25 partidos jugados"}));
+		comboBox_2.setBounds(420, 168, 141, 22);
+		contentPane.add(comboBox_2);
+		
+		JComboBox comboBox_3 = new JComboBox();
+		comboBox_3.setModel(new DefaultComboBoxModel(new String[] {"Aissa Mandi", "0 goles", "0 asistencias", "1 tarjetas amarillas", "0 tarjeta roja", "9 partidos jugados"}));
+		comboBox_3.setBounds(624, 168, 141, 22);
+		contentPane.add(comboBox_3);
+		
+		JComboBox comboBox_4 = new JComboBox();
+		comboBox_4.setModel(new DefaultComboBoxModel(new String[] {"Alberto Moreno", "0 goles", "3 asistencias", "5 tarjetas amarillas", "1 tarjeta roja", "19 partidos jugados"}));
+		comboBox_4.setBounds(833, 168, 141, 22);
+		contentPane.add(comboBox_4);
+		
+		JComboBox comboBox_5 = new JComboBox();
+		comboBox_5.setModel(new DefaultComboBoxModel(new String[] {"Alfonso Pedraza", "3 goles", "5 asistencias", "6 tarjetas amarillas", "2 tarjeta roja", "20 partidos jugados"}));
+		comboBox_5.setBounds(49, 352, 141, 22);
+		contentPane.add(comboBox_5);
+		
+		JComboBox comboBox_6 = new JComboBox();
+		comboBox_6.setModel(new DefaultComboBoxModel(new String[] {"Jorge Cuenca", "1 goles", "0 asistencias", "8 tarjetas amarillas", "0 tarjeta roja", "19 partidos jugados"}));
+		comboBox_6.setBounds(235, 352, 141, 22);
+		contentPane.add(comboBox_6);
+		
+		JComboBox comboBox_7 = new JComboBox();
+		comboBox_7.setModel(new DefaultComboBoxModel(new String[] {"Juan Foyth", "0 goles", "2 asistencias", "3 tarjetas amarillas", "0 tarjeta roja", "10 partidos jugados"}));
+		comboBox_7.setBounds(420, 352, 141, 22);
+		contentPane.add(comboBox_7);
+		
+		JComboBox comboBox_8 = new JComboBox();
+		comboBox_8.setModel(new DefaultComboBoxModel(new String[] {"Kiko Femenia", "0 goles", "2 asistencias", "2 tarjetas amarillas", "0 tarjeta roja", "9 partidos jugados"}));
+		comboBox_8.setBounds(624, 352, 141, 22);
+		contentPane.add(comboBox_8);
+		
+		JComboBox comboBox_9 = new JComboBox();
+		comboBox_9.setModel(new DefaultComboBoxModel(new String[] {"Alex Baena", "11 goles", "8 asistencias", "5 tarjetas amarillas", "1 tarjeta roja", "28 partidos jugados"}));
+		comboBox_9.setBounds(833, 352, 141, 22);
+		contentPane.add(comboBox_9);
+		
+		JComboBox comboBox_10 = new JComboBox();
+		comboBox_10.setModel(new DefaultComboBoxModel(new String[] {"Dani Parejo", "5 goles", "10 asistencias", "6 tarjetas amarillas", "0 tarjeta roja", "27 partidos jugados"}));
+		comboBox_10.setBounds(49, 536, 141, 22);
+		contentPane.add(comboBox_10);
+		
+		JComboBox comboBox_11 = new JComboBox();
+		comboBox_11.setModel(new DefaultComboBoxModel(new String[] {"Denis Suarez", "0 goles", "2 asistencias", "0 tarjetas amarillas", "0 tarjeta roja", "9 partidos jugados"}));
+		comboBox_11.setBounds(235, 536, 141, 22);
+		contentPane.add(comboBox_11);
+		
+		JComboBox comboBox_12 = new JComboBox();
+		comboBox_12.setModel(new DefaultComboBoxModel(new String[] {"Etienne Capoue", "3 goles", "4 asistencias", "7 tarjetas amarillas", "1 tarjeta roja", "24 partidos jugados"}));
+		comboBox_12.setBounds(420, 536, 141, 22);
+		contentPane.add(comboBox_12);
+		
+		JComboBox comboBox_13 = new JComboBox();
+		comboBox_13.setModel(new DefaultComboBoxModel(new String[] {"Francis Coquelin", "0 goles", "6 asistencias", "7 tarjetas amarillas", "0 tarjeta roja", "27 partidos jugados"}));
+		comboBox_13.setBounds(624, 536, 141, 22);
+		contentPane.add(comboBox_13);
+		
+		JComboBox comboBox_14 = new JComboBox();
+		comboBox_14.setModel(new DefaultComboBoxModel(new String[] {"Yeremy Pino", "11 goles", "7 asistencias", "5 tarjetas amarillas", "0 tarjeta roja", "28 partidos jugados"}));
+		comboBox_14.setBounds(833, 531, 141, 22);
+		contentPane.add(comboBox_14);
+		
+		JComboBox comboBox_15 = new JComboBox();
+		comboBox_15.setModel(new DefaultComboBoxModel(new String[] {"Santi Comesaña", "2 goles", "4 asistencias", "6 tarjetas amarillas", "1 tarjeta roja", "20 partidos jugados"}));
+		comboBox_15.setBounds(49, 728, 141, 22);
+		contentPane.add(comboBox_15);
+		
+		JComboBox comboBox_16 = new JComboBox();
+		comboBox_16.setModel(new DefaultComboBoxModel(new String[] {"Jose Luis Morales", "6 goles", "1 asistencias", "3 tarjetas amarillas", "0 tarjeta roja", "17 partidos jugados"}));
+		comboBox_16.setBounds(235, 728, 141, 22);
+		contentPane.add(comboBox_16);
+		
+		JComboBox comboBox_17 = new JComboBox();
+		comboBox_17.setModel(new DefaultComboBoxModel(new String[] {"IIlias Akomach", "7 goles", "5 asistencias", "4 tarjetas amarillas", "0 tarjeta roja", "26 partidos jugados"}));
+		comboBox_17.setBounds(420, 728, 141, 22);
+		contentPane.add(comboBox_17);
+		
+		JComboBox comboBox_18 = new JComboBox();
+		comboBox_18.setModel(new DefaultComboBoxModel(new String[] {"Gerard Moreno", "14 goles", "6 asistencias", "6 tarjetas amarillas", "0 tarjeta roja", "22 partidos jugados"}));
+		comboBox_18.setBounds(624, 728, 141, 22);
+		contentPane.add(comboBox_18);
+		
+		JComboBox comboBox_19 = new JComboBox();
+		comboBox_19.setModel(new DefaultComboBoxModel(new String[] {"Alexander Sorloth", "24 goles", "3 asistencias", "7 tarjetas amarillas", "0 tarjeta roja", "30 partidos jugados"}));
+		comboBox_19.setBounds(833, 728, 141, 22);
+		contentPane.add(comboBox_19);
 	}
 
 }
