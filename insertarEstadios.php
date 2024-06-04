@@ -38,7 +38,6 @@ echo '
         <div class="row mt-5 d-flex justify-content-center" id="estadio">
             <div class="col-lg-4 text-center">
                 <h2 id="nombreEstadio">' . htmlspecialchars($nombreEstadio) . '</h2>
-                <button class="btn btn-secondary bg-primary mt-3" id = "cambiarEstadio">Cambiar estadio</button>
             </div>
         </div>
         <div class="d-flex justify-content-center mt-5">

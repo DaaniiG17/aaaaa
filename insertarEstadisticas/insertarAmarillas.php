@@ -1,36 +1,37 @@
 <?php
-// Incluir el archivo de conexión a la base de datos
 include 'phps/database.php';
 
+function formatTeamName($teamName) {
+    $formattedName = preg_replace('/([a-z])([A-Z])/', '$1 $2', $teamName);
+    return strtoupper($formattedName);
+}
+
 try {
-    // Obtener el equipo seleccionado desde la URL
     $equipo = isset($_GET['id']) ? $_GET['id'] : '';
 
     if ($equipo) {
-        // Consulta para obtener los jugadores del equipo seleccionado
-        $sql = "SELECT nombre, posicion, amarillas, imagen FROM $equipo";
+        $sql = "SELECT id, nombre, posicion, amarillas, imagen FROM $equipo";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
-
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         if (count($result) > 0) {
             echo '<div class="container">';
-            echo '<h1 class="mt-5">' . strtoupper($equipo) . '</h1>';
+            echo '<h1 class="mt-5">' . formatTeamName($equipo) . '</h1>';
             echo '<hr class="mb-5">';
             echo '<div class="row text-center">';
+            echo '<div id="formulario"></div>';
             
             foreach($result as $row) {
                 echo '<div class="col-lg-4 mb-5">';
                 echo '<img class="rounded-circle" width="140" height="140" src="' . $row["imagen"] . '"></img>';
                 echo '<h2>' . $row["nombre"] . '</h2>';
-                echo '<br>';
-                echo '<h5>' . $row["posicion"] . '<br> Amarillas: ' . $row["amarillas"] . '</h5>';
-                echo '<button class="btn btn-secondary bg-primary cambiarAmarillas">Cambiar amarillas</button>';
+                echo '<h5>' . $row["posicion"] . '</h5>';
+                echo '<h5> Amarillas: ' . $row["amarillas"] . '</h5>';
                 echo '</div><!-- /.col-lg-4 -->';
             }
 
-             echo '</div>';
+            echo '</div>';
             echo '</div><!-- /.row -->';
         } else {
             echo '<h1 class="mt-5">No se encontraron jugadores para el equipo seleccionado.</h1>';
@@ -42,6 +43,5 @@ try {
     echo "Error: " . $e->getMessage();
 }
 
-// Cierra la conexión
 $conn = null;
 ?>

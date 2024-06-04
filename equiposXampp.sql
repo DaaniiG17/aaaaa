@@ -539,6 +539,7 @@ id int(2) AUTO_INCREMENT,
 nombre varchar(200),
 posicion varchar(200),
 imagen varchar(1000),
+temporadas int,
 primary key(id)
 );
 
