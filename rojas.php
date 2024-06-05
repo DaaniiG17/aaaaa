@@ -12,7 +12,6 @@
 </head>
 
 <body>
-<div id="rojas"></div>
 
     <?php include 'encabezado.php'; ?>
     <?php include 'insertarEstadisticas/insertarRojas.php'?>
