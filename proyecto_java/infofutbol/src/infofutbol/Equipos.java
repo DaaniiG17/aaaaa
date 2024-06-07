@@ -18,7 +18,7 @@ public class Equipos extends JFrame {
         
         JComboBox<String> comboBox = new JComboBox<>();
         comboBox.setModel(new DefaultComboBoxModel<>(new String[] {
-            "¿Qué equipo quieres elegir?", "Alavés", "Almería", "Atleti", "Barça", "Betis", "Bilbao", 
+            "¿Qué equipo quieres elegir?", "Almería", "Atleti", "Barça", "Betis", "Bilbao", 
             "Cádiz", "Celta", "Getafe", "Girona", "Granada", "Las Palmas", "Mallorca", "Osasuna", 
             "Rayo Vallecano", "Real Madrid", "Real Sociedad", "Sevilla", "Valencia", "Villarreal"
         }));
@@ -39,10 +39,7 @@ public class Equipos extends JFrame {
         JFrame ventanaEquipo;
 
         switch (nombreEquipo) {
-            case "Alavés":
-                ventanaEquipo = new Alaves();
-                ventanaEquipo.setVisible(true);
-                break;
+
             case "Almería":
                 ventanaEquipo = new Almeria();
                 ventanaEquipo.setVisible(true);
