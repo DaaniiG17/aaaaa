@@ -75,14 +75,20 @@ CREATE PROCEDURE agregarJugador(
 		IN pesoJugador INT,
 		IN alturaJugador INT,
 		IN edadJugador INT,
-		IN posicionBaseJugador CHAR(50)
+		IN posicionBaseJugador CHAR(50),
+        OUT _resultado int
 )
 BEGIN
 	INSERT INTO JUGADORES (numero_camiseta, equipo, nombre, apellido, peso, altura, edad, posicion_base)
     VALUES (numeroCamisetaJugador, nombreEquipo, nombreJugador, apellidoJugador, pesoJugador, alturaJugador, edadJugador, posicionBaseJugador);
-
+	IF(pesoJugador IS NULL) THEN
+		SET _resultado = -1;
+    ELSEIF(alturaJugador IS NULL) THEN
+		SET _resultado = -2;
+    END IF;
 end//
 DELIMITER ;
+
 
 -- Eliminar jugador
 

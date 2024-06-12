@@ -52,5 +52,36 @@
         </div>
         <button type="submit" class="btn btn-primary">Ver equipo</button>
     </form>
+    
+    <?php
+    $sql = "
+    SELECT nombre, goles, equipo
+    FROM equipos
+    WHERE equipo IN ('Alavés', 'Almería', 'Bilbao', 'Atleti', 'Barca', 'Betis', 'Cádiz', 'Celta', 'Getafe', 'Girona', 'LasPalmas', 'Mallorca', 'Osasuna', 'Rayo', 'RealMadrid', 'RealSociedad', 'Sevilla', 'Valencia', 'Villarreal')
+    ORDER BY goles DESC
+    LIMIT 5
+    ";
+    $result = $conn->query($sql);
+
+
+    if ($result->num_rows > 0) {
+
+    echo "<h2>Top 5 Pichichi</h2>";
+    echo "<table border='1'>";
+    echo "<tr><th>Nombre</th><th>Goles</th><th>Equipo</th></tr>";
+    while($row = $result->fetch_assoc()) {
+        echo "<tr><td>" . $row["nombre"]. "</td><td>" . $row["goles"]. "</td><td>" . $row["equipo"]. "</td></tr>";
+    }
+    echo "</table>";
+    } else {
+    echo "0 resultados";
+    }
+
+    SELECT nombre, goles, equipo
+    FROM equipos
+    WHERE equipo IN ('Alavés', 'Almería', 'Bilbao', 'Atleti', 'Barca', 'Betis', 'Cádiz', 'Celta', 'Getafe', 'Girona', 'LasPalmas', 'Mallorca', 'Osasuna', 'Rayo', 'RealMadrid', 'RealSociedad', 'Sevilla', 'Valencia', 'Villarreal')
+    ORDER BY goles DESC
+    LIMIT 5;
+    
 </body>
 </html>
